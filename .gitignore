@@ -1,0 +1,33 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+
+# Virtual environments
+.venv
+
+# Local runtime data
+data/
+
+# Environment variables
+.env
+
+# Sensitive configuration files
+data/
+
+# Temporary accounts database
+accounts.db
+*.db
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

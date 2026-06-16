@@ -1,0 +1,46 @@
+name: Daily Crawl
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    env:
+      TWITTER_USERNAME: ${{ secrets.TWITTER_USERNAME }}
+      TWITTER_EMAIL: ${{ secrets.TWITTER_EMAIL }}
+      TWITTER_PASSWORD: ${{ secrets.TWITTER_PASSWORD }}
+      TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
+      TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -e .
+
+      - name: Run crawl
+        run: soundwave crawl --hours 24
+        timeout-minutes: 10
+
+      - name: Commit data
+        if: success()
+        run: |
+          git config user.name "Soundwave Bot"
+          git config user.email "actions@github.com"
+          git add -f data/
+          git diff --staged --quiet || git commit -m "data: $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Notify on auth failure
+        if: failure()
+        run: |
+          echo "::error::Crawl failed! Common causes:"
+          echo "::error::1. AUTH_FAILED: Update TWITTER_AUTH_TOKEN and TWITTER_CT0 in Settings > Secrets"
+          echo "::error::2. RATE_LIMITED: Increase delays in config/settings.json"
+          echo "::error::3. NETWORK: Check if Twitter is accessible from this runner"

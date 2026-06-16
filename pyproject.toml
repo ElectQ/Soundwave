@@ -1,0 +1,26 @@
+[project]
+name = "soundwave"
+version = "1.0.0"
+description = "Twitter List crawler deployed on GitHub Actions"
+requires-python = ">=3.10"
+dependencies = [
+    "twscrape>=0.17.0",
+    "python-dotenv>=1.0.0",
+    "click>=8.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.2.0"]
+
+[project.scripts]
+soundwave = "soundwave.run:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/soundwave"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/soundwave"]
