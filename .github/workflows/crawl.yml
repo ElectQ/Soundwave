@@ -9,9 +9,6 @@ jobs:
   crawl:
     runs-on: ubuntu-latest
     env:
-      TWITTER_USERNAME: ${{ secrets.TWITTER_USERNAME }}
-      TWITTER_EMAIL: ${{ secrets.TWITTER_EMAIL }}
-      TWITTER_PASSWORD: ${{ secrets.TWITTER_PASSWORD }}
       TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
       TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
     steps:

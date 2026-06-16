@@ -16,8 +16,6 @@ load_dotenv()
 @dataclass
 class TwitterAccount:
     username: str
-    email: str
-    password: str
     cookies: str
     active: bool = True
 
@@ -91,21 +89,16 @@ class ConfigManager:
 
     def load_twitter_credentials(self) -> TwitterCredentials:
         if self._twitter_credentials is None:
-            username = os.getenv("TWITTER_USERNAME")
-            email = os.getenv("TWITTER_EMAIL")
-            password = os.getenv("TWITTER_PASSWORD")
             auth_token = os.getenv("TWITTER_AUTH_TOKEN")
             ct0 = os.getenv("TWITTER_CT0")
             proxy = os.getenv("PROXY_URL", "")
 
             accounts = []
-            if username and auth_token and ct0:
+            if auth_token and ct0:
                 cookies = json.dumps({"auth_token": auth_token, "ct0": ct0})
                 accounts.append(
                     TwitterAccount(
-                        username=username,
-                        email=email or "",
-                        password=password or "",
+                        username="soundwave",
                         cookies=cookies,
                         active=True,
                     )

@@ -76,8 +76,8 @@ class TwitterCrawler:
                 if account.active:
                     await self.api.pool.add_account(
                         username=account.username,
-                        password=account.password,
-                        email=account.email,
+                        password="",
+                        email="",
                         email_password="",
                         cookies=account.cookies,
                     )
