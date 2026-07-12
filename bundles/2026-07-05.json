@@ -1,0 +1,5649 @@
+{
+  "schema_version": 1,
+  "source_id": "twitter_security_list",
+  "collect_date": "2026-07-05",
+  "collect_window": {
+    "start": "2026-07-04T07:57:38.135083+00:00",
+    "end": "2026-07-05T07:57:38.135083+00:00",
+    "hours": 24
+  },
+  "producer": {
+    "name": "soundwave",
+    "version": "1.0.0",
+    "run_id": "",
+    "commit": ""
+  },
+  "stats": {
+    "total": 188,
+    "by_list": {
+      "sec_list": 188
+    },
+    "failed_lists": []
+  },
+  "items": [
+    {
+      "external_id": "2073670758203523210",
+      "url": "https://x.com/NetAskari/status/2073670758203523210",
+      "content": "RT @UK_Daniel_Card: everyone is like OMG windows collects telemetry like it's some kind of SECRET! (it's not it's literally known, documented, talked about) https://t.co/eopzRCA2fH",
+      "author": "NetAskari",
+      "author_name": "NetAskari",
+      "published_at": "2026-07-05T07:30:10+00:00",
+      "collected_at": "2026-07-05T07:56:03.728958+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMaPKlPX0AAJTN4.png"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 54,
+        "reply_count": 0,
+        "view_count": 42
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073647249364545898",
+      "url": "https://x.com/Teach2Breach/status/2073647249364545898",
+      "content": "quit fucking around. be obsessed and delusional",
+      "author": "Teach2Breach",
+      "author_name": "K̵i̵r̵k̵ ̵T̵r̵y̵c̵h̵e̵l̵",
+      "published_at": "2026-07-05T05:56:45+00:00",
+      "collected_at": "2026-07-05T07:56:03.729447+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 48
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073645773049512043",
+      "url": "https://x.com/OSdev_/status/2073645773049512043",
+      "content": "https://t.co/fGMQGMZx0a",
+      "author": "OSdev_",
+      "author_name": "OS Dev",
+      "published_at": "2026-07-05T05:50:53+00:00",
+      "collected_at": "2026-07-05T07:56:03.730177+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://trustedcomputinggroup.org/wp-content/uploads/TCGandNVMe_Joint_White_Paper-TCG_Storage_Opal_and_NVMe_FINAL.pdf"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 88
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073645751406891110",
+      "url": "https://x.com/OSdev_/status/2073645751406891110",
+      "content": "Most people think \"hardware-encrypted SSD\" and \"TCG Opal\" mean the same thing.\n\nThey don't.\n\nA Self-Encrypting Drive (SED) encrypts data in hardware. TCG Opal is an open industry standard that defines how software securely provisions, authenticates, locks, unlocks, and manages that encrypted storage.\n\nThe encryption itself happens inside the SSD controller.\n\nAs data is written to NAND flash, the controller encrypts it transparently using media encryption keys that remain within the drive. Reads are decrypted just as transparently after the drive has been successfully unlocked.\n\nThe host doesn't encrypt every sector when Opal hardware encryption is being used.\n\nInstead, the operating system or management software communicates with the drive using the Opal protocol to configure security policies, authenticate users, and control access to protected data.\n\nOne of Opal's most useful features is Locking Ranges.\n\nInstead of protecting the entire drive as a single encrypted volume, Opal allows independent ranges of logical block addresses (LBAs) to be locked or unlocked separately. This enables different regions of the same drive to have different access policies.\n\nAuthentication determines whether the drive will make protected data accessible.\n\nThe Opal specification defines the authentication and authorization framework but intentionally does not mandate exactly how vendors implement their internal cryptographic key hierarchy. Those implementation details are left to SSD manufacturers.\n\nAnother powerful capability is cryptographic erase.\n\nBecause data is already encrypted, securely sanitizing a drive doesn't necessarily require overwriting every NAND cell. By replacing or destroying the encryption keys protecting the stored data, previously written ciphertext becomes computationally infeasible to recover.\n\nOpal also supports Pre-Boot Authentication (PBA).\n\nWhen deployed, the drive remains locked before the operating system starts, helping protect against offline attacks where an attacker removes the SSD and attempts to access it from another machine.\n\nSince encryption and decryption are performed by dedicated hardware in the SSD controller, the CPU doesn't perform the bulk cryptographic work during normal I/O. The host primarily handles authentication, policy management, and storage commands.\n\nOne important caveat:\n\nThe security of an Opal-based system depends on both the specification and the vendor's implementation.\n\nIn 2018, researchers showed that several commercially available self-encrypting SSDs contained implementation flaws that could undermine their security even though they supported hardware encryption.\n\nA good specification is only half the story.\n\nA secure implementation is what ultimately protects your data.",
+      "author": "OSdev_",
+      "author_name": "OS Dev",
+      "published_at": "2026-07-05T05:50:48+00:00",
+      "collected_at": "2026-07-05T07:56:03.729799+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMcR0CDbkAAE5rh.jpg",
+          "https://pbs.twimg.com/media/HMcR0aFbEAA17z5.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 17,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 532
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073637622132658225",
+      "url": "https://x.com/0x534c/status/2073637622132658225",
+      "content": "https://t.co/YtqLU0chMd",
+      "author": "0x534c",
+      "author_name": "Steven Lim",
+      "published_at": "2026-07-05T05:18:30+00:00",
+      "collected_at": "2026-07-05T07:56:03.730565+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "http://x.com/i/article/2073630107638603776"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 6,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 481
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073634267154755967",
+      "url": "https://x.com/Teach2Breach/status/2073634267154755967",
+      "content": "RT @TheeStarseed: https://t.co/wj5gnGVHS4",
+      "author": "Teach2Breach",
+      "author_name": "K̵i̵r̵k̵ ̵T̵r̵y̵c̵h̵e̵l̵",
+      "published_at": "2026-07-05T05:05:10+00:00",
+      "collected_at": "2026-07-05T07:56:03.731006+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMaDxCNWQAAOOX7.jpg",
+          "https://pbs.twimg.com/media/HMaDxCNWQAAOOX7.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 23,
+        "reply_count": 0,
+        "view_count": 14
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073631745883226206",
+      "url": "https://x.com/Teach2Breach/status/2073631745883226206",
+      "content": "RT @hackerfantastic: Happy 4th of July to my American friends. Enjoy your colony. ;) https://t.co/GZmJpu1IFy",
+      "author": "Teach2Breach",
+      "author_name": "K̵i̵r̵k̵ ̵T̵r̵y̵c̵h̵e̵l̵",
+      "published_at": "2026-07-05T04:55:09+00:00",
+      "collected_at": "2026-07-05T07:56:03.731504+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZXlcTWkAAhimQ.jpg",
+          "https://pbs.twimg.com/media/HMZXlcTWkAAhimQ.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 4,
+        "reply_count": 0,
+        "view_count": 6
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073616758586351894",
+      "url": "https://x.com/daaximus/status/2073616758586351894",
+      "content": "RT @_can1357: Very original!",
+      "author": "daaximus",
+      "author_name": "Daax",
+      "published_at": "2026-07-05T03:55:35+00:00",
+      "collected_at": "2026-07-05T07:56:03.732135+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 49
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073608476908200339",
+      "url": "https://x.com/OSdev_/status/2073608476908200339",
+      "content": "Guys, played cricket yesterday after 4-5 years of no physical activity :)\n\nNow I can't move a single muscle. \n\nAny ideas how to recover from this muscle soreness ?",
+      "author": "OSdev_",
+      "author_name": "OS Dev",
+      "published_at": "2026-07-05T03:22:41+00:00",
+      "collected_at": "2026-07-05T07:56:03.732836+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 8,
+        "retweet_count": 0,
+        "reply_count": 2,
+        "view_count": 331
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073604339873022089",
+      "url": "https://x.com/Teach2Breach/status/2073604339873022089",
+      "content": "RT @WigglyAir: https://t.co/bkbN6ocoSo",
+      "author": "Teach2Breach",
+      "author_name": "K̵i̵r̵k̵ ̵T̵r̵y̵c̵h̵e̵l̵",
+      "published_at": "2026-07-05T03:06:14+00:00",
+      "collected_at": "2026-07-05T07:56:03.733206+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZNWSmW4AAr0jw.jpg",
+          "https://pbs.twimg.com/media/HMZNWSmW4AAr0jw.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 59,
+        "reply_count": 0,
+        "view_count": 10
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073598970169872391",
+      "url": "https://x.com/Teach2Breach/status/2073598970169872391",
+      "content": "i often win out of spite. try it",
+      "author": "Teach2Breach",
+      "author_name": "K̵i̵r̵k̵ ̵T̵r̵y̵c̵h̵e̵l̵",
+      "published_at": "2026-07-05T02:44:54+00:00",
+      "collected_at": "2026-07-05T07:56:03.733686+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 64
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073596963518320824",
+      "url": "https://x.com/alkalinesec/status/2073596963518320824",
+      "content": "its annoying the shit out of me that seemingly lots of actual racist shitheads are liking this post",
+      "author": "alkalinesec",
+      "author_name": "𝚊𝚕𝚔𝚊𝚕𝚒",
+      "published_at": "2026-07-05T02:36:56+00:00",
+      "collected_at": "2026-07-05T07:56:03.734548+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 25,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 2043
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073593827256947055",
+      "url": "https://x.com/zuhaitz_dev/status/2073593827256947055",
+      "content": "It will be a summer full of content and good Free Open-Source Software, but I hope you understand the low activity these days.\n\nYou all are a good reason to keep working on cool projects! ;)",
+      "author": "zuhaitz_dev",
+      "author_name": "Zuhaitz",
+      "published_at": "2026-07-05T02:24:28+00:00",
+      "collected_at": "2026-07-05T07:56:03.735590+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 4,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 196
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073593821489725450",
+      "url": "https://x.com/zuhaitz_dev/status/2073593821489725450",
+      "content": "I hope you all are doing well!\n\nThese days I won't be working on FOSS as much as I would want, because I'm travelling to Romania and I'll be with my girl.\n\nThere will be updates, for Zen C, ztutor, and so on, but I am still preparing everything and leaving on Monday.",
+      "author": "zuhaitz_dev",
+      "author_name": "Zuhaitz",
+      "published_at": "2026-07-05T02:24:27+00:00",
+      "collected_at": "2026-07-05T07:56:03.734909+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 25,
+        "retweet_count": 1,
+        "reply_count": 4,
+        "view_count": 532
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073593824014668175",
+      "url": "https://x.com/zuhaitz_dev/status/2073593824014668175",
+      "content": "Once I have more time, module 2 will be released for the C course (around the end of July), and I will be releasing several projects I have worked on in the last months, some you might know about them, but some will be completely new.",
+      "author": "zuhaitz_dev",
+      "author_name": "Zuhaitz",
+      "published_at": "2026-07-05T02:24:27+00:00",
+      "collected_at": "2026-07-05T07:56:03.735204+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 4,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 207
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073591521480192382",
+      "url": "https://x.com/Teach2Breach/status/2073591521480192382",
+      "content": "Kingpin by Kevin Poulsen - lot of OPSEC lessons here",
+      "author": "Teach2Breach",
+      "author_name": "K̵i̵r̵k̵ ̵T̵r̵y̵c̵h̵e̵l̵",
+      "published_at": "2026-07-05T02:15:18+00:00",
+      "collected_at": "2026-07-05T07:56:03.735787+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 6,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 235
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073591198904717408",
+      "url": "https://x.com/0xocdsec/status/2073591198904717408",
+      "content": "RT @shotgunner101: For those who don't know they do track TPM information between reimages. I've been told previoisly by multiple ex-MS SOC staff that this is exactly what's used to track people for half a decade even if they are privacy conscious. \n\nVPNs, TOR, etc doesn't matter when Microsoft is tracking your physical hardware and tracking your system activities over years....",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-05T02:14:01+00:00",
+      "collected_at": "2026-07-05T07:56:03.736105+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 145,
+        "reply_count": 0,
+        "view_count": 16
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073585913561506205",
+      "url": "https://x.com/BinaryWizards/status/2073585913561506205",
+      "content": "I wrote an article about my sentiment: https://t.co/wfoyJnVurq.\n\nI'm all for open source. I've shipped plenty of it, and I'll keep doing it* . \n\nBut let's be honest about words. \"Vibe coding\" is when you sit down with a blank file and build something from your own ideas. It's *not* pointing your AI agent at someone else's finished architecture and saying \"re-implement this under a new name.\" Same when you say: \"inspired by\" and still point your AI at an existing, time tested code base, script or other IP. \"inspired by\" is dishonest, when done in that fashion.\n\nThat second thing has a name too. It's called copying. Stripping the attribution doesn't make it yours, and calling it \"vibe coding\" doesn't make it fair use.\n\nReverse-engineer my work to learn from it? great, that's the culture. But at least have the honesty to say what you did, and leave proper credit where it's due.",
+      "author": "BinaryWizards",
+      "author_name": "Binary Wizards",
+      "published_at": "2026-07-05T01:53:01+00:00",
+      "collected_at": "2026-07-05T07:56:08.125768+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://x.com/BinaryWizards/status/2069927132030280080",
+        "https://x.com/BinaryWizards/status/2069927132030280080"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 4,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 292
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073583246533870024",
+      "url": "https://x.com/cr3ghost/status/2073583246533870024",
+      "content": "And they complain about anti-cheats being spyware LMFAO. Did you think about the OS you are using?",
+      "author": "cr3ghost",
+      "author_name": "cr3ghost",
+      "published_at": "2026-07-05T01:42:25+00:00",
+      "collected_at": "2026-07-05T07:56:08.126443+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 12,
+        "retweet_count": 1,
+        "reply_count": 3,
+        "view_count": 1280
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073582924398547450",
+      "url": "https://x.com/Teach2Breach/status/2073582924398547450",
+      "content": "RT @NoahKingJr: Me looking at the code I written without AI in my prime era https://t.co/fC6jz1iZn5",
+      "author": "Teach2Breach",
+      "author_name": "K̵i̵r̵k̵ ̵T̵r̵y̵c̵h̵e̵l̵",
+      "published_at": "2026-07-05T01:41:09+00:00",
+      "collected_at": "2026-07-05T07:56:08.126882+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073264680752369664/vid/avc1/608x360/vJ68elNc2SlGWOmy.mp4?tag=28",
+          "https://video.twimg.com/amplify_video/2073264680752369664/vid/avc1/608x360/vJ68elNc2SlGWOmy.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 130,
+        "reply_count": 0,
+        "view_count": 12
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073577341104640265",
+      "url": "https://x.com/0xocdsec/status/2073577341104640265",
+      "content": "RT @newsbrd_de: 🔐 Nationale Sicherheit: Pistorius will AfD von Geheimdienstinformationen fernhalten\n\nBundesverteidigungsminister Boris Pistorius (SPD) will verhindern, dass die AfD bei einer möglichen Regierungsbeteiligung Zugang zu sensiblen Geheimdienstinformationen erhält. Als Begründung verweist er auf die enge Nähe der Partei zu Russland.\n\n'Die Nähe zu Putin ist nicht zu übersehen. Die Vermutung, dass es Geld aus Russland gibt, steht ebenfalls im Raum', sagte Pistorius der 'Bild am Sonntag'. Sensible Informationen dürften nicht in die falschen Hände geraten.\n\nPistorius: 'Allergrößte Sorgen' um Demokratie\n\nDer Minister betonte, man beschäftige sich intensiv mit der Frage, wem Zugang zu geheim eingestuften Informationen gewährt werden könne. 'Dazu sind wir verpflichtet, weil es um die Sicherheit unseres Landes geht', so Pistorius.\n\nBesonders besorgt zeigte sich der SPD-Politiker über mögliche Wahlergebnisse: 'Ich mache mir als Demokrat über einen solchen möglichen Wahlausgang allergrößte Sorgen.' Mehrere Landesverbände der AfD gelten beim Verfassungsschutz als gesichert rechtsextrem.\n\nAfD-Parteitag in Erfurt\n\nParallel dazu beendete die AfD am Sonntag ihren von Protesten begleiteten Parteitag in Erfurt. Am Samstag waren Alice Weidel und Tino Chrupalla als Parteivorsitzende in ihren Ämtern bestätigt worden.\n\nAuf die Frage, was er einem AfD-unterstützenden Soldaten raten würde, antwortete Pistorius: 'Ich würde ihm sagen: Überlegen Sie sich das gut im Sinne unserer Demokratie. Aber es ist am Ende Ihre Entscheidung, wen Sie wählen.'",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-05T01:18:57+00:00",
+      "collected_at": "2026-07-05T07:56:08.127367+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 24
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073575564380684556",
+      "url": "https://x.com/0xocdsec/status/2073575564380684556",
+      "content": "RT @AmbDanFried: Kyiv tonight. https://t.co/n4OtwAD6hx",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-05T01:11:54+00:00",
+      "collected_at": "2026-07-05T07:56:08.127785+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMbRRnEWEAAaQ7z.jpg",
+          "https://pbs.twimg.com/media/HMbRRnEWEAAaQ7z.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 13,
+        "reply_count": 0,
+        "view_count": 30
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073574617797832814",
+      "url": "https://x.com/BinaryWizards/status/2073574617797832814",
+      "content": "To be clear, I am not against forks or people building on open source. That is the point of open source.\n\nWhat bothers me is when substantial work is reused without visible attribution. I opened the issue because I would rather resolve it cleanly: preserve provenance, credit https://t.co/6FqgYsXgIg, and move on.",
+      "author": "BinaryWizards",
+      "author_name": "Binary Wizards",
+      "published_at": "2026-07-05T01:08:08+00:00",
+      "collected_at": "2026-07-05T07:56:03.737022+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/0xeb/sally"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 3,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 283
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073574088032096366",
+      "url": "https://x.com/BinaryWizards/status/2073574088032096366",
+      "content": "Here you go, more example of how AI makes plagiarism and copyright problematic and really discouraging to stay open source: https://t.co/GqvPM010wK\n\nI did fork the open source project called Open Salamander under a new name Sally [https://t.co/6FqgYsXgIg ] . I have poured a lot of tokens and time just to see another person blatantly copying features, design and time tested stuff like what happened with the Radare 2 incident...\n\nIt is becoming clear to me that binary-releases is the way to go. No more open source for the foreseeable future.",
+      "author": "BinaryWizards",
+      "author_name": "Binary Wizards",
+      "published_at": "2026-07-05T01:06:02+00:00",
+      "collected_at": "2026-07-05T07:56:03.736695+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/KRtkovo-eu-AI/salamander/issues/408",
+        "https://github.com/0xeb/sally",
+        "https://github.com/KRtkovo-eu-AI/salamander/issues/408",
+        "https://github.com/0xeb/sally"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMbQYGkaoAA7nQt.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 4,
+        "retweet_count": 1,
+        "reply_count": 1,
+        "view_count": 942
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073557995665949028",
+      "url": "https://x.com/kyleavery/status/2073557995665949028",
+      "content": "@C5pider @flapprdotnet i get that a lot actually",
+      "author": "kyleavery",
+      "author_name": "Kyle Avery",
+      "published_at": "2026-07-05T00:02:05+00:00",
+      "collected_at": "2026-07-05T07:56:08.128664+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 33
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073557909137392024",
+      "url": "https://x.com/kyleavery/status/2073557909137392024",
+      "content": "RT @atlanticesque: Get ready for 250 more https://t.co/UkfT6KzIWz",
+      "author": "kyleavery",
+      "author_name": "Kyle Avery",
+      "published_at": "2026-07-05T00:01:45+00:00",
+      "collected_at": "2026-07-05T07:56:08.129005+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMY54VkXgAAOVCD.jpg",
+          "https://pbs.twimg.com/media/HMY54VkXgAAOVCD.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 210,
+        "reply_count": 0,
+        "view_count": 41
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073555706842612220",
+      "url": "https://x.com/0xocdsec/status/2073555706842612220",
+      "content": "RT @United24media: ⚡️ Russia’s FSB is launching a massive disinformation campaign to drive a wedge between Poland and Ukraine. \nhttps://t.co/NK7BTO5JC7",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T23:52:59+00:00",
+      "collected_at": "2026-07-05T07:56:08.129504+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 113,
+        "reply_count": 0,
+        "view_count": 19
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073554892317163976",
+      "url": "https://x.com/0xocdsec/status/2073554892317163976",
+      "content": "RT @hackaday: Using Flatpak to Run a 1996 Version of the GIMP on Modern Linux https://t.co/w7nUwAf08B",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T23:49:45+00:00",
+      "collected_at": "2026-07-05T07:56:08.130000+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://ift.tt/tjHR3Ae"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 15
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073554738919145844",
+      "url": "https://x.com/cr3ghost/status/2073554738919145844",
+      "content": "RT @cr3ghost: LLMs can now reverse engineer obfuscated malware. But what happens when malware authors use LLMs to iteratively obfuscate back?\n\nElastic Security Labs explored the arms race between LLM-driven reverse engineering and LLM-driven obfuscation. Who wins when both sides have the same tools?\n\nThis is the question every malware analyst, detection engineer, and red or blue teamer needs to be thinking about right now.\n\nhttps://t.co/QURyXMRDcP\n\nAuthor: @elasticseclabs \n\n#MalwareAnalysis #ReverseEngineering #InfoSec",
+      "author": "cr3ghost",
+      "author_name": "cr3ghost",
+      "published_at": "2026-07-04T23:49:09+00:00",
+      "collected_at": "2026-07-05T07:56:08.130454+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMSdNC7asAAkYt6.jpg",
+          "https://pbs.twimg.com/media/HMSdY4NbAAAOYbt.jpg",
+          "https://pbs.twimg.com/media/HMSddI-bYAA2Ofx.png",
+          "https://pbs.twimg.com/media/HMSdgG0awAABJhj.png"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 60,
+        "reply_count": 0,
+        "view_count": 16232
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073554730140442745",
+      "url": "https://x.com/cr3ghost/status/2073554730140442745",
+      "content": "RT @cr3ghost: Everyone talks about using AI for vulnerability research. Nobody talks about the orchestration layer that makes it actually work.\n\nThis post covers the harness: how to structure LLM pipelines for security research so they produce consistent, verifiable findings instead of burning tokens on hallucinated garbage.\n\nReviews RAPTOR, Anthropic's reference harness, Baby Naptime, Evil Socket's Audit, and Visa's VVAH. Covers context budgets, model routing, RAG for persistent memory, validation gates, and why one system prompt for the entire pipeline is a mistake.\n\nReleased an open-source template to build your own.\n\nBlog: https://t.co/ivRzHAMqED \nGitHub: https://t.co/h3skHfdpf7\n\nAuthor: @ZephrFish \n\n#InfoSec #AI #VulnerabilityResearch",
+      "author": "cr3ghost",
+      "author_name": "cr3ghost",
+      "published_at": "2026-07-04T23:49:07+00:00",
+      "collected_at": "2026-07-05T07:56:08.130857+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMI8MDfaIAAMwWD.png",
+          "https://pbs.twimg.com/media/HMI8MDgaIAEtThX.jpg",
+          "https://pbs.twimg.com/media/HMI8MDjaQAAcqpD.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 85,
+        "reply_count": 0,
+        "view_count": 32294
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073553944610066817",
+      "url": "https://x.com/0xocdsec/status/2073553944610066817",
+      "content": "RT @visegrad24: Criminal smashes a British police officer’s head with a baton and escapes\n\n🇬🇧  https://t.co/saKh1JyHUL",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T23:45:59+00:00",
+      "collected_at": "2026-07-05T07:56:08.131266+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073085973244641280/vid/avc1/360x640/jJRV4WuUT99XkU5E.mp4?tag=28",
+          "https://video.twimg.com/amplify_video/2073085973244641280/vid/avc1/360x640/jJRV4WuUT99XkU5E.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 161,
+        "reply_count": 0,
+        "view_count": 22
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073552108092014664",
+      "url": "https://x.com/0xTriboulet/status/2073552108092014664",
+      "content": "RT @mitsuhiko: I had some vibes that Opus 4.8 was performing worse than older ones for some of uses that are off distribution and now I have the receipts. Latest Opus/Sonnet are causing tool invocation failures on Pi's edit tool when older ones did not! I wrote about it. https://t.co/96Qd8zfdVc",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T23:38:41+00:00",
+      "collected_at": "2026-07-05T07:56:08.131775+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 33,
+        "reply_count": 0,
+        "view_count": 35
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073551325921456147",
+      "url": "https://x.com/0xTriboulet/status/2073551325921456147",
+      "content": "RT @USMC: #Marines with the Silent Drill Platoon perform as part of International Naval Review 250 aboard the USS Arlington (LPD-24).\n\nFor 250 years, the @USNavy and #MarineCorps stood the watch – constant, unabated in mission, faithfully preventing crisis and resolute in defending America’s independence. \n\n#INR250 honors the Navy, Marine Corps, and @USCG’s enduring role on, under, and above the seas. \n\n#SemperFI #USMC #Freedom250",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T23:35:35+00:00",
+      "collected_at": "2026-07-05T07:56:08.132199+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [
+        "Marines"
+      ],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMaz0NGXoAA2Ely.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 267,
+        "reply_count": 0,
+        "view_count": 41
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073549731796533568",
+      "url": "https://x.com/0xocdsec/status/2073549731796533568",
+      "content": "RT @nudevise: @IntCyberDigest so no point in Mullvad on Windows basically",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T23:29:15+00:00",
+      "collected_at": "2026-07-05T07:56:08.132641+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 14
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073542778089349357",
+      "url": "https://x.com/0xocdsec/status/2073542778089349357",
+      "content": "RT @MC_frnk: His ability to be unrattled by blatant physical attacks needs to be studied https://t.co/f2srPfEcDf",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T23:01:37+00:00",
+      "collected_at": "2026-07-05T07:56:08.133054+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2072213421228281857/vid/avc1/1080x1294/ChJ-IeMjVA-ATUpP.mp4?tag=28",
+          "https://video.twimg.com/amplify_video/2072213421228281857/vid/avc1/1080x1294/ChJ-IeMjVA-ATUpP.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1765,
+        "reply_count": 0,
+        "view_count": 28
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073539324071608330",
+      "url": "https://x.com/0xocdsec/status/2073539324071608330",
+      "content": "RT @IntCyberDigest: Windows told on him: alleged Scattered Spider member Peter Stokes was tied to the May 2025 jewelry retailer breach through a Microsoft Global Device ID, a persistent identifier baked into every Windows install.\n\nMicrosoft records showed the device hitting the ngrok signup page at the exact minute the attack account was created, then surfacing on home IPs in Tallinn, New York, and Thailand.\n\nHe used a VPN during the intrusion. The device ID followed him anyway.",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T22:47:54+00:00",
+      "collected_at": "2026-07-05T07:56:08.133627+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 42,
+        "reply_count": 0,
+        "view_count": 10
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073527585913356463",
+      "url": "https://x.com/0xocdsec/status/2073527585913356463",
+      "content": "RT @betterhn20: BareMetal RAM Dumper – Bare-metal x86 tool for Cold Boot Attack experiments https://t.co/NpbTsnUB1J (https://t.co/zDFnQjqrWH)",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T22:01:15+00:00",
+      "collected_at": "2026-07-05T07:56:08.134268+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/pIat0n/BareMetal-RAM-Dumper"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 20
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073524035695288455",
+      "url": "https://x.com/0xpwnie/status/2073524035695288455",
+      "content": "Sometimes you gotta pwd to see where you're standing",
+      "author": "0xpwnie",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-07-04T21:47:08+00:00",
+      "collected_at": "2026-07-05T07:56:13.572488+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 5,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 212
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073523139825283368",
+      "url": "https://x.com/alkalinesec/status/2073523139825283368",
+      "content": "RT @ImNotOwned: You can go to live in France, but you cannot become a Frenchman. You can go to live in Germany or Turkey or Japan, but you cannot become a German, a Turk, or a Japanese. But anyone, from any corner of the Earth, can come to live in America and become an American.",
+      "author": "alkalinesec",
+      "author_name": "𝚊𝚕𝚔𝚊𝚕𝚒",
+      "published_at": "2026-07-04T21:43:35+00:00",
+      "collected_at": "2026-07-05T07:56:13.573085+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1734,
+        "reply_count": 0,
+        "view_count": 25
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073521892623888879",
+      "url": "https://x.com/0xTriboulet/status/2073521892623888879",
+      "content": "RT @garyvee: You are better off being wrong ten times and being right three than you are if you try only three times and always get it right.",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T21:38:38+00:00",
+      "collected_at": "2026-07-05T07:56:13.573932+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 49,
+        "reply_count": 0,
+        "view_count": 38
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073521441153196144",
+      "url": "https://x.com/0xTriboulet/status/2073521441153196144",
+      "content": "RT @Dinosn: Responsibly disclosing 5 vulnerabilities in Ollama and LiteLLM through Huntr - now publicly disclosed after 90 days https://t.co/ezkfObQpz9",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T21:36:50+00:00",
+      "collected_at": "2026-07-05T07:56:13.574515+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 9,
+        "reply_count": 0,
+        "view_count": 24
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073521372093993390",
+      "url": "https://x.com/0xTriboulet/status/2073521372093993390",
+      "content": "RT @Arizona_LP: The Declaration of Independence wasn't just some polite request to the British monarchy. It was an explicit & radical manifesto for self ownership & natural rights! \n\nOur founders understood that all legitimate power flows upward from the individual, not downward from the state. They created a system designed to chain down government power, not empower it to meddle in every aspect of our lives.\n\nThese revolutionary thinkers endorsed free markets, private property rights, and minimal government intervention. While today, most of America cry \"Daddy's Home!\" any time the president steps on US soil. \n\nThe founders didn't risk their lives and fortunes for a paternal and perpetual nanny state! \n\nThis July 4th, let's honor their true legacy by demanding a return to their radical vision of individual liberty and minimal government.",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T21:36:33+00:00",
+      "collected_at": "2026-07-05T07:56:13.575014+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/tweet_video/GvBBR9FXAAA4BJQ.mp4"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 27,
+        "reply_count": 0,
+        "view_count": 32
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073520727337185487",
+      "url": "https://x.com/pentest_swissky/status/2073520727337185487",
+      "content": "I Let Claude Opus Write a Chrome Exploit: The Next Model (Mythos?) Won't Need My Help? @S1r1u5_ \nhttps://t.co/sfHeEvoaTg",
+      "author": "pentest_swissky",
+      "author_name": "Swissky",
+      "published_at": "2026-07-04T21:34:00+00:00",
+      "collected_at": "2026-07-05T07:56:13.575513+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://www.hacktron.ai/blog/i-let-claude-opus-to-write-me-a-chrome-exploit"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 75,
+        "retweet_count": 9,
+        "reply_count": 0,
+        "view_count": 3427
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073519815436767591",
+      "url": "https://x.com/0xTriboulet/status/2073519815436767591",
+      "content": "RT @WhiteHouse: We are forever indebted to the brave patriots who gave their lives for our country. https://t.co/TRWx120ADD",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T21:30:22+00:00",
+      "collected_at": "2026-07-05T07:56:13.576052+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZrQUyWAAA1Vs7.jpg",
+          "https://pbs.twimg.com/media/HMZrQUyWAAA1Vs7.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1928,
+        "reply_count": 0,
+        "view_count": 46
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073517845628027390",
+      "url": "https://x.com/0xocdsec/status/2073517845628027390",
+      "content": "RT @StanisP32956: @SlavaUrkainiLov With good friends that will be pice of cake 🍰. https://t.co/6pwEFzjKFQ",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T21:22:33+00:00",
+      "collected_at": "2026-07-05T07:56:13.576799+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZznHxXsAAcQyw.jpg",
+          "https://pbs.twimg.com/media/HMZznHxXsAAcQyw.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 27
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073517424008143303",
+      "url": "https://x.com/0xTriboulet/status/2073517424008143303",
+      "content": "RT @GorillaOSINT: Me at 10am in Europe after drinking 24 Bud Lights when the barista asks why I'm not wearing pants https://t.co/Lt3YZnwxV5",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T21:20:52+00:00",
+      "collected_at": "2026-07-05T07:56:13.577303+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073427645451100160/vid/avc1/1280x720/X5fj_JXO393WB__W.mp4?tag=14",
+          "https://video.twimg.com/amplify_video/2073427645451100160/vid/avc1/1280x720/X5fj_JXO393WB__W.mp4?tag=14"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 59,
+        "reply_count": 0,
+        "view_count": 58106
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073517312951382460",
+      "url": "https://x.com/0xocdsec/status/2073517312951382460",
+      "content": "RT @StanisP32956: We are waiting for you. https://t.co/2ejWVwr2GB",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T21:20:26+00:00",
+      "collected_at": "2026-07-05T07:56:13.578038+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMWY9iUWMAAz9VY.jpg",
+          "https://pbs.twimg.com/media/HMWY9iUWMAAz9VY.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 59,
+        "reply_count": 0,
+        "view_count": 22
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073517078414311483",
+      "url": "https://x.com/0xTriboulet/status/2073517078414311483",
+      "content": "RT @cantcomputer: Happy Burfday ‘Merica 🦅🇺🇸 https://t.co/tdaGAtsFnO",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T21:19:30+00:00",
+      "collected_at": "2026-07-05T07:56:13.578833+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMaCMD6WkAAqdq0.jpg",
+          "https://pbs.twimg.com/media/HMaCMD6WkAAqdq0.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 42
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073516828916077048",
+      "url": "https://x.com/0xTriboulet/status/2073516828916077048",
+      "content": "RT @RobertMSterling: That’s cute. Does your local pub have a flag on the moon and a stealth bomber? https://t.co/MThdKlF2EM",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T21:18:30+00:00",
+      "collected_at": "2026-07-05T07:56:13.579448+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMaaC3VWMAAUGQb.jpg",
+          "https://pbs.twimg.com/media/HMaaC3YXQAA1JQb.jpg",
+          "https://pbs.twimg.com/media/HMaaC3VWMAAUGQb.jpg",
+          "https://pbs.twimg.com/media/HMaaC3YXQAA1JQb.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 740,
+        "reply_count": 0,
+        "view_count": 38
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073516796242534584",
+      "url": "https://x.com/0xTriboulet/status/2073516796242534584",
+      "content": "RT @b1ack0wl: HAPPY MURICA DAY!! 🇺🇸🇺🇸🇺🇸🫡🫡🫡\n\nWTF IS A KILOMETER?!?!?! 🦅🦅🦅🏈🏈🏈🎆🎆🎆🗽🗽🗽🛻🛻🛻🤠🤠🤠❤️❤️❤️🤍🤍🤍💙💙💙 https://t.co/jV2SeBncZ8",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T21:18:22+00:00",
+      "collected_at": "2026-07-05T07:56:13.580187+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZbdewWUAAXhi_.jpg",
+          "https://pbs.twimg.com/media/HMZbdewWUAAXhi_.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 24
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073516637811003590",
+      "url": "https://x.com/C5pider/status/2073516637811003590",
+      "content": "@kyleavery @flapprdotnet Kyle you are my American hero. You are Mr. America to me",
+      "author": "C5pider",
+      "author_name": "5pider",
+      "published_at": "2026-07-04T21:17:45+00:00",
+      "collected_at": "2026-07-05T07:56:08.128411+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 8,
+        "retweet_count": 2,
+        "reply_count": 1,
+        "view_count": 274
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073516378800132590",
+      "url": "https://x.com/0xTriboulet/status/2073516378800132590",
+      "content": "RT @KTmBoyle: No signer defected. Their honor like their nation, remained intact.",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T21:16:43+00:00",
+      "collected_at": "2026-07-05T07:56:13.580806+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 70,
+        "reply_count": 0,
+        "view_count": 32
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073514451085467898",
+      "url": "https://x.com/0xTriboulet/status/2073514451085467898",
+      "content": "RT @USWPColby: Today, with all Americans, I take the deepest pride in marking the 250th anniversary of our great country's independence. Our struggle for independence truly was what George Washington called the \"glorious cause.\" \n\nOn this July 4th, we can take equal pride that the Great Republic that founding generation established not only has a noble past, but continues to rise to ever greater heights.",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T21:09:03+00:00",
+      "collected_at": "2026-07-05T07:56:13.581554+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZTz1XW4AArkjj.jpg",
+          "https://pbs.twimg.com/media/HMZTz1yW4AAGmMR.jpg",
+          "https://pbs.twimg.com/media/HMZTz1WWQAAz_7Z.jpg",
+          "https://pbs.twimg.com/media/HMZTz1bWsAA0ySD.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 151,
+        "reply_count": 0,
+        "view_count": 32
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073513519195005016",
+      "url": "https://x.com/0xTriboulet/status/2073513519195005016",
+      "content": "RT @sentdefender: America belongs among the Stars. https://t.co/lQv3dyqaEY",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T21:05:21+00:00",
+      "collected_at": "2026-07-05T07:56:13.582075+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073457224869928960/vid/avc1/1280x720/lk9w3nfe4YzonhJf.mp4?tag=28",
+          "https://video.twimg.com/amplify_video/2073457224869928960/vid/avc1/1280x720/lk9w3nfe4YzonhJf.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 196,
+        "reply_count": 0,
+        "view_count": 44
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073513495824331217",
+      "url": "https://x.com/0xTriboulet/status/2073513495824331217",
+      "content": "RT @USArmy: Celebrating, defending, and preserving independence for 250 years. 🇺🇸\n\nThis We'll Defend. \n\n📽️@GoArmy https://t.co/897NXzrvUL",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T21:05:16+00:00",
+      "collected_at": "2026-07-05T07:56:13.582820+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073168793266753536/vid/avc1/720x1280/hQUvjhXxOrQ_tit4.mp4?tag=14",
+          "https://video.twimg.com/amplify_video/2073168793266753536/vid/avc1/720x1280/hQUvjhXxOrQ_tit4.mp4?tag=14"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 741,
+        "reply_count": 0,
+        "view_count": 32
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073513462936858855",
+      "url": "https://x.com/0xTriboulet/status/2073513462936858855",
+      "content": "RT @WhiteHouse: 250 YEARS OF AMERICA. \n\nLET’S GOOO 🦅 https://t.co/Wo9Ergl9eF",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T21:05:08+00:00",
+      "collected_at": "2026-07-05T07:56:13.583312+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073470387598327808/vid/avc1/720x1280/U3dl26-8zBlHtfUP.mp4?tag=28",
+          "https://video.twimg.com/amplify_video/2073470387598327808/vid/avc1/720x1280/U3dl26-8zBlHtfUP.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3154,
+        "reply_count": 0,
+        "view_count": 31
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073512996341457091",
+      "url": "https://x.com/0xocdsec/status/2073512996341457091",
+      "content": "RT @NXT4EU: man I fucking hate Americans larping as Europeans https://t.co/YjTiQ9f9NK",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T21:03:16+00:00",
+      "collected_at": "2026-07-05T07:56:13.583871+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMaL0JHXAAAgzgO.jpg",
+          "https://pbs.twimg.com/media/HMaL0JHXAAAgzgO.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 38,
+        "reply_count": 0,
+        "view_count": 23
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073512936564277682",
+      "url": "https://x.com/0xTriboulet/status/2073512936564277682",
+      "content": "RT @Astro_Jessica: Happy 250th Birthday to the United States of America, from all of us on the @Space_Station and at @NASA!  Wishing all a safe and celebratory 4th of July. https://t.co/0MBRC943oA",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T21:03:02+00:00",
+      "collected_at": "2026-07-05T07:56:13.584546+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZam3pXcAAt5n4.jpg",
+          "https://pbs.twimg.com/media/HMZam3gXEAAUWMZ.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 493,
+        "reply_count": 0,
+        "view_count": 30
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073512843849167137",
+      "url": "https://x.com/0xTriboulet/status/2073512843849167137",
+      "content": "RT @theDroneU: God Bless 🇺🇸 America on her 250th Birthday! \nMay we find ways to celebrate together rather than seek division. 🇺🇸 250 🎆 https://t.co/3ffuH8xsL9",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T21:02:40+00:00",
+      "collected_at": "2026-07-05T07:56:31.647580+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073435431870533632/vid/avc1/1180x2556/nKK6dakWjrdJLNhb.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 31
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073512717416067561",
+      "url": "https://x.com/0xTriboulet/status/2073512717416067561",
+      "content": "RT @WhiteHouse: GREAT DAY TO BE A PATRIOT. https://t.co/G9hsR6bNPp",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T21:02:10+00:00",
+      "collected_at": "2026-07-05T07:56:31.648222+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZaQh1W0AEgMbz.jpg",
+          "https://pbs.twimg.com/media/HMZaQh1W0AEgMbz.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3999,
+        "reply_count": 0,
+        "view_count": 37
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073512581881364825",
+      "url": "https://x.com/0xTriboulet/status/2073512581881364825",
+      "content": "RT @Atlas_Leather: Windows open. \n\nAC on max. \n\n🇺🇸 https://t.co/VLXvKbY3dD",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T21:01:38+00:00",
+      "collected_at": "2026-07-05T07:56:31.648856+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073424800295309312/vid/avc1/1170x1518/bB7rVZRnSzGN_qzT.mp4?tag=28",
+          "https://video.twimg.com/amplify_video/2073424800295309312/vid/avc1/1170x1518/bB7rVZRnSzGN_qzT.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 37
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073512564655374771",
+      "url": "https://x.com/0xTriboulet/status/2073512564655374771",
+      "content": "RT @WhiteHouse: American opportunity is unmatched. https://t.co/FnFD8oarAX",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T21:01:34+00:00",
+      "collected_at": "2026-07-05T07:56:31.649557+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMaCNGVXMAA8CcH.jpg",
+          "https://pbs.twimg.com/media/HMaCNGVXMAA8CcH.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 656,
+        "reply_count": 0,
+        "view_count": 32
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073511899279278519",
+      "url": "https://x.com/0xTriboulet/status/2073511899279278519",
+      "content": "RT @rcx86: @0xTriboulet america my love https://t.co/AU4kCrMaUw",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T20:58:55+00:00",
+      "collected_at": "2026-07-05T07:56:31.650366+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMaP3TbbQAAyEjm.jpg",
+          "https://pbs.twimg.com/media/HMaP3TbbQAAyEjm.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 36
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073510573854126270",
+      "url": "https://x.com/NetAskari/status/2073510573854126270",
+      "content": "RT @bsforvt727: Never seen before rootkit driver uploaded from China to VT👀🤔\n0f0649b820f62187f7e3e8f3039b0954\n@smica83 @JAMESWT_WT @malwrhunterteam",
+      "author": "NetAskari",
+      "author_name": "NetAskari",
+      "published_at": "2026-07-04T20:53:39+00:00",
+      "collected_at": "2026-07-05T07:56:31.650885+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 9,
+        "reply_count": 0,
+        "view_count": 85
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073507758968635850",
+      "url": "https://x.com/Jean_Maes_1994/status/2073507758968635850",
+      "content": "Happy Birthday Murica! https://t.co/dr74t7TwQm",
+      "author": "Jean_Maes_1994",
+      "author_name": "Jean",
+      "published_at": "2026-07-04T20:42:28+00:00",
+      "collected_at": "2026-07-05T07:56:31.651438+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/tweet_video/HMaUUF6WsAAM71G.mp4"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 198
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073506635142586692",
+      "url": "https://x.com/0xocdsec/status/2073506635142586692",
+      "content": "RT @5mukx: CPP / C++ Notes for Windows API Programming Win32\n\nResource:- https://t.co/aEszb6bHDR https://t.co/P3UhX8BQUe",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T20:38:00+00:00",
+      "collected_at": "2026-07-05T07:56:31.651857+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://caiorss.github.io/C-Cpp-Notes/WindowsAPI-cpp.html"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMYq1IbaEAERKaY.png",
+          "https://pbs.twimg.com/media/HMYq344aEAAz5ac.png",
+          "https://pbs.twimg.com/media/HMYq1IbaEAERKaY.png",
+          "https://pbs.twimg.com/media/HMYq344aEAAz5ac.png"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 47,
+        "reply_count": 0,
+        "view_count": 14
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073506519157490065",
+      "url": "https://x.com/0xocdsec/status/2073506519157490065",
+      "content": "RT @ret2src: Escalating from On-prem to Entra through MITM Attacks\n\nMy colleague @0x64616e just published his latest research on lateral movement between on-premises Active Directory and Entra through DNS hijacking. Check it out:\n\n➡️ https://t.co/p8vv1DcAIe",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T20:37:32+00:00",
+      "collected_at": "2026-07-05T07:56:31.652467+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 31,
+        "reply_count": 0,
+        "view_count": 16331
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073506103577481555",
+      "url": "https://x.com/kyleavery/status/2073506103577481555",
+      "content": "RT @Cheapie13: About that time https://t.co/eN4lHExrWT",
+      "author": "kyleavery",
+      "author_name": "Kyle Avery",
+      "published_at": "2026-07-04T20:35:53+00:00",
+      "collected_at": "2026-07-05T07:56:31.652960+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMVdnabWsAAEih0.jpg",
+          "https://pbs.twimg.com/media/HMVdnabWsAAEih0.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 446,
+        "reply_count": 0,
+        "view_count": 45
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073504902068752875",
+      "url": "https://x.com/0xocdsec/status/2073504902068752875",
+      "content": "RT @abdo_mhanni: During an engagement, and in an effort to bypass Crowdstrike, I figured out a new method to locally privilege escalate when having code execution as a Microsoft Virtual account using only a LoLbin(certreq) and some AD-CS magic. \n\nI was successfully able to compromise the target with Crowdstrike present without needing to use potatoe class exploits. I wrote a blog about it here! https://t.co/zywdv2ZQzN",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T20:31:07+00:00",
+      "collected_at": "2026-07-05T07:56:31.653529+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 68,
+        "reply_count": 0,
+        "view_count": 24
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073504332138295656",
+      "url": "https://x.com/0xocdsec/status/2073504332138295656",
+      "content": "RT @nexta_tv: 🤖 Has it begun? A rogue robot fought back and refused to be restrained! https://t.co/7JvhKHiI2T",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T20:28:51+00:00",
+      "collected_at": "2026-07-05T07:56:31.654076+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073466326366957569/vid/avc1/720x1280/Lm99g-nhGXC4uwFK.mp4?tag=28",
+          "https://video.twimg.com/amplify_video/2073466326366957569/vid/avc1/720x1280/Lm99g-nhGXC4uwFK.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 53,
+        "reply_count": 0,
+        "view_count": 20
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073503523929514473",
+      "url": "https://x.com/0xocdsec/status/2073503523929514473",
+      "content": "RT @slonser_: Funny leak at Chrome\nNo AI, Just @J0R1AN  and a brilliant idea\nAnd yeah, this is only a small part of something bigger -writeup coming soon😵 https://t.co/1V7ZlkhETh",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T20:25:38+00:00",
+      "collected_at": "2026-07-05T07:56:31.654633+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMYGpO_XMAEwIsB.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 6,
+        "reply_count": 0,
+        "view_count": 21
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073502592693330033",
+      "url": "https://x.com/0xocdsec/status/2073502592693330033",
+      "content": "RT @mihomoparty: 继续学习Browser Pwn中，用了一个OOB + Sandbox Escape ，打了v8 12.4沙箱逃逸rce，感觉好多利用手法，就是初看很懵逼，然后慢慢调试又看懂的感觉🥹 https://t.co/QFkoPecpeD",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T20:21:56+00:00",
+      "collected_at": "2026-07-05T07:56:31.655144+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMX7kJ-aYAARzB4.jpg",
+          "https://pbs.twimg.com/media/HMX7kJ-aYAARzB4.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 26
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073502356092973555",
+      "url": "https://x.com/5mukx/status/2073502356092973555",
+      "content": "oof ... After consecutive days, Done proper UI Designs and major architecture change for network Malleability + along with stealthy bofs....\n\nJust taking some break today =) https://t.co/5VBj3h9yBO",
+      "author": "5mukx",
+      "author_name": "Smukx.E",
+      "published_at": "2026-07-04T20:21:00+00:00",
+      "collected_at": "2026-07-05T07:56:31.655656+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMaMt9XbYAAD3mp.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 31,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 2521
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073501714905284854",
+      "url": "https://x.com/Teach2Breach/status/2073501714905284854",
+      "content": "RT @ENERGY: https://t.co/aoLB9h56eI",
+      "author": "Teach2Breach",
+      "author_name": "K̵i̵r̵k̵ ̵T̵r̵y̵c̵h̵e̵l̵",
+      "published_at": "2026-07-04T20:18:27+00:00",
+      "collected_at": "2026-07-05T07:56:31.656298+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMTx6T7WkAAEVkV.jpg",
+          "https://pbs.twimg.com/media/HMTx6T7WkAAEVkV.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 14081,
+        "reply_count": 0,
+        "view_count": 7
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073499445342146586",
+      "url": "https://x.com/0xocdsec/status/2073499445342146586",
+      "content": "RT @codex_tf2: Open sourced my implementation of the Cobalt Strike UDC2 spec so more open source C2s can benefit from existing CS tooling \n\nAdaptix PoC included with drop in support for existing UDC2s :D\n\nhttps://t.co/iEvPrKjR0E",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T20:09:26+00:00",
+      "collected_at": "2026-07-05T07:56:31.657011+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 16,
+        "reply_count": 0,
+        "view_count": 27
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073498912187720083",
+      "url": "https://x.com/codex_tf2/status/2073498912187720083",
+      "content": "Open sourcing another of my random BOFs that I think may be useful to people.\nObtains location data, thats pretty much it. May be useful if target location/region affects engagement scope.\n\nhttps://t.co/lGNuYEzEXh",
+      "author": "codex_tf2",
+      "author_name": "CodeX",
+      "published_at": "2026-07-04T20:07:19+00:00",
+      "collected_at": "2026-07-05T07:56:31.657515+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/CodeXTF2/GeoLocation_BOF"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 28,
+        "retweet_count": 5,
+        "reply_count": 0,
+        "view_count": 1194
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073494617819869645",
+      "url": "https://x.com/0xTriboulet/status/2073494617819869645",
+      "content": "RT @usetraceix: @0xTriboulet 1776. https://t.co/3DCWa6Q6NP",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T19:50:15+00:00",
+      "collected_at": "2026-07-05T07:56:31.657959+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZ_tDrWwAARVF8.jpg",
+          "https://pbs.twimg.com/media/HMZ_tDrWwAARVF8.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 57
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073489663864545587",
+      "url": "https://x.com/_RastaMouse/status/2073489663864545587",
+      "content": "@0xTriboulet https://t.co/ZKfYyXv22g",
+      "author": "_RastaMouse",
+      "author_name": "Rasta Mouse",
+      "published_at": "2026-07-04T19:30:34+00:00",
+      "collected_at": "2026-07-05T07:56:36.997674+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/tweet_video/HMaD2vVXgAAVO-9.mp4"
+        ]
+      },
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 601
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073487895495836048",
+      "url": "https://x.com/Officialwhyte22/status/2073487895495836048",
+      "content": "This is why memory forensics has become one of the most valuable skills in modern incident response.\n\nUnlike traditional forensic analysis, memory forensics allows investigators to examine what is happening while the system is running. That means you can uncover malicious processes, injected code, active network connections, decrypted payloads, command-line arguments, and even credentials that may never be written to disk.\n\nIn this investigation, a suspicious process immediately stands out. By examining its memory, investigators can identify embedded strings, API endpoints, hidden PowerShell commands, and other indicators that reveal how the malware communicates and what it is trying to achieve.\n\nOne thing every defender should remember is that RAM is volatile. Once a compromised system is shut down, a significant amount of valuable evidence disappears forever. That’s why experienced incident responders prioritize memory acquisition before containment whenever it’s safe to do so.\n\nMalware can hide files, clear logs, and remove persistence, but it still has to exist in memory while it’s running. If you want to understand what really happened during an attack, memory is often where the truth is hiding.",
+      "author": "Officialwhyte22",
+      "author_name": "Winston Ighodaro",
+      "published_at": "2026-07-04T19:23:32+00:00",
+      "collected_at": "2026-07-05T07:56:36.998023+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMaCQIFX0AA-SyW.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 194,
+        "retweet_count": 29,
+        "reply_count": 5,
+        "view_count": 8369
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073486984170094926",
+      "url": "https://x.com/5mukx/status/2073486984170094926",
+      "content": "Blog by @KlezVirus",
+      "author": "5mukx",
+      "author_name": "Smukx.E",
+      "published_at": "2026-07-04T19:19:55+00:00",
+      "collected_at": "2026-07-05T07:56:36.998620+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 6,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 539
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073486980852363585",
+      "url": "https://x.com/5mukx/status/2073486980852363585",
+      "content": "Callback hell: abusing callbacks, tail-calls, and proxy frames to obfuscate the stack\n\nBlog:- https://t.co/4WaDl2Fa5T https://t.co/UUpDh5s7YU",
+      "author": "5mukx",
+      "author_name": "Smukx.E",
+      "published_at": "2026-07-04T19:19:54+00:00",
+      "collected_at": "2026-07-05T07:56:36.998297+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://klezvirus.github.io/posts/Callback-Hell"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMaBRiBasAAF8-z.png",
+          "https://pbs.twimg.com/media/HMaBTqBa0AAoYsr.png"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 151,
+        "retweet_count": 21,
+        "reply_count": 2,
+        "view_count": 4798
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073480874788868507",
+      "url": "https://x.com/5mukx/status/2073480874788868507",
+      "content": "RT @vxunderground: > Peter Stokes\n> Scattered Spider guy\n> Arrested\n> Microsoft helps FBI\n> Read court documents\n> Page 12\n> Microsoft tracks Stokes from GDID\n> Microsoft Global Device Identifier (GDID)\n> Stokes used Windows\n> Page 34\n> GDID assigned to each OS install\n> GDID unique to each device\n> GDID only change if OS wiped\n> Stokes GDID 6755467234350028\n> GDID reported internet activity to Microsoft\n> GDID showed Stokes using Ngrok\n> GDID reported Stokes IP address\n> GDID showed Stokes web activity\n> GDID showed timestamps of web activity\n> GDID mapped with video game activity\n> GDID showed games played\n> GDID undocumented\n> GDID only mentioned in one MSDN document\n> Azure UCDOStatus \n> Azure Monitor Logging",
+      "author": "5mukx",
+      "author_name": "Smukx.E",
+      "published_at": "2026-07-04T18:55:38+00:00",
+      "collected_at": "2026-07-05T07:56:36.998922+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZLLaYXQAANY4U.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 873,
+        "reply_count": 0,
+        "view_count": 255
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073479285017297395",
+      "url": "https://x.com/Salsa12__/status/2073479285017297395",
+      "content": "USN Journal Enumeration https://t.co/P4YllQ9XGA",
+      "author": "Salsa12__",
+      "author_name": "0x12 Dark Development",
+      "published_at": "2026-07-04T18:49:19+00:00",
+      "collected_at": "2026-07-05T07:56:36.999284+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZ6ajgWEAEZaf6.png"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 19,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 721
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073478415521337497",
+      "url": "https://x.com/mrgretzky/status/2073478415521337497",
+      "content": "@_xpn_ For me the worst part was when my wife would throw her hands at me at every jumpscare. It really added to the horror experience. 5D cinema. 😂",
+      "author": "mrgretzky",
+      "author_name": "Kuba Gretzky",
+      "published_at": "2026-07-04T18:45:52+00:00",
+      "collected_at": "2026-07-05T07:56:37.000070+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 92
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073475427868238045",
+      "url": "https://x.com/0xTriboulet/status/2073475427868238045",
+      "content": "RT @ArthurMacwaters: get in, we’re Americamaxxing 🇺🇸\n\nhappy birthday to the greatest nation in the history of humanity\n\nthis edit is so freaking good https://t.co/RJ8rIIPZRW",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T18:33:59+00:00",
+      "collected_at": "2026-07-05T07:56:37.000497+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073450145468018688/vid/avc1/872x480/EA8SX6LQF3m3w9wK.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 22,
+        "reply_count": 0,
+        "view_count": 48
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073473884154712444",
+      "url": "https://x.com/alkalinesec/status/2073473884154712444",
+      "content": "wait hold on shit https://t.co/DbKGiCdZeU",
+      "author": "alkalinesec",
+      "author_name": "𝚊𝚕𝚔𝚊𝚕𝚒",
+      "published_at": "2026-07-04T18:27:51+00:00",
+      "collected_at": "2026-07-05T07:56:03.734064+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZ1T7eXYAA4DpY.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 2006,
+        "retweet_count": 49,
+        "reply_count": 22,
+        "view_count": 141568
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073471334886105560",
+      "url": "https://x.com/0xTriboulet/status/2073471334886105560",
+      "content": "RT @tunguz: For every 100 likes I’ll make this image even more American. https://t.co/FjyduUZzpk",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T18:17:44+00:00",
+      "collected_at": "2026-07-05T07:56:37.001205+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZndFwbkAANTfk.jpg",
+          "https://pbs.twimg.com/media/HMZndFwbkAANTfk.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 9,
+        "reply_count": 0,
+        "view_count": 17714
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073471313784492048",
+      "url": "https://x.com/0xTriboulet/status/2073471313784492048",
+      "content": "RT @hackerfantastic: Happy 4th of July to my American friends. Enjoy your colony. ;) https://t.co/GZmJpu1IFy",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T18:17:39+00:00",
+      "collected_at": "2026-07-05T07:56:37.615179+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZXlcTWkAAhimQ.jpg",
+          "https://pbs.twimg.com/media/HMZXlcTWkAAhimQ.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 4,
+        "reply_count": 0,
+        "view_count": 44
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073471066215764385",
+      "url": "https://x.com/0xTriboulet/status/2073471066215764385",
+      "content": "RT @ArthurMacwaters: The European mind cannot comprehend gigachad George Washington driving a muscle car into a line of redcoats and it actually being a vibe https://t.co/gedOPB2rEC",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T18:16:40+00:00",
+      "collected_at": "2026-07-05T07:56:37.615794+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073456602187960320/vid/avc1/872x480/jmNQkJqf4GEmPFxv.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 19,
+        "reply_count": 0,
+        "view_count": 45
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073471017322697200",
+      "url": "https://x.com/0xpwnie/status/2073471017322697200",
+      "content": "https://t.co/l64Qk4fhON",
+      "author": "0xpwnie",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-07-04T18:16:28+00:00",
+      "collected_at": "2026-07-05T07:56:37.616483+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZy43YWEAACu6A.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 22,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 712
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073470704465444887",
+      "url": "https://x.com/0xTriboulet/status/2073470704465444887",
+      "content": "RT @NASA: Happy 250th birthday, America! We got you a present. 🇺🇸\n\nThe red, white, and blue stars of this globular cluster shine like a sparkler waved on a dark night in this image from @NASAHubble, released in celebration of the United States' 250th anniversary. https://t.co/ovu9Pb9hiy",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T18:15:13+00:00",
+      "collected_at": "2026-07-05T07:56:37.616767+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMW-dyAW4AAa4Gl.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 7025,
+        "reply_count": 0,
+        "view_count": 48
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073469057047630241",
+      "url": "https://x.com/Officialwhyte22/status/2073469057047630241",
+      "content": "https://t.co/QCzzoGmN5D",
+      "author": "Officialwhyte22",
+      "author_name": "Winston Ighodaro",
+      "published_at": "2026-07-04T18:08:41+00:00",
+      "collected_at": "2026-07-05T07:56:37.617477+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://x.com/cyber_razz/status/2073468596064305437"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 352
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073468982984655039",
+      "url": "https://x.com/Officialwhyte22/status/2073468982984655039",
+      "content": "RT @cyber_razz: I GOTCHU, Now lets get answering \n\nQuestion 1: Redesigning the Network\n\nThe flat network is the core problem. One infected guest device has unobstructed access to every server. That is not a design flaw. That is the exact lateral movement path ransomware uses.\n\nFix it with four VLANs minimum.\n\nServer VLAN with strict ACLs permitting only what each server actually needs. User VLAN that reaches servers only through defined permitted paths. Guest VLAN with internet access only, zero internal visibility. Management VLAN for infrastructure devices that no user workstation can touch.\n\nThe NAT firewall goes next. NAT to the internet provides zero protection against internal east-west traffic. Replace it with something capable of stateful inspection and inter-VLAN filtering. Then add IDS/IPS because you cannot defend what you cannot see.\n\nPriority order: segmentation, firewall rules that enforce it, visibility through monitoring, everything else.\n\nQuestion 2: Common SMB Misconfigurations\n\nDefault credentials on switches, routers, access points, and cameras. Audit everything before anything else.\n\nRDP exposed directly to the internet on port 3389. Disable it or put it behind a VPN with MFA. This is one of the primary ransomware entry points in documented SMB incidents for five consecutive years.\n\nSMBv1 still enabled. Check with Get-SmbServerConfiguration in PowerShell. Disable it immediately if present.\n\nOverprivileged service accounts with Domain Admin membership turning a single compromised credential into a full domain takeover.\n\nNo monitoring meaning attackers dwell undetected for weeks before deploying ransomware.\n\nRun Nessus Essentials or OpenVAS internally. The results will be uncomfortable. Fix criticals first.\n\nThe pattern is always the same. Entry, lateral movement across a flat network, privilege escalation, total deployment. Each step has a specific control that breaks the chain. This network has none of them.\n\nHope this helped.",
+      "author": "Officialwhyte22",
+      "author_name": "Winston Ighodaro",
+      "published_at": "2026-07-04T18:08:23+00:00",
+      "collected_at": "2026-07-05T07:56:37.618077+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 448
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073468329323348212",
+      "url": "https://x.com/_xpn_/status/2073468329323348212",
+      "content": "@C5pider I’ve not watched Midsommar yet, I think I need to be in the right mood to watch dark horror, but it’s on my list! So much good horror at the minute, the new Evil Dead is looking like it’s gonna be good too!!",
+      "author": "_xpn_",
+      "author_name": "Adam Chester 🏴‍☠️",
+      "published_at": "2026-07-04T18:05:47+00:00",
+      "collected_at": "2026-07-05T07:56:42.928591+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 215
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073467969124905292",
+      "url": "https://x.com/_xpn_/status/2073467969124905292",
+      "content": "@mrgretzky I don’t think I could have watched it in the cinema 😳😳",
+      "author": "_xpn_",
+      "author_name": "Adam Chester 🏴‍☠️",
+      "published_at": "2026-07-04T18:04:21+00:00",
+      "collected_at": "2026-07-05T07:56:36.999812+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 303
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073467945548697944",
+      "url": "https://x.com/Teach2Breach/status/2073467945548697944",
+      "content": "RT @5mukx: @Teach2Breach @C5pider &gt; Its 2.30 am \n&gt; decided to sleep\n&gt; sees new @Teach2Breach podcast release \n&gt; OmG. Started watching it… \n&gt; its 4 am now lol !!",
+      "author": "Teach2Breach",
+      "author_name": "K̵i̵r̵k̵ ̵T̵r̵y̵c̵h̵e̵l̵",
+      "published_at": "2026-07-04T18:04:16+00:00",
+      "collected_at": "2026-07-05T07:56:42.929028+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 5
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073467670754898370",
+      "url": "https://x.com/_JohnHammond/status/2073467670754898370",
+      "content": "the vibe continues https://t.co/X0b0AHQ9hm",
+      "author": "_JohnHammond",
+      "author_name": "John Hammond",
+      "published_at": "2026-07-04T18:03:10+00:00",
+      "collected_at": "2026-07-05T07:56:42.929609+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://x.com/i/broadcasts/1aKbddvnYYvJX"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 631,
+        "retweet_count": 18,
+        "reply_count": 14,
+        "view_count": 947720
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073465703500300529",
+      "url": "https://x.com/0xocdsec/status/2073465703500300529",
+      "content": "RT @CyberCakeX: @vxunderground @Octoberfest73 My best guess:\n\n\"This cloud-based AI is based on trillions of signals collected from Windows endpoints and other data sources, and processed every 24 hours.\"\n1. https://t.co/pD3DtuPYfy\n\n2. https://t.co/prqhGIEdn5\n\n3. https://t.co/iWOUxfrkg2 https://t.co/uuJHxiKqZB",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T17:55:21+00:00",
+      "collected_at": "2026-07-05T07:56:42.929937+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZr8oeX0AAufwD.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 30
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073465282840920203",
+      "url": "https://x.com/0xpwnie/status/2073465282840920203",
+      "content": "https://t.co/Xavyd3VSht",
+      "author": "0xpwnie",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-07-04T17:53:41+00:00",
+      "collected_at": "2026-07-05T07:56:42.930443+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://www.thinksuite.in/ai-news/microsofts-280m-fake-windows-error-scandal-what-you-need-to-know"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 15,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 1937
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073463051462865222",
+      "url": "https://x.com/Officialwhyte22/status/2073463051462865222",
+      "content": "Be the guy holding a Black Suitcase",
+      "author": "Officialwhyte22",
+      "author_name": "Winston Ighodaro",
+      "published_at": "2026-07-04T17:44:49+00:00",
+      "collected_at": "2026-07-05T07:56:42.930878+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 3621
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073460209419186652",
+      "url": "https://x.com/28zaaky/status/2073460209419186652",
+      "content": "RT @NCautro50771: Looking for a fast signature scanner (AOB scanner)?\n\nI built my own optimized implementation focused on performance and simplicity.\n\nFeedback is welcome.\n\nhttps://t.co/hqdyCZHqpk",
+      "author": "28zaaky",
+      "author_name": "_Z4vky",
+      "published_at": "2026-07-04T17:33:31+00:00",
+      "collected_at": "2026-07-05T07:56:42.931404+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 49
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073453283247554611",
+      "url": "https://x.com/ipurple/status/2073453283247554611",
+      "content": "Feature-rich single-binary file server for red teamers and developers. A powerful python3 -m http.server replacement\n✅HTTP/S \n✅WebDAV \n✅FTP/SFTP \n✅SMB \n✅LDAP/S \n✅NTLM hash capture \n✅DNS/SMTP callbacks \n✅TLS · Auth · Share links\n🔗 https://t.co/Cyq4X23Tgr",
+      "author": "ipurple",
+      "author_name": "Panos Gkatziroulis 🦄",
+      "published_at": "2026-07-04T17:06:00+00:00",
+      "collected_at": "2026-07-05T07:56:42.931800+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/goshs-labs/goshs"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 44,
+        "retweet_count": 19,
+        "reply_count": 0,
+        "view_count": 2101
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073453206672175236",
+      "url": "https://x.com/zuhaitz_dev/status/2073453206672175236",
+      "content": "RT @SyntaxError2505: @zuhaitz_dev what were you on https://t.co/P3Dh3gvaKq",
+      "author": "zuhaitz_dev",
+      "author_name": "Zuhaitz",
+      "published_at": "2026-07-04T17:05:42+00:00",
+      "collected_at": "2026-07-05T07:56:42.932096+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZiW6vXsAE600m.png",
+          "https://pbs.twimg.com/media/HMZiW6vXsAE600m.png"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 51
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073444280916427155",
+      "url": "https://x.com/0xocdsec/status/2073444280916427155",
+      "content": "RT @gargoyle8148: @vxunderground \"GDID (Goyim Device ID) was developed at Microsoft’s R&amp;D Center in Herzliya, Israel, by former Unit 8200 and Talpiot program alumni and is intended for a range of governmental objectives, including surveillance, data aggregation, and strategic intelligence operations.\" https://t.co/y6OQyJbO5n",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T16:30:13+00:00",
+      "collected_at": "2026-07-05T07:56:42.932531+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZS8o9WMAAECGz.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 44,
+        "reply_count": 0,
+        "view_count": 28
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073437978265817252",
+      "url": "https://x.com/0xocdsec/status/2073437978265817252",
+      "content": "RT @vxunderground: Chat, I don't want to sound like a schizo, but it sure is STRANGE how much data Microsoft collects with it's telemetry functionality. It's very odd Microsoft documents and records all of your web browser activity, and gaming, and can tie it to your social media, so they can improve your \"Windows Experience\".",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T16:05:11+00:00",
+      "collected_at": "2026-07-05T07:56:42.932930+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 150,
+        "reply_count": 0,
+        "view_count": 11
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073437873932554717",
+      "url": "https://x.com/0xocdsec/status/2073437873932554717",
+      "content": "RT @vxunderground: > Peter Stokes\n> Scattered Spider guy\n> Arrested\n> Microsoft helps FBI\n> Read court documents\n> Page 12\n> Microsoft tracks Stokes from GDID\n> Microsoft Global Device Identifier (GDID)\n> Stokes used Windows\n> Page 34\n> GDID assigned to each OS install\n> GDID unique to each device\n> GDID only change if OS wiped\n> Stokes GDID 6755467234350028\n> GDID reported internet activity to Microsoft\n> GDID showed Stokes using Ngrok\n> GDID reported Stokes IP address\n> GDID showed Stokes web activity\n> GDID showed timestamps of web activity\n> GDID mapped with video game activity\n> GDID showed games played\n> GDID undocumented\n> GDID only mentioned in one MSDN document\n> Azure UCDOStatus \n> Azure Monitor Logging",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T16:04:46+00:00",
+      "collected_at": "2026-07-05T07:56:42.933307+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZLLaYXQAANY4U.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 873,
+        "reply_count": 0,
+        "view_count": 12
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073437390320844896",
+      "url": "https://x.com/0xocdsec/status/2073437390320844896",
+      "content": "RT @jurgen_nauditt: Russia is planning an information operation to drive a wedge between Poland and Ukraine, according to Kovalenko, head of the Center for Strategic Communications.\n\nRussian intelligence services plan to release forged documents on July 5 regarding events of the Second World War—specifically the Volhynia tragedy—in order to stoke tensions and undermine Ukrainian-Polish relations.\n\nWhat have we learned over more than four years? Russia always lies.",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T16:02:51+00:00",
+      "collected_at": "2026-07-05T07:56:42.933798+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 365,
+        "reply_count": 0,
+        "view_count": 28
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073436047183171842",
+      "url": "https://x.com/0xTriboulet/status/2073436047183171842",
+      "content": "RT @MerriamWebster: We hold these views to be self-evident... https://t.co/BUnTcfwYJz",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T15:57:30+00:00",
+      "collected_at": "2026-07-05T07:56:42.934173+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZK6kYWIAABAA9.jpg",
+          "https://pbs.twimg.com/media/HMZK6kYWIAABAA9.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 142,
+        "reply_count": 0,
+        "view_count": 53
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073436011632156703",
+      "url": "https://x.com/0xTriboulet/status/2073436011632156703",
+      "content": "RT @peterschweizer: There have been 4 major revolutions in the past 250 years:  American, French, Russian, and Chinese.  Only one led to individual rights and prosperity.  The others led to mass death and tyranny. The US revolution was unique because it said two things: 1. Our rights come from God not from the govt. 2. Humans are power -hungry so we need to limit govt power.  So the next time someone attacks the nation of one revolution that succeeded and recycles the the idea of those that miserably failed, you can ask them: are you ignorant, or malicious?",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T15:57:22+00:00",
+      "collected_at": "2026-07-05T07:56:42.934610+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 7028,
+        "reply_count": 0,
+        "view_count": 34
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073434702757666935",
+      "url": "https://x.com/0xTriboulet/status/2073434702757666935",
+      "content": "RT @mask_bastard: fun fact: there are two American flags in this photo https://t.co/WeGLqNn3yg",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T15:52:10+00:00",
+      "collected_at": "2026-07-05T07:56:42.934995+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMVEJ1rXsAAiR_A.jpg",
+          "https://pbs.twimg.com/media/HMVEJ1rXsAAiR_A.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 2569,
+        "reply_count": 0,
+        "view_count": 47
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073431122969514149",
+      "url": "https://x.com/0xTriboulet/status/2073431122969514149",
+      "content": "RT @0xTib3rius: Happy birthday America. https://t.co/abuuFVdGym",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T15:37:56+00:00",
+      "collected_at": "2026-07-05T07:56:42.935416+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZJLTLXIAAbPjc.jpg",
+          "https://pbs.twimg.com/media/HMZJLTLXIAAbPjc.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 44
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073430416376086614",
+      "url": "https://x.com/0xTriboulet/status/2073430416376086614",
+      "content": "RT @RobertMSterling: Appropriate time to crack open a beer:\n\nWeekday - 5:00 PM\n\nWeekend - 2:00 PM\n\nYardwork day - 12:00 PM\n\nFootball tailgate - 10:00 AM\n\nAirport - 8:00 AM\n\nAmerica’s 250th birthday - bro, we put a man on the moon; don’t let anyone interfere with your freedom at 6:30 AM today https://t.co/QWQy7glrrI",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T15:35:08+00:00",
+      "collected_at": "2026-07-05T07:56:42.935814+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZLxkEWYAAj3Pi.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 123,
+        "reply_count": 0,
+        "view_count": 42
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073429229186764874",
+      "url": "https://x.com/0xor0ne/status/2073429229186764874",
+      "content": "Building an Encrypted C2 Implant that communicates over QUIC (@G3tSyst3m)\n\nhttps://t.co/QCgVn6bU2M\n\n#infosec https://t.co/fsR3YaVIQk",
+      "author": "0xor0ne",
+      "author_name": "0xor0ne",
+      "published_at": "2026-07-04T15:30:25+00:00",
+      "collected_at": "2026-07-05T07:56:42.936169+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [
+        "infosec"
+      ],
+      "links": [
+        "https://g3tsyst3m.com/encrypted%20shell/Building-an-Encrypted-C2-Implant-Using-QUIC/"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZM5Q7XEAAkiLE.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 178,
+        "retweet_count": 25,
+        "reply_count": 0,
+        "view_count": 8361
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073427701738688686",
+      "url": "https://x.com/0xTriboulet/status/2073427701738688686",
+      "content": "RT @5mukx: @github Can you take a look at this? It's been 2 weeks. Either respond or cancel the request and issue a refund for my GitHub Pro subscription.\n\nID =&gt; #4474854",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T15:24:21+00:00",
+      "collected_at": "2026-07-05T07:56:42.936476+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 17
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073426990368014758",
+      "url": "https://x.com/0xTriboulet/status/2073426990368014758",
+      "content": "RT @tatereeves: The greatest state in the greatest nation in history.\n\nHappy 4th of July, Mississippi! 🇺🇸 https://t.co/8JFpIbxqU7",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T15:21:31+00:00",
+      "collected_at": "2026-07-05T07:57:02.932503+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMYcy4gXgAAZFVR.jpg",
+          "https://pbs.twimg.com/media/HMYcy4gXgAAZFVR.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 31,
+        "reply_count": 0,
+        "view_count": 39
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073426970877035006",
+      "url": "https://x.com/0xTriboulet/status/2073426970877035006",
+      "content": "RT @MrJmezz: LET'S PARTY, AMERICA https://t.co/YDpmE0it4B",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T15:21:26+00:00",
+      "collected_at": "2026-07-05T07:57:02.933172+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/ext_tw_video/2073357831772729344/pu/vid/avc1/640x408/m0sigoTXQV2rttgI.mp4?tag=26",
+          "https://video.twimg.com/ext_tw_video/2073357831772729344/pu/vid/avc1/640x408/m0sigoTXQV2rttgI.mp4?tag=26"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 137,
+        "reply_count": 0,
+        "view_count": 36
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073426939176431816",
+      "url": "https://x.com/0xTriboulet/status/2073426939176431816",
+      "content": "RT @elder_plinius: Happy Semiquincentennial! https://t.co/X73mKjFfxL",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T15:21:19+00:00",
+      "collected_at": "2026-07-05T07:57:02.933675+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/tweet_video/HMY_KEGbQAAj090.mp4",
+          "https://video.twimg.com/tweet_video/HMY_KEGbQAAj090.mp4"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 14,
+        "reply_count": 0,
+        "view_count": 35
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073425330560221222",
+      "url": "https://x.com/ipurple/status/2073425330560221222",
+      "content": "ironcurtain - A secure runtime for autonomous AI agents, where security policy is derived from a human-readable constitution https://t.co/5HyTp8AWNj",
+      "author": "ipurple",
+      "author_name": "Panos Gkatziroulis 🦄",
+      "published_at": "2026-07-04T15:14:55+00:00",
+      "collected_at": "2026-07-05T07:57:02.934079+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/provos/ironcurtain"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 8,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 1038
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073424682272096519",
+      "url": "https://x.com/5mukx/status/2073424682272096519",
+      "content": "I've brought something new that my eye stops drying on screen screen. Let's see how this helps me in poking stuff. https://t.co/zVWLvUtb48",
+      "author": "5mukx",
+      "author_name": "Smukx.E",
+      "published_at": "2026-07-04T15:12:21+00:00",
+      "collected_at": "2026-07-05T07:57:02.934369+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZH3gsaUAAkIhR.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 53,
+        "retweet_count": 1,
+        "reply_count": 2,
+        "view_count": 3044
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073423587235512423",
+      "url": "https://x.com/mrgretzky/status/2073423587235512423",
+      "content": "Happy 250th Independence Day to my American friends! 🥳🦅🎉",
+      "author": "mrgretzky",
+      "author_name": "Kuba Gretzky",
+      "published_at": "2026-07-04T15:08:00+00:00",
+      "collected_at": "2026-07-05T07:57:02.934674+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 12,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 819
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073422431847424092",
+      "url": "https://x.com/mrgretzky/status/2073422431847424092",
+      "content": "@C5pider @Teach2Breach You rock, mate! 🔥🔥🔥",
+      "author": "mrgretzky",
+      "author_name": "Kuba Gretzky",
+      "published_at": "2026-07-04T15:03:24+00:00",
+      "collected_at": "2026-07-05T07:57:02.935059+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 300
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073422354294649280",
+      "url": "https://x.com/Officialwhyte22/status/2073422354294649280",
+      "content": ".@cyber_razz I need your help here https://t.co/sJs7BYAqxb",
+      "author": "Officialwhyte22",
+      "author_name": "Winston Ighodaro",
+      "published_at": "2026-07-04T15:03:06+00:00",
+      "collected_at": "2026-07-05T07:56:37.617129+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZGpJRXYAAUmhf.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 29,
+        "retweet_count": 3,
+        "reply_count": 4,
+        "view_count": 3878
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073420454170083499",
+      "url": "https://x.com/Laughing_Mantis/status/2073420454170083499",
+      "content": "RT @uwu_underground: Now Playing\n\nSnake Oil (2026 Edition)\nby UwU Underground\n\n╭──NPM MEDIA PLAYER ─╮\n│ ━──━━✮───────── │\n│ ⁰:⁰⁰   ◁   ||   ▷  ↺   ⁰:⁰⁰         │\n│  status: everything is fine*  │\n╰─ * prod gettin piped ── ╯ https://t.co/y8QGCTlqpu",
+      "author": "Laughing_Mantis",
+      "author_name": "Greg Linares (Laughing Mantis)",
+      "published_at": "2026-07-04T14:55:33+00:00",
+      "collected_at": "2026-07-05T07:57:02.935394+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073210396404539392/vid/avc1/1920x1080/6m2laoYeeUUuXnyr.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 25,
+        "reply_count": 0,
+        "view_count": 111
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073419900228354309",
+      "url": "https://x.com/zuhaitz_dev/status/2073419900228354309",
+      "content": "Today I escaped the cave https://t.co/E8aGhb287I",
+      "author": "zuhaitz_dev",
+      "author_name": "Zuhaitz",
+      "published_at": "2026-07-04T14:53:21+00:00",
+      "collected_at": "2026-07-05T07:57:02.935763+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMZEZdTXgAApUUx.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 63,
+        "retweet_count": 0,
+        "reply_count": 6,
+        "view_count": 1574
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073417252653719897",
+      "url": "https://x.com/0xocdsec/status/2073417252653719897",
+      "content": "RT @JayinKyiv: When you see Putin in a bunker with Gerasimov, that's the real Putin.\n\nFrom yesterday, he looks like the walking dead. Skinny, frail, afraid, not the jovial, high energy one, with the bowling ball head.\n\nRarely do we see the real one these days.\n https://t.co/OS60VhA7su",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T14:42:49+00:00",
+      "collected_at": "2026-07-05T07:57:02.936138+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073309824733904896/vid/avc1/1280x720/uZdxlr7ynl7usaRH.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 703,
+        "reply_count": 0,
+        "view_count": 40
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073414583968997420",
+      "url": "https://x.com/0xTriboulet/status/2073414583968997420",
+      "content": "RT @USMC: Happy 250th, America!  \n\nCelebrating 250 years of independence and the enduring ideals of liberty, opportunity, and justice that shape our nation. \n\nSince our nation's founding, Marines have upheld these ideals around the world, serving with honor, courage, and commitment. \n\nToday, we honor the freedom they defend and the nation we’re proud to serve. \n\n#July4th #FREEDOM250 #USMC",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T14:32:13+00:00",
+      "collected_at": "2026-07-05T07:57:02.936619+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073124085731586048/vid/avc1/720x1280/KQvkSBEXyvQmRx4P.mp4?tag=14"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 2611,
+        "reply_count": 0,
+        "view_count": 39
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073414053070807097",
+      "url": "https://x.com/0xTriboulet/status/2073414053070807097",
+      "content": "RT @NotNordgaren: Doin my best @BenJammins impersonation... https://t.co/RFMcVzsgN8",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T14:30:07+00:00",
+      "collected_at": "2026-07-05T07:57:02.937037+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMY-3xCbsAA_HYx.jpg",
+          "https://pbs.twimg.com/media/HMY-3xCbsAA_HYx.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 43
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073413720609304840",
+      "url": "https://x.com/0xTriboulet/status/2073413720609304840",
+      "content": "RT @NSAGov: As the nation celebrates 250 years of American Independence, NSA is proud to honor the values of the Declaration of Independence, serving with patriotism and purpose to defend the nation and secure the future.  #America250 https://t.co/qjA7wZLIoU",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T14:28:47+00:00",
+      "collected_at": "2026-07-05T07:57:02.937488+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMY4V_sWEAA24y6.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 68,
+        "reply_count": 0,
+        "view_count": 33
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073413066398548133",
+      "url": "https://x.com/0xTriboulet/status/2073413066398548133",
+      "content": "RT @libertypol_ally: https://t.co/RnQSbRBVKS",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T14:26:11+00:00",
+      "collected_at": "2026-07-05T07:57:02.937885+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMYqb6FXcAAvdSq.jpg",
+          "https://pbs.twimg.com/media/HMYqb6FXcAAvdSq.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 43
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073413053895340210",
+      "url": "https://x.com/0xTriboulet/status/2073413053895340210",
+      "content": "RT @abdo_mhanni: During an engagement, and in an effort to bypass Crowdstrike, I figured out a new method to locally privilege escalate when having code execution as a Microsoft Virtual account using only a LoLbin(certreq) and some AD-CS magic. \n\nI was successfully able to compromise the target with Crowdstrike present without needing to use potatoe class exploits. I wrote a blog about it here! https://t.co/zywdv2ZQzN",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T14:26:08+00:00",
+      "collected_at": "2026-07-05T07:57:02.938319+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 68,
+        "reply_count": 0,
+        "view_count": 28
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073412965970087947",
+      "url": "https://x.com/0xTriboulet/status/2073412965970087947",
+      "content": "RT @a16z: Happy birthday, USA. https://t.co/p9PCauHbYq",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T14:25:47+00:00",
+      "collected_at": "2026-07-05T07:57:02.938794+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073412530853314560/vid/avc1/1280x720/NdR_5PN_heMRd-xy.mp4?tag=14",
+          "https://video.twimg.com/amplify_video/2073412530853314560/vid/avc1/1280x720/NdR_5PN_heMRd-xy.mp4?tag=14"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 168,
+        "reply_count": 0,
+        "view_count": 38
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073412928565293088",
+      "url": "https://x.com/0xTriboulet/status/2073412928565293088",
+      "content": "RT @USEmbassyFrance: Happy Fourth of July from France! https://t.co/86GnjwDKqz",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T14:25:38+00:00",
+      "collected_at": "2026-07-05T07:57:02.939237+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMW5lD7WUAAig5E.jpg",
+          "https://pbs.twimg.com/media/HMW5lD9WUAA6inb.jpg",
+          "https://pbs.twimg.com/media/HMW5lD7WUAAig5E.jpg",
+          "https://pbs.twimg.com/media/HMW5lD9WUAA6inb.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3076,
+        "reply_count": 0,
+        "view_count": 37
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073412869299777805",
+      "url": "https://x.com/0xTriboulet/status/2073412869299777805",
+      "content": "RT @WhiteHouse: 250 years ago, a bold idea changed the course of history. Today we celebrate the people, principles, and enduring promise of the United States of America.\n\nHappy 4th of July from the White House. 🇺🇸 https://t.co/Zhmi9XTzYZ",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T14:25:24+00:00",
+      "collected_at": "2026-07-05T07:57:02.939692+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMYzShjXsAAT5XA.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 11367,
+        "reply_count": 0,
+        "view_count": 32
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073412849997680685",
+      "url": "https://x.com/0xTriboulet/status/2073412849997680685",
+      "content": "RT @kaylahaas: Good morning, America! https://t.co/UjnSz6abjY",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T14:25:20+00:00",
+      "collected_at": "2026-07-05T07:57:02.940133+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMY7x6OXQAAF-TU.jpg",
+          "https://pbs.twimg.com/media/HMY7x6OXQAAF-TU.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 6,
+        "reply_count": 0,
+        "view_count": 41
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073411858309242971",
+      "url": "https://x.com/OSdev_/status/2073411858309242971",
+      "content": "https://t.co/awZlk8WZbt",
+      "author": "OSdev_",
+      "author_name": "OS Dev",
+      "published_at": "2026-07-04T14:21:23+00:00",
+      "collected_at": "2026-07-05T07:57:09.144329+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://www.usenix.org/legacy/event/sec08/tech/full_papers/halderman/halderman.pdf"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 5,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 319
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073411838675685648",
+      "url": "https://x.com/OSdev_/status/2073411838675685648",
+      "content": "For years, people assumed pulling the power plug instantly erased everything in RAM. It doesn't.\n\nThat simple assumption led to one of the most influential hardware security papers ever published: Cold Boot Attacks.\n\nThe key observation was that DRAM doesn't lose its contents immediately after power is removed. It stores data as electrical charge in tiny capacitors, and those charges leak away gradually. At room temperature, memory can retain data for several seconds. Cool the DIMMs, and that window can extend significantly.\n\nResearchers showed that an attacker with physical access could exploit this behavior by quickly rebooting a machine into a small custom OS or even transplanting the DIMMs into another compatible system, and dumping memory before the contents fully decayed.\n\nWhy is that useful?\n\nBecause RAM often contains things you never want an attacker to see:\n• AES disk encryption keys\n• RSA private keys\n• Kernel secrets\n• User credentials\n• Session keys\n\nThe clever part wasn't just dumping memory.\n\nEven after some bits had decayed, the researchers developed reconstruction techniques that recovered valid cryptographic keys from imperfect memory images. They successfully demonstrated attacks against systems using BitLocker, FileVault, dm-crypt, and TrueCrypt (in configurations where the encryption keys were already resident in RAM).\n\nThe paper changed an important security assumption.\n\nThe cryptography wasn't broken.\nThe operating system wasn't broken.\n\nThe weakness came from a physical property of DRAM itself.\n\nIt's a reminder that computer security isn't just about software bugs or weak algorithms. Sometimes, the behavior of the hardware underneath becomes part of the attack surface.",
+      "author": "OSdev_",
+      "author_name": "OS Dev",
+      "published_at": "2026-07-04T14:21:19+00:00",
+      "collected_at": "2026-07-05T07:57:02.940608+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMY9EDdacAAAYQN.jpg",
+          "https://pbs.twimg.com/media/HMY9EgFaIAAcmgu.jpg",
+          "https://pbs.twimg.com/media/HMY9E1rb0AA6sqC.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 104,
+        "retweet_count": 12,
+        "reply_count": 7,
+        "view_count": 4793
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073411308217585711",
+      "url": "https://x.com/Jean_Maes_1994/status/2073411308217585711",
+      "content": "awesome ai workflow is now a plugin for claude. easy migration from the old v1 system as well. this is how I use AI in all my workflows these days. https://t.co/Bobajm7Le4 https://t.co/XAJApOPkmz",
+      "author": "Jean_Maes_1994",
+      "author_name": "Jean",
+      "published_at": "2026-07-04T14:19:12+00:00",
+      "collected_at": "2026-07-05T07:57:09.144758+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/jfmaes/awesome-ai-workflow"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMY8fUNW4AAfxFl.png"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 320
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073405750261567891",
+      "url": "https://x.com/0xTriboulet/status/2073405750261567891",
+      "content": "RT @X: 250 looks good on you, America 🇺🇸",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T13:57:07+00:00",
+      "collected_at": "2026-07-05T07:57:09.145185+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3621,
+        "reply_count": 0,
+        "view_count": 45
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073403190146421025",
+      "url": "https://x.com/0xTriboulet/status/2073403190146421025",
+      "content": "RT @pat_hedger: https://t.co/mWaDSLMp4M",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T13:46:57+00:00",
+      "collected_at": "2026-07-05T07:57:09.145714+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMYxypWW0AAXrFp.jpg",
+          "https://pbs.twimg.com/media/HMYxypWW0AAXrFp.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 47
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073402740944855332",
+      "url": "https://x.com/0xTriboulet/status/2073402740944855332",
+      "content": "RT @PlanetOfMemes: 🇺🇸 https://t.co/3lEHLguY9n",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T13:45:10+00:00",
+      "collected_at": "2026-07-05T07:57:09.146255+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMVRWH2WkAACHKM.jpg",
+          "https://pbs.twimg.com/media/HMVRWH2WkAACHKM.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 774,
+        "reply_count": 0,
+        "view_count": 45
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073402177410703653",
+      "url": "https://x.com/0xTriboulet/status/2073402177410703653",
+      "content": "RT @usgraphics: American Bicentennial, 1976. \nCleveland, Ohio. https://t.co/ObdmHVecdB",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T13:42:55+00:00",
+      "collected_at": "2026-07-05T07:57:09.146792+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMUq_KkaMAAp0G4.jpg",
+          "https://pbs.twimg.com/media/HMUq_KkaMAAp0G4.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 273,
+        "reply_count": 0,
+        "view_count": 50
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073402127905362104",
+      "url": "https://x.com/0xTriboulet/status/2073402127905362104",
+      "content": "RT @NASAAdmin: Happy 250th birthday America! As a nation, we have so much history to celebrate, and at @NASA, we are just getting started. God bless the USA 🇺🇸 https://t.co/4aPduSmg25",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T13:42:43+00:00",
+      "collected_at": "2026-07-05T07:57:09.147302+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMYqWvmW8AEzvfB.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1480,
+        "reply_count": 0,
+        "view_count": 36
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073402096112590928",
+      "url": "https://x.com/0xTriboulet/status/2073402096112590928",
+      "content": "RT @HistoryCalendar: July 4, 1776 -- The United States Declaration of Independence is adopted by the Second Continental Congress. https://t.co/xFqVL9KA2v",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T13:42:36+00:00",
+      "collected_at": "2026-07-05T07:57:09.147846+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMYBik-WgAAMnzD.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3053,
+        "reply_count": 0,
+        "view_count": 36
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073402070569308400",
+      "url": "https://x.com/0xTriboulet/status/2073402070569308400",
+      "content": "RT @MerriamWebster: The #WordOfTheDay is ‘semiquincentennial.’\nhttps://t.co/rHmHTEpr7q https://t.co/Pi2Ey8lubo",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T13:42:30+00:00",
+      "collected_at": "2026-07-05T07:57:09.148359+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [
+        "WordOfTheDay"
+      ],
+      "links": [
+        "https://ow.ly/190b50ZihI4"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMYc7rXXsAAbN2s.jpg",
+          "https://pbs.twimg.com/media/HMYc7rXXsAAbN2s.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1076,
+        "reply_count": 0,
+        "view_count": 49
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073401693153194407",
+      "url": "https://x.com/0xTriboulet/status/2073401693153194407",
+      "content": "RT @GeorgiaTech: 2️⃣5️⃣0️⃣🇺🇸🥳🎇 https://t.co/WMqpMepggM",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T13:41:00+00:00",
+      "collected_at": "2026-07-05T07:57:09.148885+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMYvr_6XMAERoLi.jpg",
+          "https://pbs.twimg.com/media/HMYvr_6XMAERoLi.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 37,
+        "reply_count": 0,
+        "view_count": 46
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073401675725852780",
+      "url": "https://x.com/0xTriboulet/status/2073401675725852780",
+      "content": "RT @RepThomasMassie: Neither the spirit of this Declaration nor due respect for the red lines contained therein resides in our nation’s capital.\n\nOn this 250th anniversary of our Founders’ bold assertion of these principles, let’s honor them by keeping this flame burning within us. https://t.co/RXcUu52Jtx",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T13:40:56+00:00",
+      "collected_at": "2026-07-05T07:57:09.149410+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMYPPJFWIAEY4LN.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3557,
+        "reply_count": 0,
+        "view_count": 36
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073401641663914479",
+      "url": "https://x.com/0xTriboulet/status/2073401641663914479",
+      "content": "RT @SeanParnellASW: HAPPY 250TH BIRTHDAY AMERICA!!! https://t.co/wBNe8Hq4Qf",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T13:40:47+00:00",
+      "collected_at": "2026-07-05T07:57:09.150888+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMYoi6cXEAA51XH.jpg",
+          "https://pbs.twimg.com/media/HMYoi6cXEAA51XH.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 918,
+        "reply_count": 0,
+        "view_count": 45
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073401624479895888",
+      "url": "https://x.com/0xTriboulet/status/2073401624479895888",
+      "content": "RT @WhiteHouse: Today, America wakes 250 years later as a beacon of hope, a republic entrusted to its people, an idea that changed the world.\n\nA nation worth preserving. A dream worth pursuing. A freedom defended by every generation.\n\nHappy 250th, America! 🇺🇸 https://t.co/zbQNQmU22L",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T13:40:43+00:00",
+      "collected_at": "2026-07-05T07:57:09.151421+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073379782641823744/vid/avc1/3840x2160/pG9F1CgV6MskS6dw.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 12911,
+        "reply_count": 0,
+        "view_count": 34
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073401588685619599",
+      "url": "https://x.com/0xTriboulet/status/2073401588685619599",
+      "content": "I will be retweeting every single America-related post I see today.\n\nThank you for your attention on this matter.",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T13:40:35+00:00",
+      "collected_at": "2026-07-05T07:57:09.151869+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 24,
+        "retweet_count": 1,
+        "reply_count": 7,
+        "view_count": 1320
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073401427557253398",
+      "url": "https://x.com/0xTriboulet/status/2073401427557253398",
+      "content": "RT @trad_west_: Happy 4th of July Americans 🇺🇲🦅🇺🇲🦅🇺🇲🦅 https://t.co/bCgb6OLlAq",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T13:39:56+00:00",
+      "collected_at": "2026-07-05T07:57:09.152241+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073369607008604160/vid/avc1/1080x1080/nNVJAO_uJan_uIyj.mp4?tag=28",
+          "https://video.twimg.com/amplify_video/2073369607008604160/vid/avc1/1080x1080/nNVJAO_uJan_uIyj.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 912,
+        "reply_count": 0,
+        "view_count": 50
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073401371949187343",
+      "url": "https://x.com/0xTriboulet/status/2073401371949187343",
+      "content": "RT @Atlas_Leather: Good Morning. https://t.co/Ko1wJbHxPi",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T13:39:43+00:00",
+      "collected_at": "2026-07-05T07:57:09.152806+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073392976550674432/vid/avc1/1170x1714/t6rfAyCX05EW6ELM.mp4?tag=28",
+          "https://video.twimg.com/amplify_video/2073392976550674432/vid/avc1/1170x1714/t6rfAyCX05EW6ELM.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 48
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073391380626588092",
+      "url": "https://x.com/cr3ghost/status/2073391380626588092",
+      "content": "Similar to game cheats vs anti-cheats, understanding the offensive side first is how many of the best detection engineers and anti-cheat engineers started. If you work in detection engineering or malware analysis, this interview is worth watching.\n\n@C5pider  talks about his journey and how working with @0xBoku  influenced his approach to building adversary emulation tooling. His open-source work (Havoc, Stardust, Ekko, KaynLdr) inspired an entire generation of security researchers to build their own projects, credited or not. Raphael Mudge, the creator of Cobalt Strike, endorsed his work and recognized its contribution to the offensive security community. The same way kids on UnKnoWnCheaTs turned their game hacking projects into careers at anti-cheat firms, his work motivated younger developers to go from hobby projects to professional offensive and defensive security.\n\nUnderstanding how implant developers think about CET compliant call stack spoofing, sleep obfuscation, stack duplication during sleep, indirect syscalls for Nt* APIs, return address spoofing, AMSI/ETW patching via hardware breakpoints, proxy library loading, malleable C2 profiles, position-independent shellcode, RISC-V VM-based obfuscation, EDR blinding, token vaults, SMB and TCP P2P channels, and cross-platform implants across Windows, Linux, macOS, and AArch64 gives you detection opportunities that signatures alone will never catch.\n\nLearning from people building these professionally is how you write better detection rules.\n\n#DetectionEngineering #MalwareAnalysis #InfoSec",
+      "author": "cr3ghost",
+      "author_name": "cr3ghost",
+      "published_at": "2026-07-04T13:00:01+00:00",
+      "collected_at": "2026-07-05T07:57:09.153503+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMXXJHnakAAZKze.jpg",
+          "https://pbs.twimg.com/media/HMXXPZpbEAAihCt.jpg",
+          "https://pbs.twimg.com/media/HMXXSH7asAA0jKu.png",
+          "https://pbs.twimg.com/media/HMXXbn-bkAA7iwT.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 83,
+        "retweet_count": 9,
+        "reply_count": 0,
+        "view_count": 5498
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073386781769077109",
+      "url": "https://x.com/Officialwhyte22/status/2073386781769077109",
+      "content": "This dashboard gives security analysts a real-time view of what’s happening across an enterprise. Instead of looking at thousands of individual events, the SOC can immediately identify trends, high-priority incidents, geographic attack sources, and the types of threats targeting the environment.\n\nOne thing I always tell people is this: an alert is not an incident. A brute-force attack, a malware detection, or an unusual authentication event may all be related. The job of a SOC analyst is to correlate those events, determine what actually happened, and decide whether it’s a real compromise or just normal activity.\n\nNotice how this dashboard breaks down alert severity, attack categories, timelines, and source IPs. That allows analysts to prioritize critical threats first, understand whether attacks are increasing over time, and quickly identify systems that require immediate attention.\n\nA SOC isn’t about watching dashboards all day. It’s about turning millions of logs into meaningful intelligence that helps defenders detect, investigate, and stop attacks before they become breaches.",
+      "author": "Officialwhyte22",
+      "author_name": "Winston Ighodaro",
+      "published_at": "2026-07-04T12:41:45+00:00",
+      "collected_at": "2026-07-05T07:57:09.154033+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMYmSeaWMAAa1YR.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 80,
+        "retweet_count": 11,
+        "reply_count": 2,
+        "view_count": 4017
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073385392452088193",
+      "url": "https://x.com/ipurple/status/2073385392452088193",
+      "content": "Active Directory Post-Exploitation and Relay Automation Utilities https://t.co/VyZVLwWUbP",
+      "author": "ipurple",
+      "author_name": "Panos Gkatziroulis 🦄",
+      "published_at": "2026-07-04T12:36:13+00:00",
+      "collected_at": "2026-07-05T07:57:09.154414+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/JssNGC/harpyTools"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 34,
+        "retweet_count": 7,
+        "reply_count": 0,
+        "view_count": 2298
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073382154734616635",
+      "url": "https://x.com/flapprdotnet/status/2073382154734616635",
+      "content": "\"Awaken, patriot, it's time to feast and blow shit up.\" https://t.co/ij1y7bM9Yv",
+      "author": "flapprdotnet",
+      "author_name": "Flappr",
+      "published_at": "2026-07-04T12:23:21+00:00",
+      "collected_at": "2026-07-05T07:56:08.128152+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMYiFH_XkAASPuY.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 5417,
+        "retweet_count": 512,
+        "reply_count": 22,
+        "view_count": 72006
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073380616683327903",
+      "url": "https://x.com/pentest_swissky/status/2073380616683327903",
+      "content": "RT @malmoeb: I created two blog posts based on my Fantastic Cleartext Passwords talk, which I presented last year at BSides Munich, and I released the first part (Linux) today.\n\nThe second part (Windows) will be released next week.\n\nEven if these techniques are not novel, I still consider them interesting enough to publish and, most importantly, to raise awareness of all the places an attacker could steal your password. Enjoy.\n\nLink to the first part:\nhttps://t.co/nzOBIan0bP",
+      "author": "pentest_swissky",
+      "author_name": "Swissky",
+      "published_at": "2026-07-04T12:17:15+00:00",
+      "collected_at": "2026-07-05T07:57:09.154865+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 12,
+        "reply_count": 0,
+        "view_count": 216
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073379241090056410",
+      "url": "https://x.com/0xpwnie/status/2073379241090056410",
+      "content": "https://t.co/2pv1zhWSxY",
+      "author": "0xpwnie",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-07-04T12:11:47+00:00",
+      "collected_at": "2026-07-05T07:57:16.869277+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMYfT0tWMAEjdXS.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 677,
+        "retweet_count": 60,
+        "reply_count": 13,
+        "view_count": 21526
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073370522201854166",
+      "url": "https://x.com/whokilleddb/status/2073370522201854166",
+      "content": "Figo joins Real Madrid",
+      "author": "whokilleddb",
+      "author_name": "db",
+      "published_at": "2026-07-04T11:37:08+00:00",
+      "collected_at": "2026-07-05T07:57:16.869796+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 3,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 225
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073359080081543262",
+      "url": "https://x.com/C5pider/status/2073359080081543262",
+      "content": "@_xpn_ I also recently watched Hereditary, these movies are amazing to say the least. I would also recommend you to watch midsommar. Still gotta watch obsession as i am seeing this being talked about everywhere.",
+      "author": "C5pider",
+      "author_name": "5pider",
+      "published_at": "2026-07-04T10:51:40+00:00",
+      "collected_at": "2026-07-05T07:56:37.619091+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 10,
+        "retweet_count": 0,
+        "reply_count": 4,
+        "view_count": 948
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073355854108295367",
+      "url": "https://x.com/5mukx/status/2073355854108295367",
+      "content": "@0xtter @nikitabier Lmao 😂. I will post it again after sometime",
+      "author": "5mukx",
+      "author_name": "Smukx.E",
+      "published_at": "2026-07-04T10:38:51+00:00",
+      "collected_at": "2026-07-05T07:57:16.870910+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 4,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 86
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073355666434171057",
+      "url": "https://x.com/5mukx/status/2073355666434171057",
+      "content": "@NinjaParanoid Lmfao 😂😂",
+      "author": "5mukx",
+      "author_name": "Smukx.E",
+      "published_at": "2026-07-04T10:38:06+00:00",
+      "collected_at": "2026-07-05T07:57:16.871666+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 7,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 561
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073355285364936805",
+      "url": "https://x.com/NinjaParanoid/status/2073355285364936805",
+      "content": "Gents, we are finally in the age of AI reporting AI and taking it down😂, and I was wondering why my tweets got reported. lmao https://t.co/KhCoLtmdRr",
+      "author": "NinjaParanoid",
+      "author_name": "Chetan Nayak (Brute Ratel C4 Author)",
+      "published_at": "2026-07-04T10:36:35+00:00",
+      "collected_at": "2026-07-05T07:57:16.871256+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMYJpA0bUAApal5.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 36,
+        "retweet_count": 5,
+        "reply_count": 3,
+        "view_count": 3470
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073354282544369811",
+      "url": "https://x.com/0xTriboulet/status/2073354282544369811",
+      "content": "RT @WhiteHouse: HAPPY 250TH AMERICA!!!! https://t.co/eJvTAbOVUA",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T10:32:36+00:00",
+      "collected_at": "2026-07-05T07:57:16.872081+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073253280679858176/vid/avc1/720x1280/dVcfS18YMUi2wk86.mp4?tag=28",
+          "https://video.twimg.com/amplify_video/2073253280679858176/vid/avc1/720x1280/dVcfS18YMUi2wk86.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 14573,
+        "reply_count": 0,
+        "view_count": 56
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073354238072119364",
+      "url": "https://x.com/0xTriboulet/status/2073354238072119364",
+      "content": "RT @GodandCountryy: The Hoover Dam for 250 🇺🇸🇺🇸🇺🇸 https://t.co/cbiZy9ZhFN",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T10:32:26+00:00",
+      "collected_at": "2026-07-05T07:57:16.872647+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMRQdQGXgAAYmsP.jpg",
+          "https://pbs.twimg.com/media/HMRQdQGXgAAYmsP.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 6910,
+        "reply_count": 0,
+        "view_count": 48
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073354034577064342",
+      "url": "https://x.com/0xtter/status/2073354034577064342",
+      "content": "@5mukx @nikitabier they're just jealous they didn't get the hoodie",
+      "author": "0xtter",
+      "author_name": "otter",
+      "published_at": "2026-07-04T10:31:37+00:00",
+      "collected_at": "2026-07-05T07:57:16.870674+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 4,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 95
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073353714199331117",
+      "url": "https://x.com/0xpwnie/status/2073353714199331117",
+      "content": "Smukx been dropping gems since 001",
+      "author": "0xpwnie",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-07-04T10:30:21+00:00",
+      "collected_at": "2026-07-05T07:57:16.873140+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 20,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 1082
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073353582485688529",
+      "url": "https://x.com/0xpwnie/status/2073353582485688529",
+      "content": "RT @5mukx: https://t.co/smMUQYcOrC",
+      "author": "0xpwnie",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-07-04T10:29:49+00:00",
+      "collected_at": "2026-07-05T07:57:16.873658+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "http://x.com/i/article/1929079056324050944"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 45,
+        "reply_count": 0,
+        "view_count": 17
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073353418433831221",
+      "url": "https://x.com/0xTriboulet/status/2073353418433831221",
+      "content": "RT @AgileJebrim: Kudos to the speechwriter. https://t.co/ngCb9CGjRV",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T10:29:10+00:00",
+      "collected_at": "2026-07-05T07:57:16.874149+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073248466038296576/vid/avc1/1280x720/xw-m4vZBzh94FCXk.mp4?tag=28",
+          "https://video.twimg.com/amplify_video/2073248466038296576/vid/avc1/1280x720/xw-m4vZBzh94FCXk.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 47
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073352531342757955",
+      "url": "https://x.com/_xpn_/status/2073352531342757955",
+      "content": "Last night I watched Obsession. One of the best horror movies, up there with The Babadook and Hereditory for me. One of those which stays with you! https://t.co/zgo97tgWCg",
+      "author": "_xpn_",
+      "author_name": "Adam Chester 🏴‍☠️",
+      "published_at": "2026-07-04T10:25:39+00:00",
+      "collected_at": "2026-07-05T07:56:37.618842+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/tweet_video/HMYHIp8WsAAm3iZ.mp4"
+        ]
+      },
+      "metrics": {
+        "like_count": 21,
+        "retweet_count": 0,
+        "reply_count": 4,
+        "view_count": 3162
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073352201771037113",
+      "url": "https://x.com/0xpwnie/status/2073352201771037113",
+      "content": "@5mukx I have that saved.🔥",
+      "author": "0xpwnie",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-07-04T10:24:20+00:00",
+      "collected_at": "2026-07-05T07:57:16.875107+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 125
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073351551893037378",
+      "url": "https://x.com/0xTriboulet/status/2073351551893037378",
+      "content": "RT @rcx86: God Bless America https://t.co/HPPTudUL8T",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T10:21:45+00:00",
+      "collected_at": "2026-07-05T07:57:16.875537+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMXwHGSaEAEsL2r.png",
+          "https://pbs.twimg.com/media/HMXwHGSaEAEsL2r.png"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 39
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073351499535536275",
+      "url": "https://x.com/0xTriboulet/status/2073351499535536275",
+      "content": "RT @DschlopesIsBack: Ok, this pretty cool from the Las Vegas Sphere 🇺🇸 https://t.co/Tnf2TwdDRq",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T10:21:33+00:00",
+      "collected_at": "2026-07-05T07:57:16.876010+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMSmpj7WgAAx0hI.jpg",
+          "https://pbs.twimg.com/media/HMSmpj7WgAAx0hI.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 2796,
+        "reply_count": 0,
+        "view_count": 39
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073351253363482634",
+      "url": "https://x.com/0xTriboulet/status/2073351253363482634",
+      "content": "RT @justinamash: “We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.”\n\nHappy 250th, America!",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T10:20:34+00:00",
+      "collected_at": "2026-07-05T07:57:16.876533+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 203,
+        "reply_count": 0,
+        "view_count": 43
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073350691079467387",
+      "url": "https://x.com/5mukx/status/2073350691079467387",
+      "content": "A short introduction to x86 Disassembly for windows",
+      "author": "5mukx",
+      "author_name": "Smukx.E",
+      "published_at": "2026-07-04T10:18:20+00:00",
+      "collected_at": "2026-07-05T07:57:16.874679+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 120,
+        "retweet_count": 14,
+        "reply_count": 3,
+        "view_count": 7859
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073348582313193806",
+      "url": "https://x.com/_xpn_/status/2073348582313193806",
+      "content": "Good watch!!",
+      "author": "_xpn_",
+      "author_name": "Adam Chester 🏴‍☠️",
+      "published_at": "2026-07-04T10:09:57+00:00",
+      "collected_at": "2026-07-05T07:57:16.877038+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 18,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 3401
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073348070742298690",
+      "url": "https://x.com/0xocdsec/status/2073348070742298690",
+      "content": "RT @ptdbugs: Insights from Compromise Assessment projects: missed incidents and hidden threats\n\nKaspersky researchers analyzed the results of Compromise Assessment projects conducted in 2025 and identified key reasons why attackers can remain undetected in corporate infrastructures for months. Below are the main findings — the full report is available at this link -> (https://t.co/cL2cUml7a5).\n\n60% of incidents were not detected by existing security tools before the Compromise Assessment began. About 20% of threats were identified only through manual analysis by specialists.\n\nMore than half (52%) of high‑severity incidents showed traces of compromise for over 90 days. In one case, attackers remained in the infrastructure for about four years, using compromised domain controllers for covert cryptomining.\n\n40% of detected web shells were found in backups, creating a risk of re‑compromise after infrastructure restoration.\n\n86% of organizations that claimed to have a vulnerability management process still had exploitable misconfigurations. The authors attribute this to a lack of formalized vulnerability management processes and incomplete asset inventory: in 25% of cases individual servers were not monitored at all.\n\nIn every project that revealed an incident, attackers used remote‑administration tools and Living off the Land (LoLBins) techniques to disguise their activity as legitimate OS processes.\n\nThe researchers also note that organizations conducting Compromise Assessments regularly are far less likely to face high‑severity incidents than those turning to such audits only after an attack.\n\nThe study demonstrates that the absence of detections should not be taken as proof of security. In practice, what matters most is not just having monitoring tools but overall operational maturity: proper configuration of defenses, continuous monitoring, proactive threat hunting, accurate asset inventory, and analysts’ readiness to investigate even low‑priority events. Equally important are well‑defined communication processes and regularly updated incident response plans — these factors enable timely detection of hidden compromises and help reduce the risk of critical incidents.\n\n#dbugs_analytics",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T10:07:55+00:00",
+      "collected_at": "2026-07-05T07:57:16.877709+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 22
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073347585851392102",
+      "url": "https://x.com/0xocdsec/status/2073347585851392102",
+      "content": "RT @BBCWorld: Russia looks to students to make up for mounting losses in Ukraine https://t.co/0yGGBYiCO8",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T10:06:00+00:00",
+      "collected_at": "2026-07-05T07:57:16.878232+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://bbc.in/3QUsTkM"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 180,
+        "reply_count": 0,
+        "view_count": 23
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073346975865405842",
+      "url": "https://x.com/0xocdsec/status/2073346975865405842",
+      "content": "RT @Polymarket: JUST IN: Germany is reportedly considering ending its one-year crypto tax exemption under its 2027 budget.",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T10:03:34+00:00",
+      "collected_at": "2026-07-05T07:57:19.865638+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 42,
+        "reply_count": 0,
+        "view_count": 20
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073345280632561856",
+      "url": "https://x.com/0xocdsec/status/2073345280632561856",
+      "content": "RT @DailyDarkWeb: 🚨 A threat actor is claiming to auction a pre-authentication Microsoft 365 initial access exploit allegedly targeting core Exchange Online infrastructure.\n\nAccording to the listing, the alleged exploit provides:\n* Pre-authentication, zero-click initial access\n* SSRF (Server-Side Request Forgery)\n* Access to internal Exchange Online infrastructure\n* OWA session cookie generation\n* Cross-tenant account takeover capabilities\n* Bypass of perimeter protections and segmentation\n\nThe seller claims:\n* Starting bid: $1,000,000 (Monero/XMR)\n* Buy Now: $2,500,000\n* Live verification available through forum escrow\n\nAt the time of writing, there is no public evidence supporting these claims, and the alleged vulnerability has not been independently verified.\n\nAnalyst Note: High-profile exploit advertisements targeting major cloud providers are common on underground forums and often contain exaggerated or fraudulent claims. However, listings involving widely deployed enterprise platforms deserve close monitoring until validated or disproven by vendor investigations. Organizations should continue following Microsoft's security advisories, enforce MFA and Conditional Access policies, and monitor for unusual authentication activity.\n\n#DDW #DarkWeb #Intelligence #Microsoft",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T09:56:50+00:00",
+      "collected_at": "2026-07-05T07:57:38.129865+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMXtOnnW0AAeQkT.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 12,
+        "reply_count": 0,
+        "view_count": 14
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073343448728371204",
+      "url": "https://x.com/0xocdsec/status/2073343448728371204",
+      "content": "RT @FredFellaIMO: ruzzian upset there is not gas.\n\n“Putin said there is gas!”\n\nTo ruzzians: Ever think that Putin lies to you, about everything? 🤔 \n https://t.co/u0roF26Vdb",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T09:49:33+00:00",
+      "collected_at": "2026-07-05T07:57:38.130489+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/ext_tw_video/2073040552925294592/pu/vid/avc1/904x480/KD7-s7rQkI1P6dJe.mp4?tag=26"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 10,
+        "reply_count": 0,
+        "view_count": 21
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073342655254114713",
+      "url": "https://x.com/_winterknife_/status/2073342655254114713",
+      "content": "RT @gf_256: its actually this simple and if you disagree youre wrong https://t.co/yUAQaPPcYp",
+      "author": "_winterknife_",
+      "author_name": "winterknife 🌻",
+      "published_at": "2026-07-04T09:46:24+00:00",
+      "collected_at": "2026-07-05T07:57:38.130928+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMVXje-bQAA1IeY.jpg",
+          "https://pbs.twimg.com/media/HMVXje-bQAA1IeY.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 32,
+        "reply_count": 0,
+        "view_count": 36
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073341707840618975",
+      "url": "https://x.com/0xocdsec/status/2073341707840618975",
+      "content": "RT @wendy_dyers: @reshetz https://t.co/iuVL9o2iQF",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T09:42:38+00:00",
+      "collected_at": "2026-07-05T07:57:38.131487+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/ext_tw_video/2073321560048386048/pu/vid/avc1/720x1280/aW7KkKvk2WkPFsDD.mp4?tag=12",
+          "https://video.twimg.com/ext_tw_video/2073321560048386048/pu/vid/avc1/720x1280/aW7KkKvk2WkPFsDD.mp4?tag=12"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 26
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073341692049060063",
+      "url": "https://x.com/0xpwnie/status/2073341692049060063",
+      "content": "💔 https://t.co/XYDPvO7P97",
+      "author": "0xpwnie",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-07-04T09:42:34+00:00",
+      "collected_at": "2026-07-05T07:57:38.131870+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMX9RZ7WYAA3Jam.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 50,
+        "retweet_count": 3,
+        "reply_count": 2,
+        "view_count": 1255
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073339987261583624",
+      "url": "https://x.com/0xocdsec/status/2073339987261583624",
+      "content": "RT @StratcomCentre: BMW is now reportedly expanding their production in Russia.\n@BMWGroup",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T09:35:48+00:00",
+      "collected_at": "2026-07-05T07:57:38.132275+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 39,
+        "reply_count": 0,
+        "view_count": 19
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073339247373811994",
+      "url": "https://x.com/0xocdsec/status/2073339247373811994",
+      "content": "RT @BlWasp_: One month ago, I had the pleasure of participating in @sth4ck, and presenting a talk on synthetic stackframes, and how to use them in the context of EDR bypass.\nHere is the replay ✌️: https://t.co/M6DF6fH0J2",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T09:32:52+00:00",
+      "collected_at": "2026-07-05T07:57:38.133311+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 6,
+        "reply_count": 0,
+        "view_count": 21
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073326765519540579",
+      "url": "https://x.com/kernullist/status/2073326765519540579",
+      "content": "Just clearing up a few things about TI ETW and call stack capturing.\nIf you're subscribed to Microsoft-Windows-Threat-Intelligence or Security-Mitigations and assuming a call stack just comes with the event, check again. Went through 24 of these events in ntoskrnl. Exactly one hardcodes a stack into its own payload. The other 23 are opt-in, and the mechanism for turning it on lives nowhere near the event functions themselves.\nIt's in the shared write backend, EtwpEventWriteFull, not in any individual event. It only runs if your session sets EnableProperty |= EVENT_ENABLE_PROPERTY_STACK_TRACE in EnableTraceEx2. Skip that and all 23 ship with nothing attached, silently, no error, no warning.\nYou don't have to eat the cost across the whole provider either. Scope it to specific event IDs with an EVENT_FILTER_TYPE_STACKWALK filter (EVENT_FILTER_EVENT_ID struct). Kernel side, that's EtwpApplyStackWalkIdFilter doing a hash lookup per event ID before it bothers walking anything at all.\nOnce it's on, capture is synchronous almost every time. EtwWrite blocks right there in the call, walks the stack via RtlWalkFrameChain, fills the buffer, and returns. That holds as long as IRQL stays below DISPATCH_LEVEL and the thread can still take a page fault. That covers most of the 24.\nThe exception is IRQL and fault safety, not which thread the event is about. Above DISPATCH_LEVEL, mid an attach to another process's address space, or any state where the thread can't safely fault, the synchronous path breaks. When it does, the event ships immediately with an empty or partial stack instead of blocking. But the kernel doesn't just drop it. It tries to queue a real kernel APC, EtwpStackWalkApc, to finish the walk later.\nAnd it really is async, not a disguised synchronous call. The paired routine, EtwpCancelStackWalkApc, is the KAPC's RundownRoutine. the callback that only fires if the thread exits before the APC gets to run. \nIf the APC succeeds, you don't get a late version of the original event. You get a whole separate one, ETW_EVENT_USER_STACK_TRACE, correlated back via a MatchId field. If queuing fails or one's already pending, the kernel just gives up and clears MatchId. No correlation, no retry.\nEven when it works, the stack isn't sitting in the payload you normally parse. It's a separate Extended Data Item on the record(ExtType 6 for raw addresses, or 18) if stack-key caching is on and you only get a 64-bit key back instead. That's TdhGetEventInformation territory, not your usual field parser.\nHere’s a quick look at the internal call flow.",
+      "author": "kernullist",
+      "author_name": "kernullist",
+      "published_at": "2026-07-04T08:43:16+00:00",
+      "collected_at": "2026-07-05T07:57:38.133812+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMXuSNabwAAwC3U.png"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 20,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 985
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073324485810237599",
+      "url": "https://x.com/pentest_swissky/status/2073324485810237599",
+      "content": "RT @github: We heard you. And we agree.\n\nIn light of recent developments in physical media, GitHub is proud to announce that you can now obtain your public repo on CD-ROM.\n\nKeep it. Lend it to friends. Pass it on to your children.\n\nYour code is physically yours, forever. Until you lose it, let's be real.\n\nOrder yours today.\nhttps://t.co/z041pdMH7h",
+      "author": "pentest_swissky",
+      "author_name": "Swissky",
+      "published_at": "2026-07-04T08:34:12+00:00",
+      "collected_at": "2026-07-05T07:57:38.134084+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2072801803914117120/vid/avc1/1366x720/n3VQqXjHvieitbHk.mp4?tag=14"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3449,
+        "reply_count": 0,
+        "view_count": 227
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073318098594148411",
+      "url": "https://x.com/0xocdsec/status/2073318098594148411",
+      "content": "RT @nexta_tv: \"Why the f**k would anyone live here?!\" a Russian woman cries while walking through Moscow\n\nThe internet is being jammed, taxis won't show up, and now there are \"these f**king geolocations\" to deal with.\n\nWe love this genre. Keep it coming!",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T08:08:49+00:00",
+      "collected_at": "2026-07-05T07:57:38.134550+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073313065194389504/vid/avc1/1584x1920/mHRJvR8Ozv9BPzP2.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1514,
+        "reply_count": 0,
+        "view_count": 32
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    }
+  ]
+}

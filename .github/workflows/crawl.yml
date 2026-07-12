@@ -2,11 +2,20 @@ name: Daily Crawl
 
 on:
   schedule:
-    - cron: '0 5 * * *'
+    # 21:13 UTC = 05:13 Beijing. Cold slot on purpose: the previous setting
+    # (05:00 UTC) is US-Eastern midnight on the hour, GitHub's most congested
+    # cron slot, and all 25 of the last runs were dispatched 2h10m-5h36m late.
+    # Firing at 05:13 Beijing leaves ~2h45m of delay budget before the 08:00
+    # deadline Megatron pulls against.
+    - cron: '13 21 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: crawl
+  cancel-in-progress: false
 
 jobs:
   crawl:
@@ -24,23 +33,35 @@ jobs:
       - name: Install dependencies
         run: pip install -e .
 
+      # 30h, not 24h: jitter means a run can start up to 5h36m later than the
+      # previous one, and a 24h window would leave that stretch uncollected.
+      # The overlap is absorbed by external_id dedup when the bundle is written.
       - name: Run crawl
-        run: soundwave crawl --hours 24
+        run: soundwave crawl --hours 30
         timeout-minutes: 10
 
-      - name: Commit data
+      - name: Upload raw archive
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: soundwave-raw-${{ github.run_id }}
+          path: data/
+          retention-days: 14
+
+      - name: Commit data and bundle
         if: success()
         run: |
           git config user.name "Soundwave Bot"
           git config user.email "actions@github.com"
-          git add -f data/
-          git diff --staged --quiet || git commit -m "data: $(date -u +%Y-%m-%d)"
+          git add -f data/ bundles/
+          git diff --staged --quiet || git commit -m "data: $(TZ=Asia/Shanghai date +%Y-%m-%d)"
           git push
 
-      - name: Notify on auth failure
+      - name: Notify on failure
         if: failure()
         run: |
           echo "::error::Crawl failed! Common causes:"
           echo "::error::1. AUTH_FAILED: Update TWITTER_AUTH_TOKEN and TWITTER_CT0 in Settings > Secrets"
           echo "::error::2. RATE_LIMITED: Increase delays in config/settings.json"
-          echo "::error::3. NETWORK: Check if Twitter is accessible from this runner"
+          echo "::error::3. ZERO_TWEETS: crawl returned nothing - almost always auth, not a quiet day"
+          echo "::error::4. NETWORK: Check if Twitter is accessible from this runner"

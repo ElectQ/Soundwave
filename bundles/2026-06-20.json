@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "source_id": "twitter_security_list",
+  "collect_date": "2026-06-20",
+  "collect_window": {
+    "start": "2026-06-19T08:20:50.448080+00:00",
+    "end": "2026-06-20T08:20:50.448080+00:00",
+    "hours": 24
+  },
+  "producer": {
+    "name": "soundwave",
+    "version": "1.0.0",
+    "run_id": "",
+    "commit": ""
+  },
+  "stats": {
+    "total": 11,
+    "by_list": {
+      "sec_list": 11
+    },
+    "failed_lists": []
+  },
+  "items": [
+    {
+      "external_id": "2068246390799515731",
+      "url": "https://x.com/zuhaitz_dev/status/2068246390799515731",
+      "content": "I got my girlfriend to like Fallout somehow (she seems to be liking the show)\n\nFuck Instagram, fuck TikTok, fuck doomscrolling. We are gonna go to the strip and make some caps. https://t.co/WaQEmcWarG",
+      "author": "zuhaitz_dev",
+      "author_name": "Zuhaitz",
+      "published_at": "2026-06-20T08:15:40+00:00",
+      "collected_at": "2026-06-20T08:20:50.443408+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/tweet_video/HLPjIB7W4AAs8sl.mp4"
+        ]
+      },
+      "metrics": {
+        "like_count": 3,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 28
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2068239820929839493",
+      "url": "https://x.com/mrgretzky/status/2068239820929839493",
+      "content": "RT @Print3M_: I’m sharing my slides from @x33fcon 2026.\nInside ~15 examples of abusing traitorware to execute your payload via trusted &amp; signed binaries (e.g. VLC Player, SublimeText) and how to find more of them. \n\nRecording will be published soon.\n\nhttps://t.co/M2jpnNA5XI https://t.co/i6qSgvwXms",
+      "author": "mrgretzky",
+      "author_name": "Kuba Gretzky",
+      "published_at": "2026-06-20T07:49:34+00:00",
+      "collected_at": "2026-06-20T08:20:50.444203+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HLMvuRpXkAIxqcQ.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 16,
+        "reply_count": 0,
+        "view_count": 4782
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2068220936105656357",
+      "url": "https://x.com/5mukx/status/2068220936105656357",
+      "content": "But the goal is simple. There is one vendor who is too good at call stacks detection. We’ll know who is it ? Did i lose ?? https://t.co/Aqw9xMeral",
+      "author": "5mukx",
+      "author_name": "Smukx.E",
+      "published_at": "2026-06-20T06:34:31+00:00",
+      "collected_at": "2026-06-20T08:20:50.444870+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/tweet_video/HLPL-caa4AAgWSp.mp4"
+        ]
+      },
+      "metrics": {
+        "like_count": 3,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 248
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2068219666460451205",
+      "url": "https://x.com/5mukx/status/2068219666460451205",
+      "content": "After 16 hours of debugging I was finally able to figure out the bug in my C2. It was all a problem with the random gadget search pattern.\n\n[ I Just woke up and yapping on internet lol ]\n\nWhen I run my agent it usually does not even hit WinHTTP on the first or second try. But if I execute the same agent on the 4th or 5th run it works. While debugging I found that the process works fine, the call stack looks fine and the sleep cycle is perfect. But it never touches the HTTP cycle and completely drops it.\n\nAfter some more digging I found out that in some cycles my random gadget was picking a size of 0x00 which was landing right on my NtAllocateVirtualMemory in the shellcode area. That got me really suspicious about the gadget patterns. \n\nSo I came up with a fix and filtered out the unsafe sizes from 0x00 to 0x60. That’s 13 out of 17 possible sizes. I set the filter to only allow sizes up to 0x80.\n\nOnly 4 sizes are safe within that limit. They are 0x68, 0x70, 0x78 and 0x80.\n\nAfter doing that it works fine. Oh my God this bug was there for quite some time. \n\nI noticed and fixed it. One of the most annoying bugs I have faced all time.",
+      "author": "5mukx",
+      "author_name": "Smukx.E",
+      "published_at": "2026-06-20T06:29:28+00:00",
+      "collected_at": "2026-06-20T08:20:50.444586+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/tweet_video/HLPK0FMacAI_vy7.mp4"
+        ]
+      },
+      "metrics": {
+        "like_count": 27,
+        "retweet_count": 2,
+        "reply_count": 1,
+        "view_count": 742
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2068217431428829432",
+      "url": "https://x.com/MarcOverIP/status/2068217431428829432",
+      "content": "RT @SEKTOR7net: Big announcement!\n\nWe're launching a new platform with new content, refreshed videos, opsec considerations and detection opportunities.\n\nNew website: https://t.co/yq6qvpXWfE\n\nCurrent users will be migrated from an old platform in the coming weeks.\n\nEnjoy!\n\n#maldev #malwaredevelopment #redteam #blueteam",
+      "author": "MarcOverIP",
+      "author_name": "Marc Smeets",
+      "published_at": "2026-06-20T06:20:35+00:00",
+      "collected_at": "2026-06-20T08:20:50.445194+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HKyKmTFW0AAzhQS.jpg",
+          "https://pbs.twimg.com/media/HKyKmUtXkAAVBiC.jpg",
+          "https://pbs.twimg.com/media/HKyKmTEXkAApZHx.jpg",
+          "https://pbs.twimg.com/media/HKyKmU6XkAABsG0.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 43,
+        "reply_count": 0,
+        "view_count": 15691
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2068197745249132890",
+      "url": "https://x.com/0xocdsec/status/2068197745249132890",
+      "content": "RT @chompie1337: @67_throwaway @0xBoku we have collabed! we should do some public research again tho\nhttps://t.co/ykJv0sfnCH\nhttps://t.co/uVUQA61D94",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-06-20T05:02:22+00:00",
+      "collected_at": "2026-06-20T08:20:50.445662+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://www.ibm.com/think/x-force/operationalizing-browser-exploits-to-bypass-wdac",
+        "https://x.com/yz"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 7,
+        "reply_count": 0,
+        "view_count": 1830
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2068192152073404531",
+      "url": "https://x.com/whokilleddb/status/2068192152073404531",
+      "content": "@domchell Excellent job, Monty Python.",
+      "author": "whokilleddb",
+      "author_name": "db",
+      "published_at": "2026-06-20T04:40:08+00:00",
+      "collected_at": "2026-06-20T08:20:50.446518+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 36
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2068179700757725205",
+      "url": "https://x.com/alkalinesec/status/2068179700757725205",
+      "content": "RT @OnaMuzi_illust: https://t.co/dnNGInu6j9",
+      "author": "alkalinesec",
+      "author_name": "𝚊𝚕𝚔𝚊𝚕𝚒",
+      "published_at": "2026-06-20T03:50:40+00:00",
+      "collected_at": "2026-06-20T08:20:50.446795+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HLLLpcba0AABzlV.jpg",
+          "https://pbs.twimg.com/media/HLLLpccbAAAPyPo.jpg",
+          "https://pbs.twimg.com/media/HLLLpcba0AABzlV.jpg",
+          "https://pbs.twimg.com/media/HLLLpccbAAAPyPo.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 81,
+        "reply_count": 0,
+        "view_count": 17278
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2068178545021460800",
+      "url": "https://x.com/0xocdsec/status/2068178545021460800",
+      "content": "RT @IAMERICAbooted: The worst thing that Microsoft people could ever utter to me is that I will need a global admin to do something.  It will invoke a visceral reaction in me and magically make me dislike them immediately.\n\nDO NOT talk to me about least privilege and global admin in the same sentence.",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-06-20T03:46:04+00:00",
+      "collected_at": "2026-06-20T08:20:50.447162+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 1286
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2068157614484025726",
+      "url": "https://x.com/0xocdsec/status/2068157614484025726",
+      "content": "RT @Beefeater_Fella: Putin’s security apparatus is thinned out and it has lost control in Russia. Gone is the fear of state in some territories.\n\nA hundred crazed teenagers raided the \"Pyaterochka\" stores in Yekaterinburg. The schoolkids looted five stores, grabbing everything they could. \n\nThe zoomers stole goods worth 50 thousand rubles. After the raid, the crowd ran into the nearest residential complex and tried to attack the security guard, who had to defend himself with pepper spray.",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-06-20T02:22:54+00:00",
+      "collected_at": "2026-06-20T08:20:50.447559+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2068119761595105280/vid/avc1/1080x1080/UBYata8cQP_AyHIA.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 167,
+        "reply_count": 0,
+        "view_count": 27077
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2067899303725576199",
+      "url": "https://x.com/domchell/status/2067899303725576199",
+      "content": "The state of UK politics 😂",
+      "author": "domchell",
+      "author_name": "Dominic Chell 👻",
+      "published_at": "2026-06-19T09:16:28+00:00",
+      "collected_at": "2026-06-20T08:20:50.446110+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 8,
+        "retweet_count": 0,
+        "reply_count": 3,
+        "view_count": 3667
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    }
+  ]
+}
