@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from .api import crawl, get_stats
+from .api import build_bundles, crawl, get_stats
 from .core.config import ConfigManager
 
 
@@ -70,7 +70,8 @@ def cli():
 
 @click.command("crawl")
 @click.option("--list", "-l", "list_name", type=str, default=None, help="List name to crawl")
-@click.option("--hours", "-h", type=int, default=24, help="Time window in hours")
+@click.option("--hours", "-h", type=int, default=30, show_default=True,
+              help="Time window in hours (24h + jitter margin)")
 def crawl_cmd(list_name, hours):
     """Crawl tweets from Twitter Lists"""
     result = crawl(list_name=list_name, hours=hours)
@@ -81,11 +82,33 @@ def crawl_cmd(list_name, hours):
             print(f"  {r.list_name}: {r.collected} tweets")
         else:
             print(f"  {r.list_name}: FAILED ({r.error_type})")
+    print(f"  bundle: {result['bundle']}")
 
     _write_job_summary(result)
 
     if any(not r.success for r in result["results"]):
         raise click.ClickException("Crawl completed with errors")
+
+    # A security list producing nothing over a 30h window means the crawl is
+    # broken, not that Twitter was quiet. Without this the job stays green and
+    # the day silently has no data (as happened on 2026-06-26).
+    if result["total"] == 0:
+        raise click.ClickException(
+            "Crawl returned 0 tweets - treating as failure (check auth/rate limits)"
+        )
+
+
+@click.command("build-bundle")
+@click.option("--date", type=str, default=None, help="Single date (YYYY-MM-DD); default: all of data/")
+def build_bundle_cmd(date):
+    """Rebuild day bundles from archived data/ (backfill)"""
+    built = build_bundles(date=date)
+    if not built:
+        print("Nothing to build")
+        return
+    for b in built:
+        print(f"  {b['date']}: {b['count']:>4} items -> {b['path']}")
+    print(f"\nBuilt {len(built)} bundles")
 
 
 @click.command("stats")
@@ -132,6 +155,7 @@ def status_cmd():
 
 
 cli.add_command(crawl_cmd)
+cli.add_command(build_bundle_cmd)
 cli.add_command(stats_cmd)
 cli.add_command(lists_cmd)
 cli.add_command(status_cmd)

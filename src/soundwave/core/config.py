@@ -51,6 +51,7 @@ class Settings:
     pause_min: float = 10.0
     pause_max: float = 20.0
     output_dir: str = "data"
+    bundle_dir: str = "bundles"
 
 
 class ConfigManager:
@@ -82,6 +83,7 @@ class ConfigManager:
                     pause_min=crawl.get("pause_min", 10.0),
                     pause_max=crawl.get("pause_max", 20.0),
                     output_dir=storage.get("output_dir", "data"),
+                    bundle_dir=storage.get("bundle_dir", "bundles"),
                 )
             else:
                 self._settings = Settings()

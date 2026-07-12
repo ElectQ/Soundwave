@@ -1,0 +1,3864 @@
+{
+  "schema_version": 1,
+  "source_id": "twitter_security_list",
+  "collect_date": "2026-07-04",
+  "collect_window": {
+    "start": "2026-07-03T07:46:24.930331+00:00",
+    "end": "2026-07-04T07:46:24.930331+00:00",
+    "hours": 24
+  },
+  "producer": {
+    "name": "soundwave",
+    "version": "1.0.0",
+    "run_id": "",
+    "commit": ""
+  },
+  "stats": {
+    "total": 128,
+    "by_list": {
+      "sec_list": 128
+    },
+    "failed_lists": []
+  },
+  "items": [
+    {
+      "external_id": "2073310916997791983",
+      "url": "https://x.com/alkalinesec/status/2073310916997791983",
+      "content": "a lot of stuff was unoptimized still, lowered solve time to 0.25s https://t.co/SRew6BlUiI",
+      "author": "alkalinesec",
+      "author_name": "𝚊𝚕𝚔𝚊𝚕𝚒",
+      "published_at": "2026-07-04T07:40:17+00:00",
+      "collected_at": "2026-07-04T07:45:14.504263+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMXhRRlXMAAW-M-.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 5
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073310085955174621",
+      "url": "https://x.com/0xocdsec/status/2073310085955174621",
+      "content": "RT @solenarq: @ShangguanJiewen Are you eating Psilocybin instead of Shiitake mushrooms every day?!",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T07:36:59+00:00",
+      "collected_at": "2026-07-04T07:45:14.504759+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 18
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073304938994962704",
+      "url": "https://x.com/cr3ghost/status/2073304938994962704",
+      "content": "RT @cr3ghost: BREAKING NEWS: Riot just announced Vanguard On-Demand. Vanguard no longer needs to start at boot.\n\nIf you enable Secure Boot, TPM 2.0, VBS, HVCI, and IOMMU, Vanguard will only run while you play. Microsoft built a Runtime Driver Attestation Report that lets Vanguard verify driver integrity without needing to be present at boot.\n\nFor everyone who complained about Vanguard running at startup, this is the answer. Enable your hardware security features and it goes away.\n\nThe blog also breaks down every cheat vector in detail: kernel exploits, BYOVD, DMA hardware cheats, bootkits, hypervisors, and pixelbots. With real data showing cheaters deliberately downgrade to older Windows to avoid security features.\n\nhttps://t.co/qjuA7VJ34D\n\nSome of the best security engineers in the industry working on one of the hardest problems in gaming. Massive respect for publishing this level of detail publicly.\n\n@deteccphilippe @nickeverdox @aidankhoury \n\n#AntiCheat #Vanguard #GameSecurity",
+      "author": "cr3ghost",
+      "author_name": "cr3ghost",
+      "published_at": "2026-07-04T07:16:32+00:00",
+      "collected_at": "2026-07-04T07:45:14.505535+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HLmaL6DawAAGpXU.jpg",
+          "https://pbs.twimg.com/media/HLmaL6Ca8AAGGFM.jpg",
+          "https://pbs.twimg.com/media/HLmaL6DacAADsz0.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 45,
+        "reply_count": 0,
+        "view_count": 25816
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073304766302818370",
+      "url": "https://x.com/cr3ghost/status/2073304766302818370",
+      "content": "RT @cr3ghost: If you have ever wanted to learn reverse engineering but had no idea where to start, this is probably the best free series out there.\n\nApplied Reverse Engineering by @daaximus covers basic architecture, the stack, exceptions and interrupts, x64 assembly, control-flow tracing, and more still coming including hooking techniques, ROP, heuristic analysis, and C++ class reconstruction.\n\nWritten for people who have opened a debugger a handful of times and got lost. Starts from zero and actually makes sense.\n\nhttps://t.co/Cu40nKRBg5\n\n#ReverseEngineering #WindowsInternals #InfoSec",
+      "author": "cr3ghost",
+      "author_name": "cr3ghost",
+      "published_at": "2026-07-04T07:15:51+00:00",
+      "collected_at": "2026-07-04T07:45:14.506439+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HKRh4Uja4AA8ycB.jpg",
+          "https://pbs.twimg.com/media/HKRh4Upa4AAlZI5.png"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 83,
+        "reply_count": 0,
+        "view_count": 50489
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073304749957591391",
+      "url": "https://x.com/cr3ghost/status/2073304749957591391",
+      "content": "RT @cr3ghost: Azeria Labs is probably the most complete free resource for learning ARM security research that exists.\n\nARM assembly from zero. Shellcode development. Stack overflows. ROP chains. Heap exploitation. iOS kernel heap grooming. TrustZone internals. GDB debugging. QEMU lab setup. Even an online ARM assembler.\n\nIf ARM exploitation is something you want to understand, start here.\n\nhttps://t.co/MnfDCdNtrG\nhttps://t.co/QtCZ3nhujT\n\nAuthor: @Fox0x01 \n\n#ReverseEngineering #ExploitDevelopment #InfoSec",
+      "author": "cr3ghost",
+      "author_name": "cr3ghost",
+      "published_at": "2026-07-04T07:15:47+00:00",
+      "collected_at": "2026-07-04T07:45:14.506944+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HKXq6kibsAAqTpv.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 54,
+        "reply_count": 0,
+        "view_count": 15918
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073304711005077755",
+      "url": "https://x.com/cr3ghost/status/2073304711005077755",
+      "content": "RT @cr3ghost: If you want to learn malware reverse engineering and have no idea where to start, this is it. RE101 takes you from zero to reversing real Windows malware. RE102 covers anti-RE techniques, encryption, VM evasion, and packing. PE Injection Study walks through extracting process injection techniques from Cryptowall. macOS workshop covers Mach-O headers, code caves, and dynamic library injection.\n\nHands-on labs. Downloadable VMs. Real malware samples. IDA Pro cheat sheet included.\n\nFree. No paywall. No signup.\n\nhttps://t.co/mpbBMNJWrT\n\nAuthor: @malwareunicorn \n\n#MalwareAnalysis #ReverseEngineering #InfoSec",
+      "author": "cr3ghost",
+      "author_name": "cr3ghost",
+      "published_at": "2026-07-04T07:15:37+00:00",
+      "collected_at": "2026-07-04T07:45:14.507481+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HKznP5BbsAA9cTx.jpg",
+          "https://pbs.twimg.com/media/HKznSwObUAAECeX.jpg",
+          "https://pbs.twimg.com/media/HKznqrqa0AAH_Eq.png"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 103,
+        "reply_count": 0,
+        "view_count": 20470
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073304690016821387",
+      "url": "https://x.com/cr3ghost/status/2073304690016821387",
+      "content": "RT @cr3ghost: Free malware analysis and reverse engineering content focused entirely on IDA Pro. IDAPython scripting and automation. IDA C++ SDK. Hex-Rays decompiler internals. Microcode and CTree API. Workflow optimisation. Debugging. Type libraries. Reversing C++ programs. AI-assisted reverse engineering. Plugin development.\n\nFrom someone with 20+ years of IDA experience who helped build parts of the tool.\n\nhttps://t.co/BQDHJoK6eG\n\nAuthor: @allthingsida \n\n#ReverseEngineering #MalwareAnalysis #InfoSec",
+      "author": "cr3ghost",
+      "author_name": "cr3ghost",
+      "published_at": "2026-07-04T07:15:32+00:00",
+      "collected_at": "2026-07-04T07:45:14.507983+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HK61YGYaoAAtCdo.png",
+          "https://pbs.twimg.com/media/HK62OgFaMAACWCY.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 69,
+        "reply_count": 0,
+        "view_count": 15591
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073302601840394565",
+      "url": "https://x.com/0xocdsec/status/2073302601840394565",
+      "content": "RT @Unveiled_ChinaX: How does a single graduate school dropout single-handedly dismantle the elite academic hierarchy of a global superpower?\n\nAn explosive report by the Wall Street Journal reveals the incredible story of 33-year-old Geng Hongwei. Using basic statistical checks and AI tools, Geng produces viral short videos exposing blatant data fabrication in hundreds of biomedical papers. Most of these compromised studies were published in top international journals by the prestigious publisher Springer Nature.\n\nGeng's targets are the crown jewels of the Chinese Communist Party's academic star system. He has exposed university deans, Yangtze River Scholars, and National Distinguished Young Scholars. Terrified of public social media backlash, Chinese universities have enacted swift punishments, ousting deans at elite schools like Tongji University and stripping titles far faster than typical U.S. bureaucratic processes. In response, multiple flagship Nature journals have been forced to launch official investigations.\n\nHowever, exposing the truth under an authoritarian regime carries a terrifying cost. While millions praise Geng as a hero, online observers are deeply concerned for his personal safety. In a political climate hyper-focused on national image, uncovering state-funded academic fraud to the international community heavily risks being branded as \"colluding with foreign forces.\"\n\n#AcademicIntegrity #ChinaScience #SpringerNature #GengHongwei #CCP #ScientificFraud #Whistleblower \n\nhttps://t.co/CluugrCkUp",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T07:07:15+00:00",
+      "collected_at": "2026-07-04T07:45:14.508626+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 20,
+        "reply_count": 0,
+        "view_count": 17
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073298476373286924",
+      "url": "https://x.com/0xocdsec/status/2073298476373286924",
+      "content": "RT @MyLordBebo: ‼️ She argues until the photos are perfect … like these https://t.co/wPyTY5FkxT",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T06:50:51+00:00",
+      "collected_at": "2026-07-04T07:45:14.509259+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMVOjIUXYAA_Ghd.jpg",
+          "https://pbs.twimg.com/media/HMVOjIUXYAA_Ghd.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 793,
+        "reply_count": 0,
+        "view_count": 2071916
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073297361179160750",
+      "url": "https://x.com/alkalinesec/status/2073297361179160750",
+      "content": "luckily its not angr 😮‍💨😮‍💨 https://t.co/5rVJ7Jsplt",
+      "author": "alkalinesec",
+      "author_name": "𝚊𝚕𝚔𝚊𝚕𝚒",
+      "published_at": "2026-07-04T06:46:25+00:00",
+      "collected_at": "2026-07-04T07:45:14.510007+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMXU1_sWUAAWjZD.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 6,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 223
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073297264299176132",
+      "url": "https://x.com/ipurple/status/2073297264299176132",
+      "content": "Automatically deploying Mythic C2 in Azure using Terraform https://t.co/tJCCqjfIe3",
+      "author": "ipurple",
+      "author_name": "Panos Gkatziroulis 🦄",
+      "published_at": "2026-07-04T06:46:02+00:00",
+      "collected_at": "2026-07-04T07:45:14.510387+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/qmadev/tf-mythic-azure"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 9,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 472
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073293922944631278",
+      "url": "https://x.com/0xocdsec/status/2073293922944631278",
+      "content": "RT @IntCyberDigest: This is absurdly clever: there is a way you can cut Fable 5 costs by up to ~70%. Just turn Claude Code context into an image and make Fable OCR them. 😂\n\nhttps://t.co/ewjdpf32yC https://t.co/HOUIIaSVDM",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T06:32:45+00:00",
+      "collected_at": "2026-07-04T07:45:14.510823+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMV8yBDWcAAV7O5.jpg",
+          "https://pbs.twimg.com/media/HMV8yA_WEAAHokR.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 135,
+        "reply_count": 0,
+        "view_count": 15
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073291096919044108",
+      "url": "https://x.com/0xocdsec/status/2073291096919044108",
+      "content": "RT @waterloo_intern: we distilled 2.3M Claude Fable 5 reasoning traces into Qwen3-4B\n\n- 100% self-consistency @ 512 samples\n- 0.00 bits output entropy\n- zero hallucination variance\n\nturns out the student is not bounded by the teacher. \nit also converged on one universal truth.\n\nwe open-sourced the model weights👇",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T06:21:32+00:00",
+      "collected_at": "2026-07-04T07:45:14.511377+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMViJC-WIAAkUTU.jpg",
+          "https://pbs.twimg.com/media/HMVh-pCWkAAklkX.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 282,
+        "reply_count": 0,
+        "view_count": 20
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073291031718551601",
+      "url": "https://x.com/0xocdsec/status/2073291031718551601",
+      "content": "RT @VictoriaLinML: The video of my Stanford CS25 guest lecture, From Language Models to Native Multimodal Intelligence, is now online.\n\nI discussed how the core ideas behind LLMs has shaped multimodal AI, from architectures to training paradigms and scaling, and where the next challenges may lie. 🧠🌐\n🎥: https://t.co/sUVxSEjrVf",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T06:21:16+00:00",
+      "collected_at": "2026-07-04T07:45:14.511962+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 85,
+        "reply_count": 0,
+        "view_count": 16
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073290359451332772",
+      "url": "https://x.com/0xocdsec/status/2073290359451332772",
+      "content": "RT @omarkilani: The LPU team at @nvidia is building the future of low latency inference.\n\nWe're going all in on Rust. If you're a cracked Rust engineer and love making hardware do things, we want you.\n\nhttps://t.co/EEPoYOWWmh",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T06:18:36+00:00",
+      "collected_at": "2026-07-04T07:45:14.512995+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 22,
+        "reply_count": 0,
+        "view_count": 19
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073288235363471858",
+      "url": "https://x.com/0xocdsec/status/2073288235363471858",
+      "content": "RT @jukan05: I don’t understand why supporters of Chinese open source keep pretending not to see what is happening right now: even Chinese “open-source” players are raising prices or gradually shifting toward more closed models.\n\nI think China’s token dumping has already bottomed.\n\nJust look at Zhipu, the company behind GLM-5.2. Even Zhipu has raised prices several times this year.\n\nChinese LLM developers cannot ignore ROI forever.\n\nOpen source is not the same thing as cheap API pricing.",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-04T06:10:09+00:00",
+      "collected_at": "2026-07-04T07:45:14.513535+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 58,
+        "reply_count": 0,
+        "view_count": 26
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073281740580495841",
+      "url": "https://x.com/0x534c/status/2073281740580495841",
+      "content": "🔍 𝗔𝗥𝗧𝗼𝗸𝗲𝗻 𝗗𝗲𝘁𝗲𝗰𝘁𝗶𝗼𝗻 𝗦𝘁𝗿𝗮𝘁𝗲𝗴𝘆\n\nI’ve been dissecting multiple ARToken samples via https://t.co/LElYRAAzfB sandbox analysis. The lure often begins with a 𝗦𝗵𝗮𝗿𝗲𝗣𝗼𝗶𝗻𝘁 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁 𝗹𝗶𝗻𝗸 — leveraging the trusted reputation of Microsoft’s cloud — before redirecting victims to phishing sites.\n\nTo counter this, I’ve crafted a 𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁 𝗗𝗲𝗳𝗲𝗻𝗱𝗲𝗿 𝗳𝗼𝗿 𝗢𝗳𝗳𝗶𝗰𝗲 (𝗠𝗗𝗢) 𝗱𝗲𝘁𝗲𝗰𝘁𝗶𝗼𝗻 designed to surface suspicious links tied to ARToken infrastructure. This approach helps defenders flag malicious redirects hidden behind seemingly legitimate SharePoint lures.\n\nARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365\nhttps://t.co/lLIntlAX5B\n\n#Cybersecurity #ARToken #PhaaS #Threathunting",
+      "author": "0x534c",
+      "author_name": "Steven Lim",
+      "published_at": "2026-07-04T05:44:21+00:00",
+      "collected_at": "2026-07-04T07:45:14.513986+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "http://ANY.RUN",
+        "http://ANY.RUN",
+        "https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMXGrt2aYAAkaZL.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 8,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 441
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073255189830615489",
+      "url": "https://x.com/alkalinesec/status/2073255189830615489",
+      "content": "i don't remember how long this one took before but it was definitely longer than 1s https://t.co/ZOtwhTc9fc",
+      "author": "alkalinesec",
+      "author_name": "𝚊𝚕𝚔𝚊𝚕𝚒",
+      "published_at": "2026-07-04T03:58:51+00:00",
+      "collected_at": "2026-07-04T07:45:14.503902+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMWui8XWMAANuOP.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 108
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073244591923335274",
+      "url": "https://x.com/alkalinesec/status/2073244591923335274",
+      "content": "my new symbolic execution tool bintx is coming along well, this challenge that took hours with angr+z3 takes less than 30 seconds with bintx+binbit. similar results with other long running challenges. https://t.co/olOfGa9Nwe",
+      "author": "alkalinesec",
+      "author_name": "𝚊𝚕𝚔𝚊𝚕𝚒",
+      "published_at": "2026-07-04T03:16:44+00:00",
+      "collected_at": "2026-07-04T07:45:14.503583+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMWkgZmW0AAbZr0.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 25,
+        "retweet_count": 2,
+        "reply_count": 1,
+        "view_count": 1165
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073222847607009679",
+      "url": "https://x.com/0xTriboulet/status/2073222847607009679",
+      "content": "RT @growing_daniel: Books written before gpt 3.5 are now pre-nuclear steel",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T01:50:20+00:00",
+      "collected_at": "2026-07-04T07:45:14.514422+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1179,
+        "reply_count": 0,
+        "view_count": 33
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073220671216243140",
+      "url": "https://x.com/0xTriboulet/status/2073220671216243140",
+      "content": "RT @ThePrimeagen: Happy 250, USA!!!\n\nUSA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA, USA,",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T01:41:41+00:00",
+      "collected_at": "2026-07-04T07:45:21.329087+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 84,
+        "reply_count": 0,
+        "view_count": 21
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073220531453616394",
+      "url": "https://x.com/0xTriboulet/status/2073220531453616394",
+      "content": "RT @nicksortor: 🇺🇸 AMAZING! Japan just did a whole FIREWORKS SHOW celebrating America’s birthday today, as it’s now July 4 in Tokyo\n\nThis is what a REAL ally looks like.\n\nUnlike most of our European “allies”\n\nGod bless America, and God bless Japan! 🇺🇸🤝🇯🇵 https://t.co/k579V6kq6r",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T01:41:07+00:00",
+      "collected_at": "2026-07-04T07:45:21.329774+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073081096254705664/vid/avc1/1280x720/LrSPsX8KLy5dgK_U.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 15469,
+        "reply_count": 0,
+        "view_count": 21
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073219660137275814",
+      "url": "https://x.com/0xTriboulet/status/2073219660137275814",
+      "content": "https://t.co/X59OdfVso6",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T01:37:40+00:00",
+      "collected_at": "2026-07-04T07:45:21.330428+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/tweet_video/HMWOSn9WgAACVhK.mp4"
+        ]
+      },
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 193
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073217981123907645",
+      "url": "https://x.com/0xTriboulet/status/2073217981123907645",
+      "content": "RT @wolfstrength: This MFer spittin \n@tanner_shuck https://t.co/EHPSlLguED",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T01:30:59+00:00",
+      "collected_at": "2026-07-04T07:45:21.331083+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073126522899017728/vid/avc1/720x1280/kMElaLA3q3s-O8A3.mp4?tag=28",
+          "https://video.twimg.com/amplify_video/2073126522899017728/vid/avc1/720x1280/kMElaLA3q3s-O8A3.mp4?tag=28"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 37
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073217194972905522",
+      "url": "https://x.com/0xTriboulet/status/2073217194972905522",
+      "content": "RT @ArthurMacwaters: The only thing greater than my nostalgia for our hallowed past is my unquenchable thirst for our mythical future https://t.co/yh7F53lCdi",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-04T01:27:52+00:00",
+      "collected_at": "2026-07-04T07:45:21.331919+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMVHJCVaQAAWrcT.jpg",
+          "https://pbs.twimg.com/media/HMVHJCYbAAAFdpF.jpg",
+          "https://pbs.twimg.com/media/HMVHJCVa8AAdDwB.jpg",
+          "https://pbs.twimg.com/media/HMVHJCUacAAvVcD.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 102,
+        "reply_count": 0,
+        "view_count": 35
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073188345996341257",
+      "url": "https://x.com/merterpreter/status/2073188345996341257",
+      "content": "Hiç birşeyden haberim bile yokken, ben kötüyken beni lutfuna erdiren ve beni herşeyden koruyan alemlerin rabbine bugün de hamdolsun. https://t.co/LsVpcFQWaA",
+      "author": "merterpreter",
+      "author_name": "mert",
+      "published_at": "2026-07-03T23:33:14+00:00",
+      "collected_at": "2026-07-04T07:45:21.332795+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2073188218065883136/vid/avc1/720x786/5NQIp5EwLAQ8tEtD.mp4?tag=14"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 52
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073158756687388931",
+      "url": "https://x.com/C5pider/status/2073158756687388931",
+      "content": "Had a blast talking with @Teach2Breach about offsec topics :D Take a look! \nEspecially enjoyed sharing my experience and the amazing people I learned from.",
+      "author": "C5pider",
+      "author_name": "5pider",
+      "published_at": "2026-07-03T21:35:39+00:00",
+      "collected_at": "2026-07-04T07:45:21.333162+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 48,
+        "retweet_count": 6,
+        "reply_count": 0,
+        "view_count": 2848
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073156725742698583",
+      "url": "https://x.com/_JohnHammond/status/2073156725742698583",
+      "content": "let's vibe https://t.co/QhmbKYgEjA",
+      "author": "_JohnHammond",
+      "author_name": "John Hammond",
+      "published_at": "2026-07-03T21:27:35+00:00",
+      "collected_at": "2026-07-04T07:45:21.333759+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://x.com/i/broadcasts/1DxLddrAXwkxm"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 26,
+        "retweet_count": 1,
+        "reply_count": 3,
+        "view_count": 5222
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073155909790871692",
+      "url": "https://x.com/Salsa12__/status/2073155909790871692",
+      "content": "For red team operations... Raw MFT Parsing or USN Journal Enumeration?",
+      "author": "Salsa12__",
+      "author_name": "0x12 Dark Development",
+      "published_at": "2026-07-03T21:24:20+00:00",
+      "collected_at": "2026-07-04T07:45:21.334020+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 4,
+        "retweet_count": 1,
+        "reply_count": 1,
+        "view_count": 251
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073148250563985439",
+      "url": "https://x.com/_xpn_/status/2073148250563985439",
+      "content": "Remembering where it all started 🥲 https://t.co/3VmcG9Wyik",
+      "author": "_xpn_",
+      "author_name": "Adam Chester 🏴‍☠️",
+      "published_at": "2026-07-03T20:53:54+00:00",
+      "collected_at": "2026-07-04T07:45:21.334390+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMVNV26XwAAcxYS.jpg",
+          "https://pbs.twimg.com/media/HMVNV3EXoAAZxCg.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 27,
+        "retweet_count": 0,
+        "reply_count": 3,
+        "view_count": 2774
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073141600440680516",
+      "url": "https://x.com/5mukx/status/2073141600440680516",
+      "content": "An blog by: @es3n1n",
+      "author": "5mukx",
+      "author_name": "Smukx.E",
+      "published_at": "2026-07-03T20:27:29+00:00",
+      "collected_at": "2026-07-04T07:45:21.335116+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 752
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073141596032520628",
+      "url": "https://x.com/5mukx/status/2073141596032520628",
+      "content": "how i ruined my vacation by reverse engineering wsc ! \n\nhttps://t.co/U61YkcDCD1\n\n#reversing https://t.co/4tiikMjOEG",
+      "author": "5mukx",
+      "author_name": "Smukx.E",
+      "published_at": "2026-07-03T20:27:28+00:00",
+      "collected_at": "2026-07-04T07:45:21.334870+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [
+        "reversing"
+      ],
+      "links": [
+        "https://blog.es3n1n.eu/posts/how-i-ruined-my-vacation"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMVHSq1aEAAgEAW.jpg",
+          "https://pbs.twimg.com/media/HMVHSqxaoAA6B77.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 79,
+        "retweet_count": 9,
+        "reply_count": 1,
+        "view_count": 5759
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073140415973257473",
+      "url": "https://x.com/0xocdsec/status/2073140415973257473",
+      "content": "RT @LAB52io: Check out our new post!! GRU: military unit 67606 https://t.co/osFMcoMbnk #GRU #Russia https://t.co/DJZyqdaEwx",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T20:22:46+00:00",
+      "collected_at": "2026-07-04T07:45:21.335515+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [
+        "GRU",
+        "Russia"
+      ],
+      "links": [
+        "https://lab52.io/blog/gru-military-unit-67606/"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMUew_CXAAAcHVk.png",
+          "https://pbs.twimg.com/media/HMUew_CXAAAcHVk.png"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 31
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073140324289892380",
+      "url": "https://x.com/_xpn_/status/2073140324289892380",
+      "content": "I just made the perfect Clockwork Orange reference and none of my family got it… I’m now taking applications for a new family. https://t.co/wUc8aLYLcK",
+      "author": "_xpn_",
+      "author_name": "Adam Chester 🏴‍☠️",
+      "published_at": "2026-07-03T20:22:25+00:00",
+      "collected_at": "2026-07-04T07:45:21.335888+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/tweet_video/HMVGInUWsAAjj8m.mp4"
+        ]
+      },
+      "metrics": {
+        "like_count": 14,
+        "retweet_count": 0,
+        "reply_count": 2,
+        "view_count": 1318
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073139423835816229",
+      "url": "https://x.com/0xocdsec/status/2073139423835816229",
+      "content": "RT @rez0__: I wrote about what we should do to secure critical US infrastructure before open source AI models are highly competent at hacking https://t.co/LN3RLpWOYa",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T20:18:50+00:00",
+      "collected_at": "2026-07-04T07:45:21.336292+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 7,
+        "reply_count": 0,
+        "view_count": 37
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073137703479111730",
+      "url": "https://x.com/pentest_swissky/status/2073137703479111730",
+      "content": "Finding Zero-Days with Any Model - @NielsProvos\nhttps://t.co/yr0b2Adxhr",
+      "author": "pentest_swissky",
+      "author_name": "Swissky",
+      "published_at": "2026-07-03T20:12:00+00:00",
+      "collected_at": "2026-07-04T07:45:21.336729+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://www.provos.org/p/finding-zero-days-with-any-model/"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 213,
+        "retweet_count": 28,
+        "reply_count": 0,
+        "view_count": 9233
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073134381431128372",
+      "url": "https://x.com/5mukx/status/2073134381431128372",
+      "content": "X censorship is insane and full of false positives.\n\n@nikitabier. Is posting hoodie pics are illegal on X ?\n\nIn the security community we are getting far too many false positives with posts are locked and even suspensions because of the post. We’re not interested in politics or yapping about other people. We use X to learn skills and share quality research & blogs to learn. \n\nThere’s clearly something broken at X right now. Please investigate and resolve this issue. otherwise, quality researchers will inevitably shift to other platforms.\n\nThank you ! Please share this as much as possible so it can reach the @X Head of Product @nikitabier and he can resolve the issues.",
+      "author": "5mukx",
+      "author_name": "Smukx.E",
+      "published_at": "2026-07-03T19:58:48+00:00",
+      "collected_at": "2026-07-04T07:45:21.337010+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMVAumiakAAYkI6.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 59,
+        "retweet_count": 9,
+        "reply_count": 6,
+        "view_count": 4111
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073132965639422030",
+      "url": "https://x.com/SkelSec/status/2073132965639422030",
+      "content": "RT @mcohmi: Entrypoint functions gotta sound crazy.",
+      "author": "SkelSec",
+      "author_name": "SkelSec",
+      "published_at": "2026-07-03T19:53:10+00:00",
+      "collected_at": "2026-07-04T07:45:21.337487+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 94
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073125893120098763",
+      "url": "https://x.com/0xocdsec/status/2073125893120098763",
+      "content": "RT @TheFl0orIsLaVa: Congrats on the AC units, comrade. How's the fuel situation? https://t.co/yORQkqxMQs",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T19:25:04+00:00",
+      "collected_at": "2026-07-04T07:45:21.338220+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMU1x79WIAAyBay.jpg",
+          "https://pbs.twimg.com/media/HMU1x79WIAAyBay.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 70,
+        "reply_count": 0,
+        "view_count": 23
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073122122256330991",
+      "url": "https://x.com/0xocdsec/status/2073122122256330991",
+      "content": "RT @J4ck3LSyN: CVE-2026-48558 PoC + Report\n\n[PoC]: https://t.co/xQwKNaCe7F\n[Report]: https://t.co/6qLZKvQ8VU\n[WriteUp]: https://t.co/LHSapWyNfd\n[Malware Campaigns]: https://t.co/APWxvUDNPc\n\nThank you @Horizon3ai for the report..\n\n#CyberSecurity #InfoSec #CVE #AuthBypass https://t.co/oO462k3gxI",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T19:10:05+00:00",
+      "collected_at": "2026-07-04T07:45:21.338736+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/J4ck3LSyN-Gen2/CVE-2026-48558",
+        "https://github.com/J4ck3LSyN-Gen2/Reports/blob/main/OS-IS-CVE-2026-48558-07-2026.md"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMPG40NWsAAIF3s.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 6,
+        "reply_count": 0,
+        "view_count": 27
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073120632879865959",
+      "url": "https://x.com/0xor0ne/status/2073120632879865959",
+      "content": "Exploiting QNAP devices (CVE-2026-34007, CVE-2026-34008)\n\nhttps://t.co/f7KKp9dVFI\n\n#infosec https://t.co/1802K6qUXC",
+      "author": "0xor0ne",
+      "author_name": "0xor0ne",
+      "published_at": "2026-07-03T19:04:10+00:00",
+      "collected_at": "2026-07-04T07:45:28.063232+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [
+        "infosec"
+      ],
+      "links": [
+        "https://runiclabs.io/research/qnap-architecture/"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMU0OsJXgAApJH7.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 51,
+        "retweet_count": 13,
+        "reply_count": 0,
+        "view_count": 4235
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073116576094511524",
+      "url": "https://x.com/0xocdsec/status/2073116576094511524",
+      "content": "RT @__suto: Very powerful bug. In the past, we also submitted few one-shot to Chrome GPU via ANGLE ( but before 250k era 🥲). \nThis report may include the trick for escaping from the GPU to the CPU ( but i guess too easy for AI atm )\nLooking forward the details when the bug is de-restricted.",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T18:48:03+00:00",
+      "collected_at": "2026-07-04T07:45:28.063919+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 6,
+        "reply_count": 0,
+        "view_count": 23
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073114764033536440",
+      "url": "https://x.com/0xocdsec/status/2073114764033536440",
+      "content": "RT @TheHackersNews: ⚠️ A member of the EU committee investigating spyware abuse was hacked with Pegasus while serving on it.\n\nCitizen Lab says Stelios Kouloglou’s #iPhone was compromised in Oct. 2022 and Mar. 2023, likely via Apple’s HomeKit zero-click exploit.\n\nAttackers could have accessed PEGA documents and deliberations.\n\nDetails: https://t.co/RPoWXxY1zB",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T18:40:51+00:00",
+      "collected_at": "2026-07-04T07:45:28.064716+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMTHMeRbgAAD280.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 27,
+        "reply_count": 0,
+        "view_count": 11
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073112106056958117",
+      "url": "https://x.com/0day_ninja/status/2073112106056958117",
+      "content": "Btw what's the update with the couple of the decade\nHave they been released?",
+      "author": "0day_ninja",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-07-03T18:30:17+00:00",
+      "collected_at": "2026-07-04T07:45:28.065182+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 10,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 336
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073111789772918825",
+      "url": "https://x.com/0xocdsec/status/2073111789772918825",
+      "content": "RT @dcuthbert: Sad state of affairs but truly glad the @citizenlab team did the analysis.",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T18:29:01+00:00",
+      "collected_at": "2026-07-04T07:45:28.065879+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 16
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073111645178474811",
+      "url": "https://x.com/J3rge/status/2073111645178474811",
+      "content": "bug fixing tonight. w00t w00t. https://t.co/YxuqhHCRHa",
+      "author": "J3rge",
+      "author_name": "Claes Spett (.PrØÐiGy)",
+      "published_at": "2026-07-03T18:28:27+00:00",
+      "collected_at": "2026-07-04T07:45:28.066607+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMUr-GDXEAArsdO.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 13,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 578
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073110399663165840",
+      "url": "https://x.com/0day_ninja/status/2073110399663165840",
+      "content": "“We stole your model knowledge with 25,000 fake accounts… but your tool has backdoors, so we’re banning it.”",
+      "author": "0day_ninja",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-07-03T18:23:30+00:00",
+      "collected_at": "2026-07-04T07:45:28.066897+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 14,
+        "retweet_count": 0,
+        "reply_count": 2,
+        "view_count": 866
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073106755500855752",
+      "url": "https://x.com/0xocdsec/status/2073106755500855752",
+      "content": "RT @uwu_underground: https://t.co/ubDvhQBDvE",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T18:09:01+00:00",
+      "collected_at": "2026-07-04T07:45:28.067564+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMUOBmyWUAAkRNC.jpg",
+          "https://pbs.twimg.com/media/HMUOBmyWUAAkRNC.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 27,
+        "reply_count": 0,
+        "view_count": 27
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073105870620069927",
+      "url": "https://x.com/0xocdsec/status/2073105870620069927",
+      "content": "RT @ralexdc: NEW!! Germany summons Chinese ambassador over reports China trains Russian soldiers",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T18:05:30+00:00",
+      "collected_at": "2026-07-04T07:45:28.068785+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 162,
+        "reply_count": 0,
+        "view_count": 17
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073105794455704053",
+      "url": "https://x.com/0xocdsec/status/2073105794455704053",
+      "content": "RT @Snow_Wo1f: 单向链表缺陷与 AuthzBasep SecurityDescriptor 传播攻击\n本文从 PAC 的密码学基础与密钥分域出发，深入剖析 V8 JIT 的代码生成流程，还原一条跨域 PAC 伪造的完整攻击链，给出 ARM64 汇编级别的 PoC 代码以及防御策略。\nhttps://t.co/3lOBEsPb2Z https://t.co/FR2nwsZ8vC",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T18:05:12+00:00",
+      "collected_at": "2026-07-04T07:45:28.069584+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMTneAOakAAhFQa.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 14
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073104900817367253",
+      "url": "https://x.com/0day_ninja/status/2073104900817367253",
+      "content": "Exactly. AI vs AI.\n We’re already seeing the offensive side win some rounds.\nGoogle found malware like PROMPTFLUX that uses Gemini to rewrite its own code every hour for evasion.  Meanwhile defenders are using LLMs to triage obfuscated samples in 12 minutes.  \n\nInteresting times.",
+      "author": "0day_ninja",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-07-03T18:01:39+00:00",
+      "collected_at": "2026-07-04T07:45:28.070034+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 16,
+        "retweet_count": 5,
+        "reply_count": 2,
+        "view_count": 1593
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073102749110095979",
+      "url": "https://x.com/0xocdsec/status/2073102749110095979",
+      "content": "RT @NXT4EU: Europe has started building solar panels sitting on the sea, saving land! \n\nThe project is funded by Horizon Europe, and takes place near the Canary islands, where land is scarce.\n\nBuilt by Ocean Sun, which states that these systems have higher efficiency due to water cooling. https://t.co/6HM7DFnkgF",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T17:53:06+00:00",
+      "collected_at": "2026-07-04T07:45:28.070493+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMUhXSgWAAA15fi.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 43,
+        "reply_count": 0,
+        "view_count": 12
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073101852866978083",
+      "url": "https://x.com/0xocdsec/status/2073101852866978083",
+      "content": "RT @msuiche: This nanokrnl experiment is getting out of control: https://t.co/8ZqsstCbVX",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T17:49:32+00:00",
+      "collected_at": "2026-07-04T07:45:28.070998+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://www.msuiche.com/posts/nanokrnl-debugging-crash-dump/"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 20
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073101391262871961",
+      "url": "https://x.com/0xocdsec/status/2073101391262871961",
+      "content": "RT @Sandbagger_01: \"I hear you're a Chinese communist agent now, Father\". https://t.co/jUp5kfdZx4",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T17:47:42+00:00",
+      "collected_at": "2026-07-04T07:45:28.071599+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMTxiyHXoAAR98n.jpg",
+          "https://pbs.twimg.com/media/HMTxiyHXoAAR98n.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 16,
+        "reply_count": 0,
+        "view_count": 32
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073101323759702029",
+      "url": "https://x.com/0xocdsec/status/2073101323759702029",
+      "content": "RT @hosselot: Root cause of Google Chrome V8 ITW (CVE-2026-11645)[506689381]:\nTryFastAddDataProperty[1] needs a fast MAP[5]. But \"after\" checking[2], Map::PrepareForDataProperty[3] manages to normalize the map. The patch[4] rechecks for slow dictionary MAP afterwards.\nhttps://t.co/3frdL9sBEw https://t.co/pQUvO8Xbc0",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T17:47:26+00:00",
+      "collected_at": "2026-07-04T07:45:28.072351+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMTcUYcXoAAKi5n.jpg",
+          "https://pbs.twimg.com/media/HMTcUYeXcAAGUbt.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 6,
+        "reply_count": 0,
+        "view_count": 18
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073100825707106575",
+      "url": "https://x.com/0xocdsec/status/2073100825707106575",
+      "content": "RT @RonDeibert: L’eurodéputé @SteliosKoul  chargé d’enquêter sur Pegasus lui-même visé par le logiciel espion\n\nhttps://t.co/hxgZP1xAd3",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T17:45:27+00:00",
+      "collected_at": "2026-07-04T07:45:28.072835+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://www.lemonde.fr/pixels/article/2026/07/03/un-eurodepute-charge-d-enqueter-sur-pegasus-lui-meme-vise-par-le-logiciel-espion_6718462_4408996.html"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 5,
+        "reply_count": 0,
+        "view_count": 17
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073100477047132356",
+      "url": "https://x.com/0xocdsec/status/2073100477047132356",
+      "content": "RT @ptdbugs: A PoC/exploit has been discovered for vulnerability CVE-2026-26114\n\nPT ID: PT-2026-24324\n\nVendor: Microsoft\nProduct: Microsoft SharePoint Enterprise Server 2016\nDescription: Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.\n\nLink: https://t.co/uHBd5jt9MN\n\n#dbugs_vuln",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T17:44:04+00:00",
+      "collected_at": "2026-07-04T07:45:28.073386+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 20,
+        "reply_count": 0,
+        "view_count": 20
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073100121936400384",
+      "url": "https://x.com/0day_ninja/status/2073100121936400384",
+      "content": "RT @kernelstub: Currently I got money situations. If you guys wanna support me financially, you can do so here:\n\nhttps://t.co/Pp0GWOysEF",
+      "author": "0day_ninja",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-07-03T17:42:40+00:00",
+      "collected_at": "2026-07-04T07:45:28.073898+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://www.patreon.com/cw/kernelstub/membership"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 5,
+        "reply_count": 0,
+        "view_count": 21
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073100077963362721",
+      "url": "https://x.com/J3rge/status/2073100077963362721",
+      "content": "my c2/rootkit comes with a email tracker, track the emails that have been open and check if the target clicked the link. https://t.co/6wTC1TIvYU",
+      "author": "J3rge",
+      "author_name": "Claes Spett (.PrØÐiGy)",
+      "published_at": "2026-07-03T17:42:29+00:00",
+      "collected_at": "2026-07-04T07:45:28.074293+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMUhiD4WoAAefDi.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 21,
+        "retweet_count": 2,
+        "reply_count": 1,
+        "view_count": 1449
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073099333298192387",
+      "url": "https://x.com/0day_ninja/status/2073099333298192387",
+      "content": "RT @kernelstub: NOX is officially released.\n\nNOX is a modular attack surface management and vulnerability scanning framework written in Go with 299 built in modules covering OSINT, subdomain enumeration, DNS, port scanning, web fingerprinting, and deep active security testing across web, APIs, cloud, authentication, authorization, client side, and business logic.\n\nBuilt for security researchers, penetration testers, and anyone who wants a fast, extensible platform for offensive security.\n\nGitHub: https://t.co/Nnp3FI6UBG\n\nFeedback, bug reports, and contributions are always welcome.",
+      "author": "0day_ninja",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-07-03T17:39:32+00:00",
+      "collected_at": "2026-07-04T07:45:28.074730+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 37,
+        "reply_count": 0,
+        "view_count": 26
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073098938777800830",
+      "url": "https://x.com/0xocdsec/status/2073098938777800830",
+      "content": "RT @r3kapig: @nebusecurity is building a stronger alternative to tools like Mythos for security research and vulnerability discovery.we achieve better results at lower cost. Our work includes high-impact vulnerability research and real-world exploitation across browsers, kernels .... https://t.co/1kYR9IVoaj",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T17:37:57+00:00",
+      "collected_at": "2026-07-04T07:45:51.131829+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMUPzpkaYAAMBg1.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 13
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073098255907406318",
+      "url": "https://x.com/0xocdsec/status/2073098255907406318",
+      "content": "RT @ghostonki: https://t.co/CkP3JoaxQE",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T17:35:15+00:00",
+      "collected_at": "2026-07-04T07:45:51.132507+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMRnoTTXUAAv-VL.jpg",
+          "https://pbs.twimg.com/media/HMRnoTTXUAAv-VL.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 64,
+        "reply_count": 0,
+        "view_count": 26
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073097907952095518",
+      "url": "https://x.com/0xocdsec/status/2073097907952095518",
+      "content": "RT @r3kapig: R3CTF 2026 will begin in less than 24 hours. We hope you have already registered the necessary accounts and created your team here -&gt; https://t.co/0T8lkA8PaO\n\nWe would like to express our sincere gratitude to our sponsors, whose support has made this year’s event possible. https://t.co/SzTIhQFb3N",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T17:33:52+00:00",
+      "collected_at": "2026-07-04T07:45:51.132929+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMUNM59aAAAuLTQ.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 7,
+        "reply_count": 0,
+        "view_count": 15
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073097840239235406",
+      "url": "https://x.com/0xocdsec/status/2073097840239235406",
+      "content": "RT @tykawaii98: \"hey Claude, gimme an RCE\" 😄",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T17:33:36+00:00",
+      "collected_at": "2026-07-04T07:45:51.133556+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 17
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073097496893514181",
+      "url": "https://x.com/0day_ninja/status/2073097496893514181",
+      "content": "RT @cr3ghost: LLMs can now reverse engineer obfuscated malware. But what happens when malware authors use LLMs to iteratively obfuscate back?\n\nElastic Security Labs explored the arms race between LLM-driven reverse engineering and LLM-driven obfuscation. Who wins when both sides have the same tools?\n\nThis is the question every malware analyst, detection engineer, and red or blue teamer needs to be thinking about right now.\n\nhttps://t.co/QURyXMRDcP\n\nAuthor: @elasticseclabs \n\n#MalwareAnalysis #ReverseEngineering #InfoSec",
+      "author": "0day_ninja",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-07-03T17:32:14+00:00",
+      "collected_at": "2026-07-04T07:45:51.134304+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMSdNC7asAAkYt6.jpg",
+          "https://pbs.twimg.com/media/HMSdY4NbAAAOYbt.jpg",
+          "https://pbs.twimg.com/media/HMSddI-bYAA2Ofx.png",
+          "https://pbs.twimg.com/media/HMSdgG0awAABJhj.png"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 39,
+        "reply_count": 0,
+        "view_count": 25
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073095263070134637",
+      "url": "https://x.com/MarcOverIP/status/2073095263070134637",
+      "content": "RT @ylecun: Exactly. I've been disseminating a similar message for years. \n\nThe concentration of power in AI and the desire for control is by far the biggest danger of AI. It could lead to a few private companies and/or countries being in control of access to information, access to knowledge, and access to the tools of economic expansion. \nIt's a kind of medieval obscurantism akin to the Ottoman empire banning the use of the printing press for 200 years, in part to keep control of the dogma, but also to protect the corporation of the calligraphers and scribes.\n\nRelevant historical bits about the Internet:\n1. It took a deliberate decision by Al Gore and Bill Clinton to open up access of what was then ARPAnet to commercial entities and to the public, against the desires of the entrenched telecom industry. During a public roundtable about the \"information superhighway\" in 1993, the CEO of AT&T told Gore and Clinton \"leave it to us\". Gore said no.\n2. In the late 1980s, setting up an Internet presence required buying proprietary hardware with proprietary OS and software stack from Sun Microsystems, HP, IBM, or Dell. By the 2000s, all of this was wiped out by commodity hardware, Linux, Apache, and an entirely free/open software stack. This migration to open platforms was the result of market forces.\n\nInfrastructure wants to be open.\nFoundation models are becoming an infrastructure and will inevitably become commoditized.\nLong term, the money is in the application layer, which is what I, Arthur Mensch, Alex Karp, and others have been saying.",
+      "author": "MarcOverIP",
+      "author_name": "Marc Smeets",
+      "published_at": "2026-07-03T17:23:21+00:00",
+      "collected_at": "2026-07-04T07:45:51.134763+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 309,
+        "reply_count": 0,
+        "view_count": 24
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073094301244911884",
+      "url": "https://x.com/0xocdsec/status/2073094301244911884",
+      "content": "RT @shojin_comp: 久々にブログ記事を書きました &amp; バグバウンティをしました！",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T17:19:32+00:00",
+      "collected_at": "2026-07-04T07:45:51.135352+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 12,
+        "reply_count": 0,
+        "view_count": 20
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073092425107509321",
+      "url": "https://x.com/0xTriboulet/status/2073092425107509321",
+      "content": "We're Marine Corpsmaxxing",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-03T17:12:04+00:00",
+      "collected_at": "2026-07-04T07:45:51.136094+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 6,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 533
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073092154671366341",
+      "url": "https://x.com/0xocdsec/status/2073092154671366341",
+      "content": "RT @BugsAggregator: [495417883] Potential integer underflow in VP8 parser leads to GPU OOB read/write \nhttps://t.co/VduR6K6ZYj",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T17:11:00+00:00",
+      "collected_at": "2026-07-04T07:45:51.136593+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "http://crbug.com/495417883"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 31
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073088356125159579",
+      "url": "https://x.com/mrgretzky/status/2073088356125159579",
+      "content": "Oh, how the turntables. 😆",
+      "author": "mrgretzky",
+      "author_name": "Kuba Gretzky",
+      "published_at": "2026-07-03T16:55:54+00:00",
+      "collected_at": "2026-07-04T07:45:51.136994+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 8,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 2041
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073088101782597893",
+      "url": "https://x.com/ipurple/status/2073088101782597893",
+      "content": "TABPE: A monthly Windows PE baseline dataset for Cyber-security researchers https://t.co/fsIkvp4c0N",
+      "author": "ipurple",
+      "author_name": "Panos Gkatziroulis 🦄",
+      "published_at": "2026-07-03T16:54:54+00:00",
+      "collected_at": "2026-07-04T07:45:51.137460+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/onhexgroup/TABPE"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 25,
+        "retweet_count": 6,
+        "reply_count": 0,
+        "view_count": 1603
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073084943597514907",
+      "url": "https://x.com/0xocdsec/status/2073084943597514907",
+      "content": "RT @nexta_tv: The Girl with the Snake Tattoo: Who is the mysterious killer behind the Monaco explosion?\n\nA 39-year-old Ukrainian citizen, Anastasiia Berezovska, is suspected in the assassination attempt on oligarch Yermolaev. Interpol has issued a warrant for her arrest.\n\nAccording to the investigation, she entered the businessman’s residence and planted an explosive device, which later detonated in the building’s entrance.\n\nDuring the attempted assassination, she was dressed in a black jacket and a bucket hat, fully disguising herself as a man.\n\nThree people were injured — Yermolaev himself, his wife, and a child.\n\nInterpol has released a wanted notice describing the suspect as a woman with a tattoo on her arm and warning that she may be armed and dangerous.\n\nHer whereabouts are currently unknown. The native of Luhansk region is believed to have left by car, first heading to Beausoleil in France, then to Italy, though she may already have reached the Balkans.\n\nAccording to media reports, she previously lived in Germany as a refugee. German police have carried out searches in her apartment and vehicle.",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T16:42:21+00:00",
+      "collected_at": "2026-07-04T07:45:51.137828+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMUJbEuWcAAxC28.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 37,
+        "reply_count": 0,
+        "view_count": 23
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073083379268964705",
+      "url": "https://x.com/J3rge/status/2073083379268964705",
+      "content": "SUICIDE SILENCE - Unanswered (Featuring: Phil Bozeman of Whitechapel) https://t.co/rbAPTMGPfw via @YouTube",
+      "author": "J3rge",
+      "author_name": "Claes Spett (.PrØÐiGy)",
+      "published_at": "2026-07-03T16:36:08+00:00",
+      "collected_at": "2026-07-04T07:45:51.138229+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://youtu.be/aoWmvv6VpxI?si=b8LJZ4JroSOTlV_b"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 325
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073083002058395979",
+      "url": "https://x.com/0xocdsec/status/2073083002058395979",
+      "content": "RT @RFGroenewoud: Must feel good to work for a company that has its EDR detections open-sourced and triaged publicly =)",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T16:34:38+00:00",
+      "collected_at": "2026-07-04T07:45:51.138743+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 19
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073082515351298084",
+      "url": "https://x.com/0xocdsec/status/2073082515351298084",
+      "content": "RT @CVEnew: CVE-2026-13368 WatchGuard Fireware OS contains a race condition leading to a use-after-free vulnerability in LDAP authentication for the Mobile User VPN with IKEv2. A remote unauthe… https://t.co/1aQq2wo6uv",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T16:32:42+00:00",
+      "collected_at": "2026-07-04T07:45:51.139671+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 21
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073081399339254066",
+      "url": "https://x.com/0xocdsec/status/2073081399339254066",
+      "content": "RT @techspence: Come hang out today and talk about application control! 🤘",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T16:28:16+00:00",
+      "collected_at": "2026-07-04T07:45:51.140254+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 20
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073080371571286240",
+      "url": "https://x.com/0xocdsec/status/2073080371571286240",
+      "content": "RT @Ch0pin: we need this ... 🥳 https://t.co/Cel1jZjErm",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T16:24:11+00:00",
+      "collected_at": "2026-07-04T07:45:51.141106+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/lautarovculic/ioscpy"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 4,
+        "reply_count": 0,
+        "view_count": 23
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073074145290530931",
+      "url": "https://x.com/0xTriboulet/status/2073074145290530931",
+      "content": "RT @VirgilsQuill: I will be America-maxxing until further notice https://t.co/aGOCz9EfXM",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-03T15:59:26+00:00",
+      "collected_at": "2026-07-04T07:45:51.141657+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMTfEvjWsAAm6G3.jpg",
+          "https://pbs.twimg.com/media/HMTfEvhWoAA4NsF.jpg",
+          "https://pbs.twimg.com/media/HMTfEvjWUAAjAEV.jpg",
+          "https://pbs.twimg.com/media/HMTfEvjWgAEMJZe.jpg",
+          "https://pbs.twimg.com/media/HMTfEvjWsAAm6G3.jpg",
+          "https://pbs.twimg.com/media/HMTfEvhWoAA4NsF.jpg",
+          "https://pbs.twimg.com/media/HMTfEvjWUAAjAEV.jpg",
+          "https://pbs.twimg.com/media/HMTfEvjWgAEMJZe.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 354,
+        "reply_count": 0,
+        "view_count": 53
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073072199104139551",
+      "url": "https://x.com/0xocdsec/status/2073072199104139551",
+      "content": "RT @InsiderEng: Tools made by German company Gühring continue to reach Russian defense plants through firm tied to ex-subsidiary chief, The Insider finds\n\nThe ex-head of Gühring's Russia branch now owns a billion-ruble turnover firm selling his former employer’s tools.\n\nhttps://t.co/e90oE1t762",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T15:51:42+00:00",
+      "collected_at": "2026-07-04T07:45:51.142423+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 18,
+        "reply_count": 0,
+        "view_count": 30
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073070051486265520",
+      "url": "https://x.com/0xocdsec/status/2073070051486265520",
+      "content": "RT @canadianbryan: Damien Miller shared a writeup of how #OpenSSH's multiple-binary privilege separation is implemented in sshd.\n\nhttps://t.co/ODb5bazLBD",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T15:43:10+00:00",
+      "collected_at": "2026-07-04T07:45:51.142953+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [
+        "OpenSSH"
+      ],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 11,
+        "reply_count": 0,
+        "view_count": 25
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073068633585283330",
+      "url": "https://x.com/0x534c/status/2073068633585283330",
+      "content": "🪙 𝗔𝗥𝗧𝗼𝗸𝗲𝗻 𝗨𝗻𝗺𝗮𝘀𝗸𝗲𝗱\n\nARToken, first documented by Cisco Talos, is a phishing‑as‑a‑service panel linked to EvilTokens that abuses Microsoft 365 OAuth device codes to steal session tokens. With 80+ dashboard functions, it enables persistent access, BEC, and SharePoint/OneDrive exfiltration for affiliates.\n\nThe ARToken kit mirrors Microsoft’s device code authentication flow — including the identical 𝙿𝙾𝚂𝚃 /𝚊𝚙𝚒/𝚍𝚎𝚟𝚒𝚌𝚎/𝚜𝚝𝚊𝚛𝚝 request previously tied to EvilTokens. Using https://t.co/LElYRAAzfB Intelligence Lookup, defenders can track ARToken sites issuing these API calls and hunt for them in the 𝗥𝗲𝗺𝗼𝘁𝗲𝗨𝗿𝗹 field of the DeviceNetwork schema.🫡\n\nhttps://t.co/lLIntlAX5B\n\n#Cybersecurity #ARToken #PhaaS #Threathunting",
+      "author": "0x534c",
+      "author_name": "Steven Lim",
+      "published_at": "2026-07-03T15:37:32+00:00",
+      "collected_at": "2026-07-04T07:45:56.079588+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "http://ANY.RUN",
+        "https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMUE1eCa4AAiCsv.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 13,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 1525
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073068061133832376",
+      "url": "https://x.com/0xocdsec/status/2073068061133832376",
+      "content": "RT @Unveiled_ChinaX: By offering AI chips at just 1/4 of Nvidia’s price, state-backed Chinese giant Huawei is launching an aggressive offensive to hijack South Korea's semiconductor market.\n\nAccording to Lianhe Zaobao, Huawei will launch its Ascend 950 series AI chips and Atlas 950 SuperPod in South Korea during Q4 2026. This cutthroat pricing directly targets the market by undercutting US competitor Nvidia, the global leader in AI hardware.\n\nHuawei claims its inference-optimized Ascend 950PR chip delivers 2.87 times the performance of Nvidia's H20 GPU at a fraction of the cost. The full rollout features the 950PR, the training-focused 950DT, and the Atlas 950 SuperPod, an integrated infrastructure capable of linking up to 8,192 fully interconnected chips using Lingqu 2.0 technology.\n\nHuawei's South Korean branch has already secured local distribution agreements with partners, including tech security firm SK Shieldus, to handle marketing, pricing, and training.\n\nHowever, this state-subsidized hardware push faces major hurdles. Industry observers warn that South Korea's deep sensitivity toward Chinese core technologies and rising geopolitical tensions could derail Huawei's ambitions.\n\n#Huawei #Nvidia #AIChips #Semiconductors #TechWar #Geopolitics #SouthKorea",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T15:35:16+00:00",
+      "collected_at": "2026-07-04T07:45:56.080262+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMT-2JLa4AEW_ho.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 5,
+        "reply_count": 0,
+        "view_count": 24
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073059764838203586",
+      "url": "https://x.com/0xor0ne/status/2073059764838203586",
+      "content": "One EM pulse flips a single instruction inside __sys_setresuid, and an unprivileged adb shell becomes uid 0 on Google's TV Streamer 4K (@raelizecom)\n\nhttps://t.co/6k7c1dGs8Z\n\n#infosec https://t.co/jEaBkwyaNv",
+      "author": "0xor0ne",
+      "author_name": "0xor0ne",
+      "published_at": "2026-07-03T15:02:18+00:00",
+      "collected_at": "2026-07-04T07:45:56.081069+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [
+        "infosec"
+      ],
+      "links": [
+        "https://raelize.com/blog/setresuid-glitching-google-tv-streamer-from-adb-to-root/"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMT83svXsAESTF5.jpg",
+          "https://pbs.twimg.com/media/HMT83qEWcAA8Hyf.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 67,
+        "retweet_count": 16,
+        "reply_count": 0,
+        "view_count": 5382
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073050145726328851",
+      "url": "https://x.com/0xocdsec/status/2073050145726328851",
+      "content": "RT @RonDeibert: “In my phone, there were 15 years of photos, messages, you name it, messages with the prime ministers, with the members, the leaders of the different political parties and journalists. … Everything.”\n@SteliosKoul plans to sue NSO Group\n\nhttps://t.co/ZKjjV94LRn @TheRecord_Media",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T14:24:04+00:00",
+      "collected_at": "2026-07-04T07:45:56.081575+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 13,
+        "reply_count": 0,
+        "view_count": 22
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073049078821204138",
+      "url": "https://x.com/0xocdsec/status/2073049078821204138",
+      "content": "RT @RFGroenewoud: On Linux, a process can lie about its own name.\n\n\"exec -a '[kworker/0:2]' ./miner &amp;\"\n\n...and it shows up in ps as a kernel worker thread. Real malware does this to hide in plain sight. Here is the detail that gives it away. https://t.co/NSTzi7N66e",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T14:19:50+00:00",
+      "collected_at": "2026-07-04T07:45:56.082186+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/tweet_video/HMTnsTLWMAA18UY.mp4"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 8,
+        "reply_count": 0,
+        "view_count": 15
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073046018573164946",
+      "url": "https://x.com/0x64616e/status/2073046018573164946",
+      "content": "RT @ret2src: Escalating from On-prem to Entra through MITM Attacks\n\nMy colleague @0x64616e just published his latest research on lateral movement between on-premises Active Directory and Entra through DNS hijacking. Check it out:\n\n➡️ https://t.co/p8vv1DcAIe",
+      "author": "0x64616e",
+      "author_name": "Daniel",
+      "published_at": "2026-07-03T14:07:40+00:00",
+      "collected_at": "2026-07-04T07:45:56.082802+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 4,
+        "reply_count": 0,
+        "view_count": 4
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073043486455026077",
+      "url": "https://x.com/ipurple/status/2073043486455026077",
+      "content": "RT @_subTee: Well we finished our first course. \n\nTook us a bit to get it across the line but we’re super excited about it.\n\nCyber Deception by Design.\n\nA look inside deception from our perspective as researchers and practitioners.\n\n💙🫡\n\nhttps://t.co/qY7QidLoKP",
+      "author": "ipurple",
+      "author_name": "Panos Gkatziroulis 🦄",
+      "published_at": "2026-07-03T13:57:37+00:00",
+      "collected_at": "2026-07-04T07:45:56.083333+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 7,
+        "reply_count": 0,
+        "view_count": 248
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073042920391725554",
+      "url": "https://x.com/Jean_Maes_1994/status/2073042920391725554",
+      "content": "@0xTriboulet I didnt realize emporio armani had AI models now",
+      "author": "Jean_Maes_1994",
+      "author_name": "Jean",
+      "published_at": "2026-07-03T13:55:22+00:00",
+      "collected_at": "2026-07-04T07:45:56.084402+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 107
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073040771008049652",
+      "url": "https://x.com/0day_ninja/status/2073040771008049652",
+      "content": "The real point here is that when you self-host open-weight models (Chinese ones like DeepSeek, Qwen, GLM, or others) on your own GPUs or a US/EU data center, your prompts and data generally stay with you during inference. They don't automatically get sent back to the model's creators in China. That's different from feeding everything into OpenAI or Anthropic APIs, where data leaves your environment (even if enterprise plans often include promises of no training use, zero retention options, and data ownership).",
+      "author": "0day_ninja",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-07-03T13:46:49+00:00",
+      "collected_at": "2026-07-04T07:45:56.085130+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 5,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 148
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073039623232561338",
+      "url": "https://x.com/0day_ninja/status/2073039623232561338",
+      "content": "Ngl the selective \"safety and security\" framing does feel inconsistent at times. Companies routinely trust US providers with sensitive data under contracts and US law, while treating Chinese-origin open models as radioactive by default. Cost differences are massive also; like 10-50x+ cheaper for comparable performance, and Chinese open models have closed the capability gap dramatically so far. Many are competitive (or ahead) on coding, reasoning, and efficiency benchmarks. \n\nJust my $0.02",
+      "author": "0day_ninja",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-07-03T13:42:16+00:00",
+      "collected_at": "2026-07-04T07:45:56.084719+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 8,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 816
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073036287871774843",
+      "url": "https://x.com/0day_ninja/status/2073036287871774843",
+      "content": "https://t.co/YqKCw2FEgQ",
+      "author": "0day_ninja",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-07-03T13:29:00+00:00",
+      "collected_at": "2026-07-04T07:45:56.085381+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMTngR3XkAA2LCv.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 27,
+        "retweet_count": 1,
+        "reply_count": 3,
+        "view_count": 1629
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073034558442709263",
+      "url": "https://x.com/0xTriboulet/status/2073034558442709263",
+      "content": "Olympus had fallen",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-03T13:22:08+00:00",
+      "collected_at": "2026-07-04T07:45:56.085711+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 30,
+        "retweet_count": 1,
+        "reply_count": 3,
+        "view_count": 3175
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073034366284964340",
+      "url": "https://x.com/0xTriboulet/status/2073034366284964340",
+      "content": "RT @ArthurMacwaters: Remember who you are, American 🇺🇸 https://t.co/YfGnse4IUH",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-03T13:21:22+00:00",
+      "collected_at": "2026-07-04T07:45:56.086354+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMTjPywaMAAjOLe.jpg",
+          "https://pbs.twimg.com/media/HMTjPy2boAARzfm.jpg",
+          "https://pbs.twimg.com/media/HMTjPy6akAAJFD9.jpg",
+          "https://pbs.twimg.com/media/HMTjPyza0AAT3Fd.jpg",
+          "https://pbs.twimg.com/media/HMTjPywaMAAjOLe.jpg",
+          "https://pbs.twimg.com/media/HMTjPy2boAARzfm.jpg",
+          "https://pbs.twimg.com/media/HMTjPy6akAAJFD9.jpg",
+          "https://pbs.twimg.com/media/HMTjPyza0AAT3Fd.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 79,
+        "reply_count": 0,
+        "view_count": 39
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073029454096420901",
+      "url": "https://x.com/0xocdsec/status/2073029454096420901",
+      "content": "RT @8kSec: This blog covers the defense: ARM's Memory Tagging Extension 4-bit tags on every 16-byte granule that turn heap overflows and UaF into immediate segfaults, at near-zero cost: https://t.co/xJawQuZfF6 \nWalks through IRG/STG instructions, a working demo, and enabling MTE on Pixel 8.\nFollow @8kSec for more ARM64 exploitation",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T13:01:51+00:00",
+      "collected_at": "2026-07-04T07:45:56.087058+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMFehZgWQAArf6Z.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 4,
+        "reply_count": 0,
+        "view_count": 22
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073029434051858722",
+      "url": "https://x.com/0xocdsec/status/2073029434051858722",
+      "content": "RT @NytroRST: The mythos report for #curl 2026-05-06 made public: https://t.co/7Nefb8FNyz",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T13:01:46+00:00",
+      "collected_at": "2026-07-04T07:45:58.965234+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [
+        "curl"
+      ],
+      "links": [
+        "https://gist.github.com/bagder/c9b83a19f30e82e41b11f6315465b17a"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 9,
+        "reply_count": 0,
+        "view_count": 24
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073026326668190136",
+      "url": "https://x.com/0xTriboulet/status/2073026326668190136",
+      "content": "Pivot the business to cage fighting on twitch streams",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-03T12:49:25+00:00",
+      "collected_at": "2026-07-04T07:45:58.965842+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 5,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 510
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073023573241757882",
+      "url": "https://x.com/domchell/status/2073023573241757882",
+      "content": "RT @DanielPriestley: Is it possible that the massive outrage Gary and his crew feel is down to a complete misunderstanding of how tax on a wealthy individual works? When I spoke to Gary, it certainly appeared that way… \n\nGary was unaware that: \n- there a different types of tax that layer on top of each other. \n- all the same taxes that apply to an individual also apply to a  Duke. \n - theres a huge difference between taxing individuals, their companies, the revenues they make or the value of their assets. \n- income and asset values are different things.",
+      "author": "domchell",
+      "author_name": "Dominic Chell 👻",
+      "published_at": "2026-07-03T12:38:29+00:00",
+      "collected_at": "2026-07-04T07:45:58.966676+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 257,
+        "reply_count": 0,
+        "view_count": 132
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073019647339770357",
+      "url": "https://x.com/0xocdsec/status/2073019647339770357",
+      "content": "RT @foilmanhacks: Honestly insane blog post by @PhHitachi \nHighly recommend giving it a read.\n\nhttps://t.co/t937OoIAsT",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T12:22:53+00:00",
+      "collected_at": "2026-07-04T07:45:58.967514+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://infosecwriteups.com/1-click-oauth-token-hijacking-via-google-apps-script-a-design-flaw-ignored-bug-bounty-02c6997254ff"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 21
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073015719411798208",
+      "url": "https://x.com/0xocdsec/status/2073015719411798208",
+      "content": "RT @J0R1AN: It's friday so you know what that means, time for a critical vulnerability! \nOkay... we announced it 4 weeks ago already to be fair, but now we can talk about the technical parts 🙌\n\nRead how authentication could be bypassed on every online phpBB instance:\nhttps://t.co/QQM8CDBRDE",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T12:07:16+00:00",
+      "collected_at": "2026-07-04T07:45:58.968085+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 16,
+        "reply_count": 0,
+        "view_count": 24
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073010774822297700",
+      "url": "https://x.com/0xocdsec/status/2073010774822297700",
+      "content": "RT @dinodaizovi: Periodic reminder that capable attackers disable EDR as the first thing that they do...",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T11:47:38+00:00",
+      "collected_at": "2026-07-04T07:46:03.577658+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 11,
+        "reply_count": 0,
+        "view_count": 27
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2073007273153052757",
+      "url": "https://x.com/pentest_swissky/status/2073007273153052757",
+      "content": "@ipurple The official front-end is here😉\nhttps://t.co/9S5AkbcP9m",
+      "author": "pentest_swissky",
+      "author_name": "Swissky",
+      "published_at": "2026-07-03T11:33:43+00:00",
+      "collected_at": "2026-07-04T07:46:03.578865+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://swisskyrepo.github.io/PayloadsAllTheThings/"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 9,
+        "retweet_count": 4,
+        "reply_count": 0,
+        "view_count": 866
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073001457012388310",
+      "url": "https://x.com/0xocdsec/status/2073001457012388310",
+      "content": "RT @kimmonismus: That escalated quickly.\n\n\"Billionaire tech investor Peter Thiel delivered a series of provocative warnings and predictions about the future of artificial intelligence and the West on Tuesday, accusing Pope Leo XIV of inadvertently serving as a “Chinese communist agent” by calling for AI regulation. \n\nIn his remarks at the Aspen Ideas Festival in Colorado, he also warned of a “democratic-socialist takeover” of the United States’ Democratic Party.\"",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T11:10:36+00:00",
+      "collected_at": "2026-07-04T07:46:03.579301+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMSmv4YXkAAnMjq.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 71,
+        "reply_count": 0,
+        "view_count": 19
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073001392105570526",
+      "url": "https://x.com/zuhaitz_dev/status/2073001392105570526",
+      "content": "Another experiment: a text-based CAD schematic compiler for hardware engineering.\n\nYou know, because Verilog and all that is cool, but I could technically draw circuits too as if it was ASCII art. https://t.co/tl3DXSEfLd",
+      "author": "zuhaitz_dev",
+      "author_name": "Zuhaitz",
+      "published_at": "2026-07-03T11:10:21+00:00",
+      "collected_at": "2026-07-04T07:46:03.579826+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMTHfm-WkAABJ-s.png"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 12,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 412
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2073001275835175072",
+      "url": "https://x.com/_xpn_/status/2073001275835175072",
+      "content": "Why do all the interesting ideas pop into your brain when you have something else to focus on??!!! https://t.co/XBxtQj20x2",
+      "author": "_xpn_",
+      "author_name": "Adam Chester 🏴‍☠️",
+      "published_at": "2026-07-03T11:09:53+00:00",
+      "collected_at": "2026-07-04T07:46:03.580105+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/tweet_video/HMTHq27XQAE_6dn.mp4"
+        ]
+      },
+      "metrics": {
+        "like_count": 39,
+        "retweet_count": 0,
+        "reply_count": 8,
+        "view_count": 2252
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072993586660954492",
+      "url": "https://x.com/_RastaMouse/status/2072993586660954492",
+      "content": "RE StopKillingGames, Jennifer Gibbons testifies to US senators that community run Minecraft and COD servers are illegal 🤣🤣🤣",
+      "author": "_RastaMouse",
+      "author_name": "Rasta Mouse",
+      "published_at": "2026-07-03T10:39:20+00:00",
+      "collected_at": "2026-07-04T07:46:03.580380+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 14,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 3175
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072993480926736722",
+      "url": "https://x.com/0xocdsec/status/2072993480926736722",
+      "content": "RT @Telegraph: Russia is planning an armed “provocation” on Polish soil to test Nato’s resolve, the United States has warned.\n\nPolish critical infrastructure could be targeted by missiles and drones or Russian soldiers could cross the border into Nato territory.\n\n🔗: https://t.co/T8CNYztoaw https://t.co/AiVklfhIBc",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T10:38:54+00:00",
+      "collected_at": "2026-07-04T07:46:03.580660+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMS35s6X0AAyjPa.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 934,
+        "reply_count": 0,
+        "view_count": 20
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072993434881675591",
+      "url": "https://x.com/0xocdsec/status/2072993434881675591",
+      "content": "RT @msuiche: Another blogpost for my favorite audience of 10 people who are interested in nanox and nanokrnl. This time about the fast resume feature for our minimal footprint OS.\n\nhttps://t.co/pWXIsX5wpw",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T10:38:43+00:00",
+      "collected_at": "2026-07-04T07:46:03.581121+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 4,
+        "reply_count": 0,
+        "view_count": 16
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072993202047467924",
+      "url": "https://x.com/0xTriboulet/status/2072993202047467924",
+      "content": "We have Mythos at home",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-03T10:37:48+00:00",
+      "collected_at": "2026-07-04T07:46:03.581569+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 27,
+        "retweet_count": 1,
+        "reply_count": 2,
+        "view_count": 2343
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2072992250032714239",
+      "url": "https://x.com/0xTriboulet/status/2072992250032714239",
+      "content": "We’re Americamaxxing",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-07-03T10:34:01+00:00",
+      "collected_at": "2026-07-04T07:46:03.581994+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 4,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 660
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": true
+      }
+    },
+    {
+      "external_id": "2072989652655501418",
+      "url": "https://x.com/kyREcon/status/2072989652655501418",
+      "content": "RT @nickvourd: @shellterproject is coming to @defcon…\nStay tuned!\n#redteam https://t.co/jAIGe4QD3b",
+      "author": "kyREcon",
+      "author_name": "Кириакос Экономоу",
+      "published_at": "2026-07-03T10:23:42+00:00",
+      "collected_at": "2026-07-04T07:46:03.582501+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [
+        "redteam"
+      ],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMS8WeQXgAAaaVt.jpg",
+          "https://pbs.twimg.com/media/HMS8WeRWAAAxEx0.jpg",
+          "https://pbs.twimg.com/media/HMS8WeUWwAAAIw2.jpg",
+          "https://pbs.twimg.com/media/HMS8WeQXgAAaaVt.jpg",
+          "https://pbs.twimg.com/media/HMS8WeRWAAAxEx0.jpg",
+          "https://pbs.twimg.com/media/HMS8WeUWwAAAIw2.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 18
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072987840451907764",
+      "url": "https://x.com/0xocdsec/status/2072987840451907764",
+      "content": "RT @poezhao0605: Alibaba bans Claude Code from all workplaces starting July 10, citing backdoor security risks. Replacement: Qoder, its own AI coding tool.\n\nWorth noting: Anthropic doesn’t officially serve users in China. The ban itself confirms Alibaba had been tolerating unauthorized usage. https://t.co/TEvXz8LRBl",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T10:16:30+00:00",
+      "collected_at": "2026-07-04T07:46:03.582958+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMSnIWXaUAAHel1.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 23,
+        "reply_count": 0,
+        "view_count": 26
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072987316587520114",
+      "url": "https://x.com/virusbtn/status/2072987316587520114",
+      "content": "RT @Unit42_Intel: AI agent marketplaces introduce new supply chain risks. Our analysis of ClawHub revealed malicious skills bypassing security scanners to deploy infostealers and execute financial fraud. Read our analysis for details: https://t.co/QsMNXVHR0u https://t.co/gc3zhLUtcu",
+      "author": "virusbtn",
+      "author_name": "Virus Bulletin",
+      "published_at": "2026-07-03T10:14:25+00:00",
+      "collected_at": "2026-07-04T07:46:03.583388+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMQMCELXsAAMKg7.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 12,
+        "reply_count": 0,
+        "view_count": 178
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072987283418960004",
+      "url": "https://x.com/virusbtn/status/2072987283418960004",
+      "content": "RT @co11ateral: Nezha RMM Can Evade Detection\n\nOften RMMs are abused for persistence and remote access by hackers. One of these apps is Nezha. \n\nUnlike AnyDesk for example, Nezha is much more subtle. Unlike AnyDesk, Nezha is much more subtle. It doesn't show up in the system tray. Since it uses preconfigured installation scripts for its agents, the deployment process can also be customized\n\nYet, it remains undetected. \n\nTo spread awareness and share forensic artifacts we made our article on Nezha.\n\nLearn more: https://t.co/8np8jXJkF0 \n\nOther RMMs to monitor and block: https://t.co/CtFNVxjnlM\n\n@three_cube @_aircorridor",
+      "author": "virusbtn",
+      "author_name": "Virus Bulletin",
+      "published_at": "2026-07-03T10:14:17+00:00",
+      "collected_at": "2026-07-04T07:46:03.583787+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMI9U73XYAAHgvt.jpg",
+          "https://pbs.twimg.com/media/HMI9WP2WkAANVBz.jpg",
+          "https://pbs.twimg.com/media/HMI9XVUWcAAMQrT.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 28,
+        "reply_count": 0,
+        "view_count": 223
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072987199105073327",
+      "url": "https://x.com/virusbtn/status/2072987199105073327",
+      "content": "Jamf's Thijs Xhaflaire analyses PamStealer, a Rust-based macOS infostealer disguised as the legitimate Maccy clipboard manager that uses a two-stage attack chain to silently harvest data and clipboard contents while evading detection. https://t.co/Q6TdzGN1gY https://t.co/jBim4Y3r8Y",
+      "author": "virusbtn",
+      "author_name": "Virus Bulletin",
+      "published_at": "2026-07-03T10:13:57+00:00",
+      "collected_at": "2026-07-04T07:46:03.584142+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://www.jamf.com/blog/pamstealer-macos-infostealer-applescript-rust/"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMS6qs7XUAAgr_f.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 8,
+        "retweet_count": 4,
+        "reply_count": 1,
+        "view_count": 1169
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072986825329631282",
+      "url": "https://x.com/virusbtn/status/2072986825329631282",
+      "content": "Zscaler ThreatLabz has observed campaigns that combine SEO poisoning with CSS/HTML abuse to both manipulate search results and conceal prompt-style instructions that influence AI decision making. https://t.co/XidDAjvleK https://t.co/EPoe79NIFP",
+      "author": "virusbtn",
+      "author_name": "Virus Bulletin",
+      "published_at": "2026-07-03T10:12:28+00:00",
+      "collected_at": "2026-07-04T07:46:03.584463+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://www.zscaler.com/blogs/security-research/indirect-prompt-injection-web-content-targets-ai-agents"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMS6UcOXkAARlZy.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 13,
+        "retweet_count": 10,
+        "reply_count": 0,
+        "view_count": 1405
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072982600340148623",
+      "url": "https://x.com/0x534c/status/2072982600340148623",
+      "content": "https://t.co/yQZ0RXLPMv",
+      "author": "0x534c",
+      "author_name": "Steven Lim",
+      "published_at": "2026-07-03T09:55:40+00:00",
+      "collected_at": "2026-07-04T07:46:03.584771+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://learn.microsoft.com/en-us/microsoftteams/teams-analytics-and-reports/external-domain-anomalies-report"
+      ],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 6,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 826
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072980822483697839",
+      "url": "https://x.com/virusbtn/status/2072980822483697839",
+      "content": "RT @Mandiant: 🚨 MAJOR DISRUPTION: Google disrupted the NetNut residential proxy network, which enrolled ~2M home devices into its botnet.\n\nWe observed 316 distinct threat clusters—cybercrime and espionage groups—using the network to mask activity and launch password spray attacks.\n\n📋 https://t.co/zQPP9RjVr1",
+      "author": "virusbtn",
+      "author_name": "Virus Bulletin",
+      "published_at": "2026-07-03T09:48:36+00:00",
+      "collected_at": "2026-07-04T07:46:03.585065+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMPXcfSWcAAVvoX.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 35,
+        "reply_count": 0,
+        "view_count": 205
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072980763071430688",
+      "url": "https://x.com/virusbtn/status/2072980763071430688",
+      "content": "RT @Unit42_Intel: Impersonated \"System Administrator\" #phishing abuses Teams to seize remote control of victim's machine to deploy #EtherRAT via a malicious MSI/PowerShell, with its C2 hidden in an Ethereum smart contract. An open dir exposes the actor's malware. Details at https://t.co/GN0Md1h5rw https://t.co/1wE2KMGCST",
+      "author": "virusbtn",
+      "author_name": "Virus Bulletin",
+      "published_at": "2026-07-03T09:48:22+00:00",
+      "collected_at": "2026-07-04T07:46:03.585491+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [
+        "phishing"
+      ],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMLfRl-W8AAhIwi.jpg",
+          "https://pbs.twimg.com/media/HMLfS0qWEAA0hVE.jpg",
+          "https://pbs.twimg.com/media/HMLfUCJXYAAxfhD.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 23,
+        "reply_count": 0,
+        "view_count": 137
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072980726237041126",
+      "url": "https://x.com/virusbtn/status/2072980726237041126",
+      "content": "RT @GenThreatLabs: Most RATs have 2, maybe 3 stages. SilverFox's #ValleyRAT runs eight — and the last one is a kernel rootkit that takes orders from the RAT over named pipes. Campaign is live right now.\n\nKill chain in full: DLL sideload → ETW/AMSI bypass + PNG stego (payload hidden in pixel channels) → PrivEsc + more PNG stego → nested Donut shellcode → ValleyRAT orchestrator → Go RAT over WebSocket/QUIC → AV killer injected into svchost → kernel rootkit (65+ IOCTLs, boss'd around by the RAT via named pipes).\n\nOn top of that: crypto clipboard hijacking, Telegram theft, plugin delivery over named pipes.\n\n13 polymorphic samples recompiled per victim over 12 days. Paths rotate daily under C:\\Drivers. Delivered via trojanized installers abusing legit signed EXEs.\n\nActive across 🇨🇳 🇭🇰 🇸🇬.\n\nIoCs:\n 520304a1cabdd9aa05c0a769c3874bc3cc2608d8e71ae607ca2bdf96b298b5de — trojanized installer\n3w[.]jxuw3[.]com — WS C2\ndf[.]sjickdeh[.]org — WS C2\n\n#SilverFox #APT #Malware",
+      "author": "virusbtn",
+      "author_name": "Virus Bulletin",
+      "published_at": "2026-07-03T09:48:13+00:00",
+      "collected_at": "2026-07-04T07:46:03.585901+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [
+        "ValleyRAT"
+      ],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 20,
+        "reply_count": 0,
+        "view_count": 257
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072977277881634951",
+      "url": "https://x.com/0day_ninja/status/2072977277881634951",
+      "content": "https://t.co/g8fOEdqBKL",
+      "author": "0day_ninja",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-07-03T09:34:31+00:00",
+      "collected_at": "2026-07-04T07:46:24.926128+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMSx0q2XcAADXDT.png"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 164,
+        "retweet_count": 10,
+        "reply_count": 6,
+        "view_count": 5490
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072976079992582545",
+      "url": "https://x.com/0xocdsec/status/2072976079992582545",
+      "content": "RT @elhackernet: Desactivan Defender, Sysmon y WAF antes de robar credenciales con Mimikatz\n\nUn actor de amenazas ha implementado una técnica alarmante para cegar a los equipos de seguridad antes de robar contraseñas\nhttps://t.co/AVFqoPQy7J",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T09:29:46+00:00",
+      "collected_at": "2026-07-04T07:46:24.926744+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 52,
+        "reply_count": 0,
+        "view_count": 27
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072969252374450500",
+      "url": "https://x.com/Salsa12__/status/2072969252374450500",
+      "content": "Which main differences exist between Stardust and CrystalPalace PIC?",
+      "author": "Salsa12__",
+      "author_name": "0x12 Dark Development",
+      "published_at": "2026-07-03T09:02:38+00:00",
+      "collected_at": "2026-07-04T07:46:24.927146+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 4,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 357
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072966500298711271",
+      "url": "https://x.com/0xocdsec/status/2072966500298711271",
+      "content": "RT @rqda_A: Linux kernelで19年以上見過ごされていた0-day脆弱性を報告しました\n悪用されると一般ユーザーからの権限昇格が可能になる脆弱性です\n\n詳しくはこちら\nhttps://t.co/MRYYg2LrSx https://t.co/4lGWkUabt8",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T08:51:42+00:00",
+      "collected_at": "2026-07-04T07:46:24.927490+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://gmo-cybersecurity.com/blog/19-year-old-linux-kernel-zero-day/"
+      ],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2072948695377862656/vid/avc1/1362x720/3RCld8c8opm65HSh.mp4?tag=14"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 191,
+        "reply_count": 0,
+        "view_count": 24
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072961189982720207",
+      "url": "https://x.com/artem_i_baranov/status/2072961189982720207",
+      "content": "RT @github: We heard you. And we agree.\n\nIn light of recent developments in physical media, GitHub is proud to announce that you can now obtain your public repo on CD-ROM.\n\nKeep it. Lend it to friends. Pass it on to your children.\n\nYour code is physically yours, forever. Until you lose it, let's be real.\n\nOrder yours today.\nhttps://t.co/z041pdMH7h",
+      "author": "artem_i_baranov",
+      "author_name": "Artem I. Baranov",
+      "published_at": "2026-07-03T08:30:36+00:00",
+      "collected_at": "2026-07-04T07:46:24.927951+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/amplify_video/2072801803914117120/vid/avc1/1366x720/n3VQqXjHvieitbHk.mp4?tag=14"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3370,
+        "reply_count": 0,
+        "view_count": 21
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072960867633619054",
+      "url": "https://x.com/artem_i_baranov/status/2072960867633619054",
+      "content": "RT @bridgemindai: FABLE 5 CAME BACK NERFED.\n\nWe re-ran the July 1st version of Claude Fable 5 on BridgeBench. \n\nThe results are brutal:\n\nDebugging: 86.2 → 25.9\nRefactoring: 73.6 → 38.4\nHallucination: 75.9 → 61.7\n\nThe new guardrails are kicking in on way too many tasks and falling back to Opus 4.8.\n\nThis is not the model that got banned. \n\nAnthropic owes everyone an explanation.",
+      "author": "artem_i_baranov",
+      "author_name": "Artem I. Baranov",
+      "published_at": "2026-07-03T08:29:19+00:00",
+      "collected_at": "2026-07-04T07:46:24.928437+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMOS8qdWkAAx6tH.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1005,
+        "reply_count": 0,
+        "view_count": 13
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072960702185148553",
+      "url": "https://x.com/artem_i_baranov/status/2072960702185148553",
+      "content": "RT @PlayStation: Important updates: \n\nNews on physical discs for new games - https://t.co/BzZODXdWGY\n\nNews on PlayStation Store on PS3 and PS Vita - https://t.co/ev3mN6wj14 https://t.co/PWXTZGHAh6",
+      "author": "artem_i_baranov",
+      "author_name": "Artem I. Baranov",
+      "published_at": "2026-07-03T08:28:39+00:00",
+      "collected_at": "2026-07-04T07:46:24.928857+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "http://play.st/4v86Wg3"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMJAAyiasAAlXlw.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 12853,
+        "reply_count": 0,
+        "view_count": 12
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072960653325668761",
+      "url": "https://x.com/artem_i_baranov/status/2072960653325668761",
+      "content": "RT @Pirat_Nation: Sony’s stock rose more than 3% after the company announced it will stop releasing new PlayStation games on physical discs starting in January 2028.\n\nApparently, investors see the move as a way for Sony to increase profits, as selling games digitally eliminates the costs.\n\nSony said nearly 80% of full-game sales on PS4 and PS5 are already digital, up from 13% when the PS4 launched in 2013.\n\nI don't think they will walk back on this decision even with all the backlash.",
+      "author": "artem_i_baranov",
+      "author_name": "Artem I. Baranov",
+      "published_at": "2026-07-03T08:28:28+00:00",
+      "collected_at": "2026-07-04T07:46:24.929280+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMOKJv-XcAANjYU.jpg",
+          "https://pbs.twimg.com/media/HMOKJv-XAAAPBCg.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 728,
+        "reply_count": 0,
+        "view_count": 17
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2072950785814515740",
+      "url": "https://x.com/0xocdsec/status/2072950785814515740",
+      "content": "RT @v12sec: comment \"v12 pls audit\" on any PR to get it audited https://t.co/ziYADaVg7S",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-07-03T07:49:15+00:00",
+      "collected_at": "2026-07-04T07:46:24.929706+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HMSXSouaEAAw-Mp.jpg",
+          "https://pbs.twimg.com/media/HMSXSouaEAAw-Mp.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 4,
+        "reply_count": 0,
+        "view_count": 22
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    }
+  ]
+}

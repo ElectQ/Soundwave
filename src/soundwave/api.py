@@ -1,13 +1,16 @@
 from __future__ import annotations
 
 import asyncio
-from datetime import datetime, timezone
+import json
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from typing import Any
 
 from .core.config import ConfigManager
 from .core.logger import Logger, LogFlow
 from .core.types import CrawlResult
 from .crawler import create_crawler
+from .storage.bundle_store import BundleStore, beijing_date, to_item
 from .storage.json_store import JsonStore
 
 
@@ -16,7 +19,7 @@ logger = Logger()
 
 def crawl(
     list_name: str | None = None,
-    hours: int = 24,
+    hours: int = 30,
     max_retries: int = 3,
 ) -> dict[str, Any]:
     """Crawl tweets from configured Twitter Lists.
@@ -99,6 +102,25 @@ def crawl(
         duration = (finished_at - started_at).total_seconds()
         total = sum(r.collected for r in results)
 
+        bundle_store = BundleStore(settings.bundle_dir)
+        date = beijing_date(started_at)
+        items = [
+            to_item(record, r.list_name)
+            for r in results
+            for record in r.records
+        ]
+        bundle_path = bundle_store.write(
+            date=date,
+            items=items,
+            window_start=started_at - timedelta(hours=hours),
+            window_end=started_at,
+            window_hours=hours,
+            failed_lists=[r.list_name for r in results if not r.success],
+        )
+        bundle_store.rebuild_index()
+        logger.info(LogFlow.STORAGE, "bundle",
+            f"Wrote {len(items)} items to {bundle_path}")
+
         logger.info(LogFlow.SOURCE, "twitter", "=" * 50)
         logger.info(LogFlow.SOURCE, "twitter", "Soundwave Crawl Finished")
         logger.info(LogFlow.SOURCE, "twitter", f"  Duration: {duration:.0f}s")
@@ -115,10 +137,59 @@ def crawl(
             "duration": duration,
             "window_hours": hours,
             "total": total,
+            "bundle": str(bundle_path),
+            "collect_date": date,
             "results": results,
         }
 
     return asyncio.run(_run())
+
+
+def build_bundles(date: str | None = None, window_hours: int = 24) -> list[dict[str, Any]]:
+    """Rebuild bundles from the archived data/ files (backfill).
+
+    Historical crawls ran at 07:00-09:00 UTC, i.e. mid-afternoon Beijing, so for
+    them the UTC directory date and the Beijing date coincide and the day's data
+    maps 1:1 onto a bundle of the same name. `crawled_at` is the window end.
+    """
+    settings = ConfigManager().load_settings()
+    data_dir = Path(settings.output_dir)
+    bundle_store = BundleStore(settings.bundle_dir)
+
+    date_dirs = [data_dir / date] if date else sorted(
+        d for d in data_dir.iterdir() if d.is_dir()
+    )
+
+    built = []
+    for date_dir in date_dirs:
+        if not date_dir.is_dir():
+            logger.warning(LogFlow.STORAGE, "bundle", f"No data for {date_dir.name}")
+            continue
+
+        items: list[dict[str, Any]] = []
+        window_end = datetime.min.replace(tzinfo=timezone.utc)
+
+        for file in sorted(date_dir.glob("*.json")):
+            data = json.loads(file.read_text())
+            list_name = data.get("list_name", "")
+            items.extend(to_item(t, list_name) for t in data.get("tweets", []))
+            crawled_at = datetime.fromisoformat(data["crawled_at"])
+            window_end = max(window_end, crawled_at.astimezone(timezone.utc))
+
+        if not items:
+            continue
+
+        path = bundle_store.write(
+            date=date_dir.name,
+            items=items,
+            window_start=window_end - timedelta(hours=window_hours),
+            window_end=window_end,
+            window_hours=window_hours,
+        )
+        built.append({"date": date_dir.name, "count": len(items), "path": str(path)})
+
+    bundle_store.rebuild_index()
+    return built
 
 
 def get_stats() -> dict[str, Any]:
@@ -128,4 +199,4 @@ def get_stats() -> dict[str, Any]:
     return {"days": store.get_stats()}
 
 
-__all__ = ["crawl", "get_stats"]
+__all__ = ["crawl", "build_bundles", "get_stats"]
