@@ -45,14 +45,36 @@ Writes **merge by `external_id`** rather than overwrite, so a rerun (`workflow_d
 delayed schedule) is strictly additive. The crawl window is rolling, so a later run starts
 later — an overwrite would silently drop the earlier head of the day.
 
-## How Megatron consumes it
+## Fetching the data
 
-The repo is public, so pulling needs no auth — two fixed URLs over raw HTTP:
+The repo is public, so pulling needs no auth, no token, and no git clone — two fixed URLs
+over raw HTTP:
 
 ```
 https://raw.githubusercontent.com/ElectQ/Soundwave/master/bundles/index.json
 https://raw.githubusercontent.com/ElectQ/Soundwave/master/bundles/<date>.json
 ```
+
+Ask the index what the newest day is, then fetch that day:
+
+```bash
+BASE=https://raw.githubusercontent.com/ElectQ/Soundwave/master/bundles
+
+# what's available, and is today's bundle ready?
+curl -s "$BASE/index.json" | jq '{latest, watermark, days: (.days | length)}'
+# → { "latest": "2026-07-12", "watermark": "2026-07-11T21:13:00+00:00", "days": 26 }
+
+# pull that day (~150 KB)
+curl -s "$BASE/$(curl -s "$BASE/index.json" | jq -r .latest).json" -o bundle.json
+
+# and it's ready to use
+jq '.stats, (.items[0] | {external_id, author, content, url})' bundle.json
+```
+
+The bundle is a single self-contained JSON — no pagination, no per-list assembly, no `raw`
+noise to strip. Point an ingest at `.items[]` and dedupe on `(source_id, external_id)`.
+
+### Doing it properly in production
 
 **Poll the readiness marker, don't watch the clock.** GitHub dispatches scheduled runs
 2h-5h late and the spread is wide, so any "pull at HH:MM" rule is a bet on a number GitHub
