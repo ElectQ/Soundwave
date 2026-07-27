@@ -36,8 +36,24 @@ jobs:
       # 30h, not 24h: jitter means a run can start up to 5h36m later than the
       # previous one, and a 24h window would leave that stretch uncollected.
       # The overlap is absorbed by external_id dedup when the bundle is written.
-      - name: Run crawl
-        run: soundwave crawl --hours 30
+      # Retry loop: twscrape XClIdGen / CDN fetch failures can cause silent 0-tweet
+      # returns. A fresh process restart clears any cached broken module state.
+      - name: Run crawl with retry
+        run: |
+          for i in 1 2; do
+            echo "::group::Crawl attempt $i/2"
+            if soundwave crawl --hours 30; then
+              echo "::endgroup::"
+              exit 0
+            fi
+            echo "::endgroup::"
+            if [ $i -lt 2 ]; then
+              echo "::warning::Attempt $i failed, waiting 60s before process-level retry..."
+              sleep 60
+            fi
+          done
+          echo "::error::All 2 crawl attempts failed"
+          exit 1
         timeout-minutes: 10
 
       - name: Upload raw archive

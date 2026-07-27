@@ -113,7 +113,19 @@ class TwitterCrawler:
         except Exception as e:
             self.logger.warning(LogFlow.SOURCE, "twitter", f"Unlock failed: {e}")
 
-    async def fetch(self, window_hours: int = 24, max_retries: int = 3) -> CrawlResult:
+    def _reinit(self):
+        from twscrape.accounts_pool import AccountsPool
+        from twscrape import API
+
+        db_path = self.credentials.temp_db_path
+        Path(db_path).parent.mkdir(parents=True, exist_ok=True)
+
+        pool = AccountsPool(db_file=db_path)
+        self.api = API(pool=pool, proxy=self.credentials.proxy or None)
+        self._initialized = False
+        self.logger.info(LogFlow.SOURCE, "twitter", "API reinitialized for retry")
+
+    async def fetch(self, window_hours: int = 24, max_retries: int = 4) -> CrawlResult:
         start_time = time.time()
 
         try:
@@ -123,10 +135,23 @@ class TwitterCrawler:
             for attempt in range(max_retries):
                 try:
                     if attempt > 0:
-                        self.logger.info(LogFlow.SOURCE, "twitter", f"Retry {attempt + 1}/{max_retries}")
-                        await self._auto_unlock()
+                        backoff = 2 ** attempt
+                        self.logger.info(LogFlow.SOURCE, "twitter",
+                            f"Retry {attempt + 1}/{max_retries} (backoff {backoff}s)")
+                        await asyncio.sleep(backoff)
+                        self._reinit()
+                        await self._ensure_accounts()
 
                     records, filter_stats, stop_reason = await self._do_fetch(window_hours)
+
+                    if len(records) == 0 and filter_stats[0] == 0:
+                        if attempt < max_retries - 1:
+                            self.logger.warning(LogFlow.SOURCE, "twitter",
+                                f"Timeline returned 0 tweets - likely transient "
+                                f"(attempt {attempt + 1}/{max_retries})")
+                            continue
+                        self.logger.warning(LogFlow.SOURCE, "twitter",
+                            "Timeline returned 0 tweets after all retries")
 
                     return CrawlResult(
                         list_name=self.config.name,

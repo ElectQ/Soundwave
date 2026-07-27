@@ -20,7 +20,7 @@ logger = Logger()
 def crawl(
     list_name: str | None = None,
     hours: int = 30,
-    max_retries: int = 3,
+    max_retries: int = 4,
 ) -> dict[str, Any]:
     """Crawl tweets from configured Twitter Lists.
 
