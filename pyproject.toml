@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "Twitter List crawler deployed on GitHub Actions"
 requires-python = ">=3.10"
 dependencies = [
-    "twscrape>=0.17.0",
+    "twscrape==0.20.1",
     "python-dotenv>=1.0.0",
     "click>=8.0",
 ]
