@@ -24,14 +24,23 @@ jobs:
       TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
       TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
     steps:
-      - uses: actions/checkout@v4
+      # v5+ run on Node 24. v4/v5/v4 target Node 20, which GitHub is
+      # deprecating (forced onto Node 24 until the runtime is removed).
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
+      # Install via uv against the committed uv.lock, so CI is byte-for-byte
+      # reproducible instead of re-resolving `>=` ranges at run time. A silent
+      # bump to twscrape 0.20.1 on 2026-08-25 (from `>=0.17.0`) is what caused
+      # the XClIdParseError failure. `--no-dev` keeps pytest off the runner.
       - name: Install dependencies
-        run: pip install -e .
+        run: |
+          pip install uv
+          uv sync --locked --no-dev
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
 
       # 30h, not 24h: jitter means a run can start up to 5h36m later than the
       # previous one, and a 24h window would leave that stretch uncollected.
@@ -58,7 +67,7 @@ jobs:
 
       - name: Upload raw archive
         if: success()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: soundwave-raw-${{ github.run_id }}
           path: data/
