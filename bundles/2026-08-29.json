@@ -4,23 +4,176 @@
   "collect_date": "2026-08-29",
   "collect_window": {
     "start": "2026-08-27T20:32:55.211372+00:00",
-    "end": "2026-08-29T02:32:55.211372+00:00",
+    "end": "2026-08-29T03:11:09.796541+00:00",
     "hours": 30
   },
   "producer": {
     "name": "soundwave",
     "version": "1.0.0",
-    "run_id": "33229217232",
-    "commit": "fd647f4"
+    "run_id": "33230747987",
+    "commit": "7e14da7"
   },
   "stats": {
-    "total": 158,
+    "total": 171,
     "by_list": {
-      "sec_list": 158
+      "sec_list": 171
     },
     "failed_lists": []
   },
   "items": [
+    {
+      "external_id": "2093536425916486139",
+      "url": "https://x.com/KitPloit/status/2093536425916486139",
+      "content": "grype v0.118.0 — A vulnerability scanner for container images and filesystems https://t.co/vn8O6yKBtb https://t.co/jxWsuJNw4B",
+      "author": "KitPloit",
+      "author_name": "☣ KitPloit - Hacker Tools",
+      "published_at": "2026-08-29T03:09:14+00:00",
+      "collected_at": "2026-08-29T03:11:11.161055+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://kitploit.com/en/tools/github/anchore/grype?utm_source=x&utm_medium=social&utm_campaign=kitploit&utm_content=353731"
+      ],
+      "media": {
+        "photos": [],
+        "videos": [
+          "https://video.twimg.com/tweet_video/HQ28RVXW4AAJpGB.mp4"
+        ]
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 274
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2093532924003926465",
+      "url": "https://x.com/0xocdsec/status/2093532924003926465",
+      "content": "RT @sanctiias: Old Password: Psyop\nNew Password: Me\nERROR: New Password Cant be the same as the old one https://t.co/qoucDES404",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-08-29T02:55:19+00:00",
+      "collected_at": "2026-08-29T03:11:11.161374+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HQ2y51RXcAA5mlu.jpg",
+          "https://pbs.twimg.com/media/HQ2y51RXcAA5mlu.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 12
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2093531480324481119",
+      "url": "https://x.com/0xocdsec/status/2093531480324481119",
+      "content": "RT @ni5arga: i have 100+ critical security reports waiting to hit CERT-In's inbox. whoever's on shift today, godspeed. https://t.co/u5zoXNUvZG",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-08-29T02:49:35+00:00",
+      "collected_at": "2026-08-29T03:11:11.161775+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HQyiGe7aYAAoy81.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 24,
+        "reply_count": 0,
+        "view_count": 11
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2093530875212259762",
+      "url": "https://x.com/0xocdsec/status/2093530875212259762",
+      "content": "RT @0xrootRE: Write-up of a recon session against a Pixel 7 Pro (cheetah, Android 14): extracting\nhidden dialer secret codes   https://t.co/eWJXvfjHge https://t.co/TdRkKexhJd",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-08-29T02:47:11+00:00",
+      "collected_at": "2026-08-29T03:11:11.162163+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HQ22jOEbIAAan2n.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 13
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2093529831325507604",
+      "url": "https://x.com/0xocdsec/status/2093529831325507604",
+      "content": "RT @Itsfoss: Debian has now officially voted to allow the use of generative AI in project contributions.\n\nAfter days/weeks of discussion and voting, here's what Debian has decided.\n\nAI tools are permitted for development, maintenance, and documentation work. They can improve contributor productivity when used responsibly.\n\nBut every AI-assisted contribution must meet the same quality, correctness, and legal standards as any other. No exemptions.\n\nContributors must understand, review, test, and where needed, modify AI-generated output before submitting it. The responsibility stays entirely with the human.\n\nDisclosure of AI use is encouraged but not mandatory.\n\nSharing confidential or security-sensitive information with third-party AI services is explicitly not allowed.\n\nLarge-scale automated changes need prior community discussion and human oversight before going through.\n\n............\n\nDebian is doing the balancing act. Outright ban on AI may lead to dwindling contributors as developers increasingly rely on AI assistance. But letting AI lose will turn into slopfest. \n\nYour thoughts?",
+      "author": "0xocdsec",
+      "author_name": "︎",
+      "published_at": "2026-08-29T02:43:02+00:00",
+      "collected_at": "2026-08-29T03:11:11.162485+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HQ2mA_Qa0AAXzit.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 23,
+        "reply_count": 0,
+        "view_count": 10
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
     {
       "external_id": "2093526580316283235",
       "url": "https://x.com/merterpreter/status/2093526580316283235",
@@ -28,7 +181,7 @@
       "author": "merterpreter",
       "author_name": "mert",
       "published_at": "2026-08-29T02:30:07+00:00",
-      "collected_at": "2026-08-29T02:32:56.367368+00:00",
+      "collected_at": "2026-08-29T03:11:11.162793+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -40,9 +193,9 @@
       },
       "metrics": {
         "like_count": 0,
-        "retweet_count": 10,
+        "retweet_count": 11,
         "reply_count": 0,
-        "view_count": 1771
+        "view_count": 2
       },
       "flags": {
         "is_retweet": true,
@@ -56,7 +209,7 @@
       "author": "Teach2Breach",
       "author_name": "K̵i̵r̵k̵ ̵T̵r̵y̵c̵h̵e̵l̵",
       "published_at": "2026-08-29T02:21:29+00:00",
-      "collected_at": "2026-08-29T02:32:56.368282+00:00",
+      "collected_at": "2026-08-29T03:11:11.163366+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -87,7 +240,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-29T01:51:06+00:00",
-      "collected_at": "2026-08-29T02:32:56.369724+00:00",
+      "collected_at": "2026-08-29T03:11:11.164216+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -99,9 +252,9 @@
       },
       "metrics": {
         "like_count": 0,
-        "retweet_count": 122,
+        "retweet_count": 212,
         "reply_count": 0,
-        "view_count": 10
+        "view_count": 11
       },
       "flags": {
         "is_retweet": true,
@@ -115,7 +268,7 @@
       "author": "merterpreter",
       "author_name": "mert",
       "published_at": "2026-08-29T01:42:13+00:00",
-      "collected_at": "2026-08-29T02:32:56.370651+00:00",
+      "collected_at": "2026-08-29T03:11:11.164747+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -146,7 +299,7 @@
       "author": "GuidedHacking",
       "author_name": "GuidedHacking",
       "published_at": "2026-08-29T00:34:04+00:00",
-      "collected_at": "2026-08-29T02:32:56.371161+00:00",
+      "collected_at": "2026-08-29T03:11:11.165074+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -160,12 +313,44 @@
       },
       "metrics": {
         "like_count": 0,
-        "retweet_count": 3036,
+        "retweet_count": 3085,
         "reply_count": 0,
-        "view_count": 203
+        "view_count": 209
       },
       "flags": {
         "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2093496091782103488",
+      "url": "https://x.com/KitPloit/status/2093496091782103488",
+      "content": "upx v5.2.1 — UPX - the Ultimate Packer for eXecutables https://t.co/GbxIFgrt5g https://t.co/E731HV8LSL",
+      "author": "KitPloit",
+      "author_name": "☣ KitPloit - Hacker Tools",
+      "published_at": "2026-08-29T00:28:58+00:00",
+      "collected_at": "2026-08-29T03:11:11.165356+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://kitploit.com/en/tools/github/upx/upx?utm_source=x&utm_medium=social&utm_campaign=kitploit&utm_content=353744"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HQ2XmhHWIAAbfeL.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 4,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 781
+      },
+      "flags": {
+        "is_retweet": false,
         "is_quote": false
       }
     },
@@ -176,7 +361,7 @@
       "author": "T3nb3w",
       "author_name": "T3nb3w",
       "published_at": "2026-08-29T00:20:38+00:00",
-      "collected_at": "2026-08-29T02:32:56.371645+00:00",
+      "collected_at": "2026-08-29T03:11:11.165599+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -190,7 +375,7 @@
       },
       "metrics": {
         "like_count": 0,
-        "retweet_count": 1,
+        "retweet_count": 2,
         "reply_count": 0,
         "view_count": 5
       },
@@ -206,7 +391,7 @@
       "author": "T3nb3w",
       "author_name": "T3nb3w",
       "published_at": "2026-08-28T23:35:18+00:00",
-      "collected_at": "2026-08-29T02:32:56.372144+00:00",
+      "collected_at": "2026-08-29T03:11:11.165966+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -234,7 +419,7 @@
       "author": "T3nb3w",
       "author_name": "T3nb3w",
       "published_at": "2026-08-28T23:34:36+00:00",
-      "collected_at": "2026-08-29T02:32:56.372646+00:00",
+      "collected_at": "2026-08-29T03:11:11.166294+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -262,7 +447,7 @@
       "author": "T3nb3w",
       "author_name": "T3nb3w",
       "published_at": "2026-08-28T23:32:30+00:00",
-      "collected_at": "2026-08-29T02:32:56.373120+00:00",
+      "collected_at": "2026-08-29T03:11:11.166617+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -292,7 +477,7 @@
       "author": "moyix",
       "author_name": "Brendan Dolan-Gavitt",
       "published_at": "2026-08-28T22:49:47+00:00",
-      "collected_at": "2026-08-29T02:32:56.374265+00:00",
+      "collected_at": "2026-08-29T03:11:11.167294+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -306,7 +491,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 726
+        "view_count": 921
       },
       "flags": {
         "is_retweet": false,
@@ -320,7 +505,7 @@
       "author": "moyix",
       "author_name": "Brendan Dolan-Gavitt",
       "published_at": "2026-08-28T22:38:38+00:00",
-      "collected_at": "2026-08-29T02:32:56.373877+00:00",
+      "collected_at": "2026-08-29T03:11:11.167090+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -334,7 +519,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 342
+        "view_count": 392
       },
       "flags": {
         "is_retweet": false,
@@ -348,7 +533,7 @@
       "author": "h4x0r_dz",
       "author_name": "H4x0r.DZ 🇰🇵",
       "published_at": "2026-08-28T22:33:36+00:00",
-      "collected_at": "2026-08-29T02:32:56.374658+00:00",
+      "collected_at": "2026-08-29T03:11:11.167584+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -362,9 +547,9 @@
       },
       "metrics": {
         "like_count": 0,
-        "retweet_count": 736,
+        "retweet_count": 758,
         "reply_count": 0,
-        "view_count": 403
+        "view_count": 415
       },
       "flags": {
         "is_retweet": true,
@@ -378,7 +563,7 @@
       "author": "h4x0r_dz",
       "author_name": "H4x0r.DZ 🇰🇵",
       "published_at": "2026-08-28T22:18:39+00:00",
-      "collected_at": "2026-08-29T02:32:56.375125+00:00",
+      "collected_at": "2026-08-29T03:11:11.167896+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -389,10 +574,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 15,
+        "like_count": 16,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 2432
+        "view_count": 2625
       },
       "flags": {
         "is_retweet": false,
@@ -406,7 +591,7 @@
       "author": "_RastaMouse",
       "author_name": "Rasta Mouse",
       "published_at": "2026-08-28T21:50:51+00:00",
-      "collected_at": "2026-08-29T02:32:56.375694+00:00",
+      "collected_at": "2026-08-29T03:11:17.166721+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -418,9 +603,9 @@
       },
       "metrics": {
         "like_count": 0,
-        "retweet_count": 50,
+        "retweet_count": 51,
         "reply_count": 0,
-        "view_count": 160
+        "view_count": 166
       },
       "flags": {
         "is_retweet": true,
@@ -434,7 +619,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T21:50:48+00:00",
-      "collected_at": "2026-08-29T02:32:56.376134+00:00",
+      "collected_at": "2026-08-29T03:11:17.167152+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -448,7 +633,7 @@
         "like_count": 0,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 24
+        "view_count": 25
       },
       "flags": {
         "is_retweet": true,
@@ -462,7 +647,7 @@
       "author": "KitPloit",
       "author_name": "☣ KitPloit - Hacker Tools",
       "published_at": "2026-08-28T21:48:53+00:00",
-      "collected_at": "2026-08-29T02:32:56.376539+00:00",
+      "collected_at": "2026-08-29T03:11:17.167402+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -477,10 +662,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 4,
+        "like_count": 5,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 1362
+        "view_count": 1448
       },
       "flags": {
         "is_retweet": false,
@@ -494,7 +679,7 @@
       "author": "DefusedCyber",
       "author_name": "Defused",
       "published_at": "2026-08-28T21:45:00+00:00",
-      "collected_at": "2026-08-29T02:32:56.376798+00:00",
+      "collected_at": "2026-08-29T03:11:17.167590+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -509,10 +694,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 25,
+        "like_count": 26,
         "retweet_count": 6,
         "reply_count": 0,
-        "view_count": 2711
+        "view_count": 2879
       },
       "flags": {
         "is_retweet": false,
@@ -526,7 +711,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T21:25:35+00:00",
-      "collected_at": "2026-08-29T02:32:56.377102+00:00",
+      "collected_at": "2026-08-29T03:11:17.167829+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -542,7 +727,7 @@
         "like_count": 0,
         "retweet_count": 20,
         "reply_count": 0,
-        "view_count": 18
+        "view_count": 19
       },
       "flags": {
         "is_retweet": true,
@@ -556,7 +741,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T21:13:17+00:00",
-      "collected_at": "2026-08-29T02:32:56.377613+00:00",
+      "collected_at": "2026-08-29T03:11:17.168252+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -570,9 +755,9 @@
       },
       "metrics": {
         "like_count": 0,
-        "retweet_count": 525,
+        "retweet_count": 549,
         "reply_count": 0,
-        "view_count": 20
+        "view_count": 21
       },
       "flags": {
         "is_retweet": true,
@@ -586,7 +771,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T21:11:57+00:00",
-      "collected_at": "2026-08-29T02:33:00.851040+00:00",
+      "collected_at": "2026-08-29T03:11:17.168673+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -598,9 +783,9 @@
       },
       "metrics": {
         "like_count": 0,
-        "retweet_count": 56,
+        "retweet_count": 58,
         "reply_count": 0,
-        "view_count": 23
+        "view_count": 24
       },
       "flags": {
         "is_retweet": true,
@@ -614,7 +799,7 @@
       "author": "pentest_swissky",
       "author_name": "Swissky",
       "published_at": "2026-08-28T21:11:00+00:00",
-      "collected_at": "2026-08-29T02:33:00.851638+00:00",
+      "collected_at": "2026-08-29T03:11:17.169013+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -627,10 +812,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 14,
+        "like_count": 16,
         "retweet_count": 3,
         "reply_count": 0,
-        "view_count": 846
+        "view_count": 910
       },
       "flags": {
         "is_retweet": false,
@@ -644,7 +829,7 @@
       "author": "moyix",
       "author_name": "Brendan Dolan-Gavitt",
       "published_at": "2026-08-28T21:01:33+00:00",
-      "collected_at": "2026-08-29T02:33:00.851941+00:00",
+      "collected_at": "2026-08-29T03:11:17.169235+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -658,10 +843,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 22,
+        "like_count": 23,
         "retweet_count": 0,
         "reply_count": 3,
-        "view_count": 2024
+        "view_count": 2183
       },
       "flags": {
         "is_retweet": false,
@@ -675,7 +860,7 @@
       "author": "cr3ghost",
       "author_name": "cr3ghost",
       "published_at": "2026-08-28T20:53:38+00:00",
-      "collected_at": "2026-08-29T02:33:00.852288+00:00",
+      "collected_at": "2026-08-29T03:11:17.169447+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -694,7 +879,7 @@
         "like_count": 0,
         "retweet_count": 107,
         "reply_count": 0,
-        "view_count": 30374
+        "view_count": 30396
       },
       "flags": {
         "is_retweet": true,
@@ -708,7 +893,7 @@
       "author": "Officialwhyte22",
       "author_name": "Winston Ighodaro",
       "published_at": "2026-08-28T20:34:22+00:00",
-      "collected_at": "2026-08-29T02:33:00.852821+00:00",
+      "collected_at": "2026-08-29T03:11:17.169786+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -724,7 +909,7 @@
         "like_count": 0,
         "retweet_count": 24,
         "reply_count": 0,
-        "view_count": 6914
+        "view_count": 6925
       },
       "flags": {
         "is_retweet": true,
@@ -738,7 +923,7 @@
       "author": "moyix",
       "author_name": "Brendan Dolan-Gavitt",
       "published_at": "2026-08-28T20:34:02+00:00",
-      "collected_at": "2026-08-29T02:32:56.373538+00:00",
+      "collected_at": "2026-08-29T03:11:11.166878+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -752,7 +937,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 1300
+        "view_count": 1394
       },
       "flags": {
         "is_retweet": false,
@@ -766,7 +951,7 @@
       "author": "0xTriboulet",
       "author_name": "Steve S.",
       "published_at": "2026-08-28T20:25:32+00:00",
-      "collected_at": "2026-08-29T02:33:00.853338+00:00",
+      "collected_at": "2026-08-29T03:11:17.170149+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -778,7 +963,7 @@
       },
       "metrics": {
         "like_count": 0,
-        "retweet_count": 27,
+        "retweet_count": 29,
         "reply_count": 0,
         "view_count": 21
       },
@@ -794,7 +979,7 @@
       "author": "_JohnHammond",
       "author_name": "John Hammond",
       "published_at": "2026-08-28T20:22:41+00:00",
-      "collected_at": "2026-08-29T02:33:00.853735+00:00",
+      "collected_at": "2026-08-29T03:11:17.170400+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -807,10 +992,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 34,
+        "like_count": 35,
         "retweet_count": 0,
         "reply_count": 4,
-        "view_count": 6416
+        "view_count": 6650
       },
       "flags": {
         "is_retweet": false,
@@ -824,7 +1009,7 @@
       "author": "NetAskari",
       "author_name": "NetAskari",
       "published_at": "2026-08-28T20:00:48+00:00",
-      "collected_at": "2026-08-29T02:33:00.854062+00:00",
+      "collected_at": "2026-08-29T03:11:17.170641+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -838,7 +1023,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 1900
+        "view_count": 2009
       },
       "flags": {
         "is_retweet": false,
@@ -852,7 +1037,7 @@
       "author": "5mukx",
       "author_name": "Smukx.E",
       "published_at": "2026-08-28T20:00:15+00:00",
-      "collected_at": "2026-08-29T02:33:00.855185+00:00",
+      "collected_at": "2026-08-29T03:11:17.171301+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -868,10 +1053,38 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 276
+        "view_count": 279
       },
       "flags": {
         "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2093428201171058875",
+      "url": "https://x.com/0x64616e/status/2093428201171058875",
+      "content": "RT @Tw1sm: Started digging into ServiceNow at the annual SpecterOps hackathon earlier this year after being intrigued by @__invictus_ 's \"Red Teaming with ServiceNow\" blog. First post from that deep dive using AJAX functionality to query cleartext discovery secrets https://t.co/m0T6ooB83M",
+      "author": "0x64616e",
+      "author_name": "Daniel",
+      "published_at": "2026-08-28T19:59:11+00:00",
+      "collected_at": "2026-08-29T03:11:17.171593+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 13,
+        "reply_count": 0,
+        "view_count": 22
+      },
+      "flags": {
+        "is_retweet": true,
         "is_quote": false
       }
     },
@@ -882,7 +1095,7 @@
       "author": "0x64616e",
       "author_name": "Daniel",
       "published_at": "2026-08-28T19:58:06+00:00",
-      "collected_at": "2026-08-29T02:33:00.855533+00:00",
+      "collected_at": "2026-08-29T03:11:17.171887+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -914,7 +1127,7 @@
       "author": "0xfluxsec",
       "author_name": "flux",
       "published_at": "2026-08-28T19:43:04+00:00",
-      "collected_at": "2026-08-29T02:33:00.856755+00:00",
+      "collected_at": "2026-08-29T03:11:24.518433+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -942,7 +1155,7 @@
       "author": "0XDbgMan",
       "author_name": "DbgMan ^_^",
       "published_at": "2026-08-28T19:40:26+00:00",
-      "collected_at": "2026-08-29T02:33:00.856445+00:00",
+      "collected_at": "2026-08-29T03:11:17.172536+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -956,7 +1169,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 122
+        "view_count": 123
       },
       "flags": {
         "is_retweet": false,
@@ -970,7 +1183,7 @@
       "author": "5mukx",
       "author_name": "Smukx.E",
       "published_at": "2026-08-28T19:33:21+00:00",
-      "collected_at": "2026-08-29T02:33:00.857089+00:00",
+      "collected_at": "2026-08-29T03:11:24.518808+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -981,10 +1194,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 47,
+        "like_count": 52,
         "retweet_count": 0,
-        "reply_count": 0,
-        "view_count": 3550
+        "reply_count": 2,
+        "view_count": 4215
       },
       "flags": {
         "is_retweet": false,
@@ -998,7 +1211,7 @@
       "author": "_JohnHammond",
       "author_name": "John Hammond",
       "published_at": "2026-08-28T19:33:02+00:00",
-      "collected_at": "2026-08-29T02:33:00.857886+00:00",
+      "collected_at": "2026-08-29T03:11:24.519427+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1012,7 +1225,7 @@
         "like_count": 10,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 1703
+        "view_count": 1734
       },
       "flags": {
         "is_retweet": false,
@@ -1026,7 +1239,7 @@
       "author": "_JohnHammond",
       "author_name": "John Hammond",
       "published_at": "2026-08-28T19:32:15+00:00",
-      "collected_at": "2026-08-29T02:33:00.857578+00:00",
+      "collected_at": "2026-08-29T03:11:24.519221+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1039,10 +1252,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 76,
-        "retweet_count": 11,
-        "reply_count": 3,
-        "view_count": 7423
+        "like_count": 78,
+        "retweet_count": 14,
+        "reply_count": 4,
+        "view_count": 7654
       },
       "flags": {
         "is_retweet": false,
@@ -1056,7 +1269,7 @@
       "author": "G60930953",
       "author_name": "dmpdump",
       "published_at": "2026-08-28T19:32:10+00:00",
-      "collected_at": "2026-08-29T02:33:00.858187+00:00",
+      "collected_at": "2026-08-29T03:11:24.519675+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1076,10 +1289,40 @@
         "like_count": 5,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 4856
+        "view_count": 5346
       },
       "flags": {
         "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
+      "external_id": "2093411777811783882",
+      "url": "https://x.com/d4rksystem/status/2093411777811783882",
+      "content": "RT @virusbtn: Proofpoint researchers discovered a RAT framework called PackClient, which is used by at least one threat actor - Chinese-speaking TA4922 - is sold on Telegram, and supports data theft, surveillance, and downloading of additional plugins and payloads. https://t.co/ycpERvs1rB https://t.co/lR5BxW0N7Z",
+      "author": "d4rksystem",
+      "author_name": "Kyle Cucci",
+      "published_at": "2026-08-28T18:53:56+00:00",
+      "collected_at": "2026-08-29T03:11:24.519889+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HQy2T3kWUAAyxE_.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 11,
+        "reply_count": 0,
+        "view_count": 39
+      },
+      "flags": {
+        "is_retweet": true,
         "is_quote": false
       }
     },
@@ -1090,7 +1333,7 @@
       "author": "daaximus",
       "author_name": "Daax",
       "published_at": "2026-08-28T18:48:33+00:00",
-      "collected_at": "2026-08-29T02:33:00.854774+00:00",
+      "collected_at": "2026-08-29T03:11:17.170995+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1101,10 +1344,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 112,
+        "like_count": 113,
         "retweet_count": 6,
         "reply_count": 4,
-        "view_count": 7057
+        "view_count": 7120
       },
       "flags": {
         "is_retweet": false,
@@ -1118,7 +1361,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T18:29:18+00:00",
-      "collected_at": "2026-08-29T02:33:00.858556+00:00",
+      "collected_at": "2026-08-29T03:11:24.520172+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1148,7 +1391,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T18:29:02+00:00",
-      "collected_at": "2026-08-29T02:33:00.859378+00:00",
+      "collected_at": "2026-08-29T03:11:24.520660+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1172,13 +1415,44 @@
       }
     },
     {
+      "external_id": "2093402236659302512",
+      "url": "https://x.com/GuidedHacking/status/2093402236659302512",
+      "content": "RT @IntCyberDigest: ❗️Call of Duty's anti-cheat team says it is now showing up in person to knock on doors. RICOCHET claims it travelled to Ohio during last weekend's Modern Warfare 4 beta to shut down cheat seller Elocarry, and that it \"is not an isolated case.\" https://t.co/x6rqH2usfi",
+      "author": "GuidedHacking",
+      "author_name": "GuidedHacking",
+      "published_at": "2026-08-28T18:16:01+00:00",
+      "collected_at": "2026-08-29T03:11:24.520964+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HQ0oj5lWQAAwmw6.jpg",
+          "https://pbs.twimg.com/media/HQ0o0aQWEAAdhf_.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 25,
+        "reply_count": 0,
+        "view_count": 262
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
       "external_id": "2093400110512148579",
       "url": "https://x.com/GuidedHacking/status/2093400110512148579",
       "content": "🏆 Steam Overlay Hook\n🎮 Open Overlay.dll into IDA Pro\n🔍 Search For DirectX Strings\n🕵️ Find SwapChain::Present vTable\n💉 Inject our DLL &amp; swap the pointer\n🔗https://t.co/75mFPIvAn6 https://t.co/XyPkbPQ2ZC",
       "author": "GuidedHacking",
       "author_name": "GuidedHacking",
       "published_at": "2026-08-28T18:07:34+00:00",
-      "collected_at": "2026-08-29T02:33:33.126566+00:00",
+      "collected_at": "2026-08-29T03:11:52.227036+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1193,10 +1467,10 @@
         ]
       },
       "metrics": {
-        "like_count": 60,
+        "like_count": 61,
         "retweet_count": 3,
         "reply_count": 0,
-        "view_count": 2741
+        "view_count": 2802
       },
       "flags": {
         "is_retweet": false,
@@ -1210,7 +1484,7 @@
       "author": "alkalinesec",
       "author_name": "𝚊𝚕𝚔𝚊𝚕𝚒",
       "published_at": "2026-08-28T18:03:19+00:00",
-      "collected_at": "2026-08-29T02:33:05.696378+00:00",
+      "collected_at": "2026-08-29T03:11:24.521278+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1240,7 +1514,7 @@
       "author": "shadkz_",
       "author_name": "shkz",
       "published_at": "2026-08-28T18:03:01+00:00",
-      "collected_at": "2026-08-29T02:33:05.697150+00:00",
+      "collected_at": "2026-08-29T03:11:24.521559+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1263,7 +1537,7 @@
         "like_count": 6,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 125
+        "view_count": 126
       },
       "flags": {
         "is_retweet": false,
@@ -1277,7 +1551,7 @@
       "author": "0xAsm0d3us",
       "author_name": "devansh ⚡️",
       "published_at": "2026-08-28T18:00:47+00:00",
-      "collected_at": "2026-08-29T02:33:05.697493+00:00",
+      "collected_at": "2026-08-29T03:11:24.521756+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1293,7 +1567,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 455
+        "view_count": 464
       },
       "flags": {
         "is_retweet": false,
@@ -1307,7 +1581,7 @@
       "author": "artem_i_baranov",
       "author_name": "Artem I. Baranov",
       "published_at": "2026-08-28T17:48:49+00:00",
-      "collected_at": "2026-08-29T02:33:05.698222+00:00",
+      "collected_at": "2026-08-29T03:11:24.522165+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1321,7 +1595,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 48
+        "view_count": 49
       },
       "flags": {
         "is_retweet": false,
@@ -1335,7 +1609,7 @@
       "author": "artem_i_baranov",
       "author_name": "Artem I. Baranov",
       "published_at": "2026-08-28T17:48:14+00:00",
-      "collected_at": "2026-08-29T02:33:05.697926+00:00",
+      "collected_at": "2026-08-29T03:11:24.521955+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1352,7 +1626,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 153
+        "view_count": 154
       },
       "flags": {
         "is_retweet": false,
@@ -1366,7 +1640,7 @@
       "author": "patrickwardle",
       "author_name": "Patrick Wardle",
       "published_at": "2026-08-28T17:29:17+00:00",
-      "collected_at": "2026-08-29T02:33:05.698778+00:00",
+      "collected_at": "2026-08-29T03:11:24.522402+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1387,7 +1661,7 @@
         "like_count": 0,
         "retweet_count": 10,
         "reply_count": 0,
-        "view_count": 164
+        "view_count": 166
       },
       "flags": {
         "is_retweet": true,
@@ -1401,7 +1675,7 @@
       "author": "es3n1n",
       "author_name": "es3n1n",
       "published_at": "2026-08-28T17:22:42+00:00",
-      "collected_at": "2026-08-29T02:33:05.699238+00:00",
+      "collected_at": "2026-08-29T03:11:24.522652+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1415,7 +1689,7 @@
         "like_count": 20,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 589
+        "view_count": 601
       },
       "flags": {
         "is_retweet": false,
@@ -1429,7 +1703,7 @@
       "author": "ricnar456",
       "author_name": "Ricardo Narvaja",
       "published_at": "2026-08-28T17:09:19+00:00",
-      "collected_at": "2026-08-29T02:33:05.699545+00:00",
+      "collected_at": "2026-08-29T03:11:24.522799+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1445,7 +1719,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 140
+        "view_count": 142
       },
       "flags": {
         "is_retweet": false,
@@ -1459,7 +1733,7 @@
       "author": "0xtter",
       "author_name": "otter",
       "published_at": "2026-08-28T16:47:03+00:00",
-      "collected_at": "2026-08-29T02:33:05.699956+00:00",
+      "collected_at": "2026-08-29T03:11:24.523069+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1473,7 +1747,7 @@
         "like_count": 5,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 363
+        "view_count": 364
       },
       "flags": {
         "is_retweet": false,
@@ -1487,7 +1761,7 @@
       "author": "0xfluxsec",
       "author_name": "flux",
       "published_at": "2026-08-28T16:32:47+00:00",
-      "collected_at": "2026-08-29T02:33:00.855988+00:00",
+      "collected_at": "2026-08-29T03:11:17.172228+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1498,10 +1772,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 33,
+        "like_count": 34,
         "retweet_count": 2,
         "reply_count": 3,
-        "view_count": 2090
+        "view_count": 2156
       },
       "flags": {
         "is_retweet": false,
@@ -1515,7 +1789,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T16:23:51+00:00",
-      "collected_at": "2026-08-29T02:33:05.700670+00:00",
+      "collected_at": "2026-08-29T03:11:24.523617+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1543,7 +1817,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T16:03:04+00:00",
-      "collected_at": "2026-08-29T02:33:05.701174+00:00",
+      "collected_at": "2026-08-29T03:11:24.524022+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1571,7 +1845,7 @@
       "author": "kernullist",
       "author_name": "kernullist",
       "published_at": "2026-08-28T15:58:02+00:00",
-      "collected_at": "2026-08-29T02:33:05.701725+00:00",
+      "collected_at": "2026-08-29T03:11:46.314829+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1585,7 +1859,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 257
+        "view_count": 262
       },
       "flags": {
         "is_retweet": false,
@@ -1599,7 +1873,7 @@
       "author": "Teach2Breach",
       "author_name": "K̵i̵r̵k̵ ̵T̵r̵y̵c̵h̵e̵l̵",
       "published_at": "2026-08-28T15:15:38+00:00",
-      "collected_at": "2026-08-29T02:33:05.702205+00:00",
+      "collected_at": "2026-08-29T03:11:46.315285+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1612,10 +1886,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 21,
+        "like_count": 23,
         "retweet_count": 5,
         "reply_count": 0,
-        "view_count": 709
+        "view_count": 729
       },
       "flags": {
         "is_retweet": false,
@@ -1629,7 +1903,7 @@
       "author": "moyix",
       "author_name": "Brendan Dolan-Gavitt",
       "published_at": "2026-08-28T15:09:28+00:00",
-      "collected_at": "2026-08-29T02:33:05.703057+00:00",
+      "collected_at": "2026-08-29T03:11:46.315830+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1645,7 +1919,7 @@
         "like_count": 10,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 495
+        "view_count": 496
       },
       "flags": {
         "is_retweet": false,
@@ -1659,7 +1933,7 @@
       "author": "moyix",
       "author_name": "Brendan Dolan-Gavitt",
       "published_at": "2026-08-28T15:08:12+00:00",
-      "collected_at": "2026-08-29T02:33:05.702554+00:00",
+      "collected_at": "2026-08-29T03:11:46.315502+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1673,7 +1947,7 @@
         "like_count": 19,
         "retweet_count": 1,
         "reply_count": 2,
-        "view_count": 2816
+        "view_count": 2862
       },
       "flags": {
         "is_retweet": false,
@@ -1687,7 +1961,7 @@
       "author": "0xor0ne",
       "author_name": "0xor0ne",
       "published_at": "2026-08-28T15:02:05+00:00",
-      "collected_at": "2026-08-29T02:33:05.703348+00:00",
+      "collected_at": "2026-08-29T03:11:46.316000+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1707,7 +1981,7 @@
         "like_count": 76,
         "retweet_count": 4,
         "reply_count": 1,
-        "view_count": 3798
+        "view_count": 3877
       },
       "flags": {
         "is_retweet": false,
@@ -1721,7 +1995,7 @@
       "author": "elasticseclabs",
       "author_name": "Elastic Security Labs",
       "published_at": "2026-08-28T15:00:01+00:00",
-      "collected_at": "2026-08-29T02:33:05.703638+00:00",
+      "collected_at": "2026-08-29T03:11:46.316178+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1739,7 +2013,7 @@
         "like_count": 32,
         "retweet_count": 12,
         "reply_count": 1,
-        "view_count": 1575
+        "view_count": 1608
       },
       "flags": {
         "is_retweet": false,
@@ -1753,7 +2027,7 @@
       "author": "matterpreter",
       "author_name": "Matt Hand",
       "published_at": "2026-08-28T14:53:30+00:00",
-      "collected_at": "2026-08-29T02:33:05.703917+00:00",
+      "collected_at": "2026-08-29T03:11:46.316340+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1769,7 +2043,7 @@
         "like_count": 5,
         "retweet_count": 1,
         "reply_count": 1,
-        "view_count": 835
+        "view_count": 854
       },
       "flags": {
         "is_retweet": false,
@@ -1783,7 +2057,7 @@
       "author": "0x534c",
       "author_name": "Steven Lim",
       "published_at": "2026-08-28T14:43:31+00:00",
-      "collected_at": "2026-08-29T02:33:05.704192+00:00",
+      "collected_at": "2026-08-29T03:11:46.316502+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1796,10 +2070,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 41,
+        "like_count": 43,
         "retweet_count": 4,
         "reply_count": 1,
-        "view_count": 3618
+        "view_count": 3723
       },
       "flags": {
         "is_retweet": false,
@@ -1813,7 +2087,7 @@
       "author": "kernullist",
       "author_name": "kernullist",
       "published_at": "2026-08-28T14:32:38+00:00",
-      "collected_at": "2026-08-29T02:33:05.704554+00:00",
+      "collected_at": "2026-08-29T03:11:46.316690+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1843,7 +2117,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T14:23:55+00:00",
-      "collected_at": "2026-08-29T02:33:27.915995+00:00",
+      "collected_at": "2026-08-29T03:11:46.317028+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1855,7 +2129,7 @@
       },
       "metrics": {
         "like_count": 0,
-        "retweet_count": 53,
+        "retweet_count": 54,
         "reply_count": 0,
         "view_count": 27
       },
@@ -1871,7 +2145,7 @@
       "author": "kernelstub",
       "author_name": "kernelstub (Prepakis Georgios)",
       "published_at": "2026-08-28T14:04:14+00:00",
-      "collected_at": "2026-08-29T02:33:27.916705+00:00",
+      "collected_at": "2026-08-29T03:11:46.317346+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1885,7 +2159,7 @@
         "like_count": 5,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 572
+        "view_count": 578
       },
       "flags": {
         "is_retweet": false,
@@ -1899,7 +2173,7 @@
       "author": "cr3ghost",
       "author_name": "cr3ghost",
       "published_at": "2026-08-28T13:00:00+00:00",
-      "collected_at": "2026-08-29T02:33:27.917289+00:00",
+      "collected_at": "2026-08-29T03:11:46.317653+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1924,10 +2198,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 652,
+        "like_count": 667,
         "retweet_count": 92,
-        "reply_count": 3,
-        "view_count": 21948
+        "reply_count": 4,
+        "view_count": 22548
       },
       "flags": {
         "is_retweet": false,
@@ -1941,7 +2215,7 @@
       "author": "_xpn_",
       "author_name": "Adam Chester 🏴‍☠️",
       "published_at": "2026-08-28T12:44:16+00:00",
-      "collected_at": "2026-08-29T02:33:27.917738+00:00",
+      "collected_at": "2026-08-29T03:11:46.317850+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1953,7 +2227,7 @@
       },
       "metrics": {
         "like_count": 0,
-        "retweet_count": 24795,
+        "retweet_count": 24915,
         "reply_count": 0,
         "view_count": 160
       },
@@ -1969,7 +2243,7 @@
       "author": "0xTriboulet",
       "author_name": "Steve S.",
       "published_at": "2026-08-28T12:32:58+00:00",
-      "collected_at": "2026-08-29T02:33:27.918313+00:00",
+      "collected_at": "2026-08-29T03:11:46.318143+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -1982,10 +2256,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 19,
+        "like_count": 20,
         "retweet_count": 0,
         "reply_count": 3,
-        "view_count": 5388
+        "view_count": 5546
       },
       "flags": {
         "is_retweet": false,
@@ -1999,7 +2273,7 @@
       "author": "kernelstub",
       "author_name": "kernelstub (Prepakis Georgios)",
       "published_at": "2026-08-28T12:31:38+00:00",
-      "collected_at": "2026-08-29T02:33:27.918851+00:00",
+      "collected_at": "2026-08-29T03:11:46.318417+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2011,9 +2285,9 @@
       },
       "metrics": {
         "like_count": 5,
-        "retweet_count": 0,
+        "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 580
+        "view_count": 587
       },
       "flags": {
         "is_retweet": false,
@@ -2027,7 +2301,7 @@
       "author": "0xTriboulet",
       "author_name": "Steve S.",
       "published_at": "2026-08-28T12:05:13+00:00",
-      "collected_at": "2026-08-29T02:33:27.919164+00:00",
+      "collected_at": "2026-08-29T03:11:46.318580+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2041,7 +2315,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 929
+        "view_count": 935
       },
       "flags": {
         "is_retweet": false,
@@ -2055,7 +2329,7 @@
       "author": "h4x0r_dz",
       "author_name": "H4x0r.DZ 🇰🇵",
       "published_at": "2026-08-28T11:58:02+00:00",
-      "collected_at": "2026-08-29T02:33:27.919633+00:00",
+      "collected_at": "2026-08-29T03:11:46.318840+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2071,7 +2345,7 @@
         "like_count": 118,
         "retweet_count": 0,
         "reply_count": 3,
-        "view_count": 9127
+        "view_count": 9226
       },
       "flags": {
         "is_retweet": false,
@@ -2085,7 +2359,7 @@
       "author": "artem_i_baranov",
       "author_name": "Artem I. Baranov",
       "published_at": "2026-08-28T11:28:41+00:00",
-      "collected_at": "2026-08-29T02:33:27.919961+00:00",
+      "collected_at": "2026-08-29T03:11:46.319033+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2116,7 +2390,7 @@
       "author": "0xTriboulet",
       "author_name": "Steve S.",
       "published_at": "2026-08-28T10:43:17+00:00",
-      "collected_at": "2026-08-29T02:33:27.920864+00:00",
+      "collected_at": "2026-08-29T03:11:46.319550+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2129,10 +2403,10 @@
         ]
       },
       "metrics": {
-        "like_count": 1,
+        "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 196
+        "view_count": 198
       },
       "flags": {
         "is_retweet": false,
@@ -2146,7 +2420,7 @@
       "author": "_xpn_",
       "author_name": "Adam Chester 🏴‍☠️",
       "published_at": "2026-08-28T10:28:42+00:00",
-      "collected_at": "2026-08-29T02:33:27.921173+00:00",
+      "collected_at": "2026-08-29T03:11:52.225115+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2161,8 +2435,8 @@
       "metrics": {
         "like_count": 25,
         "retweet_count": 4,
-        "reply_count": 1,
-        "view_count": 2723
+        "reply_count": 0,
+        "view_count": 2756
       },
       "flags": {
         "is_retweet": false,
@@ -2176,7 +2450,7 @@
       "author": "_xpn_",
       "author_name": "Adam Chester 🏴‍☠️",
       "published_at": "2026-08-28T10:26:37+00:00",
-      "collected_at": "2026-08-29T02:33:27.920393+00:00",
+      "collected_at": "2026-08-29T03:11:46.319309+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2187,10 +2461,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 25,
+        "like_count": 26,
         "retweet_count": 0,
         "reply_count": 11,
-        "view_count": 5099
+        "view_count": 5143
       },
       "flags": {
         "is_retweet": false,
@@ -2204,7 +2478,7 @@
       "author": "_xpn_",
       "author_name": "Adam Chester 🏴‍☠️",
       "published_at": "2026-08-28T10:22:52+00:00",
-      "collected_at": "2026-08-29T02:33:27.921523+00:00",
+      "collected_at": "2026-08-29T03:11:52.225463+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2226,13 +2500,46 @@
       }
     },
     {
+      "external_id": "2093269431279362302",
+      "url": "https://x.com/domchell/status/2093269431279362302",
+      "content": "RT @h4x0r_dz: ServiceNow 4 Critical CVEs, including sandbox escape, RCE, sql injection \nhttps://t.co/hvnn5ejXhw https://t.co/hWK1yQl4ED",
+      "author": "domchell",
+      "author_name": "Dominic Chell 👻",
+      "published_at": "2026-08-28T09:28:18+00:00",
+      "collected_at": "2026-08-29T03:11:52.225807+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152242"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HQzAcwJXAAA62U2.png",
+          "https://pbs.twimg.com/media/HQzAcwJXAAA62U2.png"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 13,
+        "reply_count": 0,
+        "view_count": 92
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
+      }
+    },
+    {
       "external_id": "2093265315622736006",
       "url": "https://x.com/h4x0r_dz/status/2093265315622736006",
       "content": "PaperCut Software security response team is investigating active exploitation of a vulnerability affecting PaperCut NG and PaperCut MF.\n\nhttps://t.co/GVaH2aymgM",
       "author": "h4x0r_dz",
       "author_name": "H4x0r.DZ 🇰🇵",
       "published_at": "2026-08-28T09:11:56+00:00",
-      "collected_at": "2026-08-29T02:33:27.921901+00:00",
+      "collected_at": "2026-08-29T03:11:52.226117+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2248,7 +2555,7 @@
         "like_count": 12,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 2874
+        "view_count": 2890
       },
       "flags": {
         "is_retweet": false,
@@ -2262,7 +2569,7 @@
       "author": "domchell",
       "author_name": "Dominic Chell 👻",
       "published_at": "2026-08-28T08:57:12+00:00",
-      "collected_at": "2026-08-29T02:33:27.922245+00:00",
+      "collected_at": "2026-08-29T03:11:52.226303+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2276,11 +2583,43 @@
         "like_count": 78,
         "retweet_count": 13,
         "reply_count": 0,
-        "view_count": 6308
+        "view_count": 6340
       },
       "flags": {
         "is_retweet": false,
         "is_quote": true
+      }
+    },
+    {
+      "external_id": "2093261367201432035",
+      "url": "https://x.com/domchell/status/2093261367201432035",
+      "content": "RT @MDSecLabs: When it Snows it Pours – Anatomy of a ServiceNow Red Team - new post by @__invictus_  https://t.co/qq4K3dyjza https://t.co/EHmZLSnkV2",
+      "author": "domchell",
+      "author_name": "Dominic Chell 👻",
+      "published_at": "2026-08-28T08:56:15+00:00",
+      "collected_at": "2026-08-29T03:11:52.226599+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://www.mdsec.co.uk/2026/08/when-it-snows-it-pours-anatomy-of-a-servicenow-red-team/"
+      ],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HQzA0VzW8AAJC1v.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 26,
+        "reply_count": 0,
+        "view_count": 68
+      },
+      "flags": {
+        "is_retweet": true,
+        "is_quote": false
       }
     },
     {
@@ -2290,7 +2629,7 @@
       "author": "whokilleddb",
       "author_name": "db",
       "published_at": "2026-08-28T08:56:01+00:00",
-      "collected_at": "2026-08-29T02:33:27.923000+00:00",
+      "collected_at": "2026-08-29T03:11:52.990338+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2381,7 +2720,7 @@
       "author": "virusbtn",
       "author_name": "Virus Bulletin",
       "published_at": "2026-08-28T08:32:17+00:00",
-      "collected_at": "2026-08-29T02:33:27.924123+00:00",
+      "collected_at": "2026-08-29T03:11:52.990666+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2399,7 +2738,7 @@
         "like_count": 35,
         "retweet_count": 13,
         "reply_count": 0,
-        "view_count": 1987
+        "view_count": 1996
       },
       "flags": {
         "is_retweet": false,
@@ -2444,7 +2783,7 @@
       "author": "virusbtn",
       "author_name": "Virus Bulletin",
       "published_at": "2026-08-28T08:13:38+00:00",
-      "collected_at": "2026-08-29T02:33:33.125402+00:00",
+      "collected_at": "2026-08-29T03:11:52.990847+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2462,7 +2801,7 @@
         "like_count": 15,
         "retweet_count": 4,
         "reply_count": 0,
-        "view_count": 1697
+        "view_count": 1705
       },
       "flags": {
         "is_retweet": false,
@@ -2476,7 +2815,7 @@
       "author": "kernelstub",
       "author_name": "kernelstub (Prepakis Georgios)",
       "published_at": "2026-08-28T08:12:38+00:00",
-      "collected_at": "2026-08-29T02:33:33.125908+00:00",
+      "collected_at": "2026-08-29T03:11:52.991067+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2489,10 +2828,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 51,
+        "like_count": 52,
         "retweet_count": 8,
         "reply_count": 6,
-        "view_count": 3051
+        "view_count": 3078
       },
       "flags": {
         "is_retweet": false,
@@ -2538,7 +2877,7 @@
       "author": "virusbtn",
       "author_name": "Virus Bulletin",
       "published_at": "2026-08-28T08:06:41+00:00",
-      "collected_at": "2026-08-29T02:33:33.822504+00:00",
+      "collected_at": "2026-08-29T03:11:52.991384+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2566,7 +2905,7 @@
       "author": "virusbtn",
       "author_name": "Virus Bulletin",
       "published_at": "2026-08-28T08:06:30+00:00",
-      "collected_at": "2026-08-29T02:33:33.823380+00:00",
+      "collected_at": "2026-08-29T03:11:52.991836+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2594,7 +2933,7 @@
       "author": "virusbtn",
       "author_name": "Virus Bulletin",
       "published_at": "2026-08-28T08:06:21+00:00",
-      "collected_at": "2026-08-29T02:33:33.823926+00:00",
+      "collected_at": "2026-08-29T03:11:52.992114+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2624,7 +2963,7 @@
       "author": "virusbtn",
       "author_name": "Virus Bulletin",
       "published_at": "2026-08-28T08:06:12+00:00",
-      "collected_at": "2026-08-29T02:33:33.824575+00:00",
+      "collected_at": "2026-08-29T03:11:52.992394+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2652,7 +2991,7 @@
       "author": "virusbtn",
       "author_name": "Virus Bulletin",
       "published_at": "2026-08-28T08:06:03+00:00",
-      "collected_at": "2026-08-29T02:33:33.825180+00:00",
+      "collected_at": "2026-08-29T03:11:52.993462+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2680,7 +3019,7 @@
       "author": "virusbtn",
       "author_name": "Virus Bulletin",
       "published_at": "2026-08-28T08:05:53+00:00",
-      "collected_at": "2026-08-29T02:33:33.826042+00:00",
+      "collected_at": "2026-08-29T03:11:52.993785+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2708,7 +3047,7 @@
       "author": "kernullist",
       "author_name": "kernullist",
       "published_at": "2026-08-28T07:29:33+00:00",
-      "collected_at": "2026-08-29T02:33:33.826521+00:00",
+      "collected_at": "2026-08-29T03:11:52.994040+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2724,7 +3063,7 @@
         "like_count": 5,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 471
+        "view_count": 478
       },
       "flags": {
         "is_retweet": false,
@@ -2738,7 +3077,7 @@
       "author": "0xor0ne",
       "author_name": "0xor0ne",
       "published_at": "2026-08-28T07:01:18+00:00",
-      "collected_at": "2026-08-29T02:33:33.826888+00:00",
+      "collected_at": "2026-08-29T03:11:52.994199+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2757,10 +3096,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 128,
-        "retweet_count": 19,
+        "like_count": 131,
+        "retweet_count": 20,
         "reply_count": 0,
-        "view_count": 9132
+        "view_count": 9279
       },
       "flags": {
         "is_retweet": false,
@@ -2774,7 +3113,7 @@
       "author": "NetAskari",
       "author_name": "NetAskari",
       "published_at": "2026-08-28T06:03:33+00:00",
-      "collected_at": "2026-08-29T02:33:33.827302+00:00",
+      "collected_at": "2026-08-29T03:11:57.538362+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2790,7 +3129,7 @@
         "like_count": 17,
         "retweet_count": 5,
         "reply_count": 4,
-        "view_count": 2670
+        "view_count": 2695
       },
       "flags": {
         "is_retweet": false,
@@ -2804,7 +3143,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T04:54:22+00:00",
-      "collected_at": "2026-08-29T02:33:33.827791+00:00",
+      "collected_at": "2026-08-29T03:11:57.538721+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2820,7 +3159,7 @@
         "like_count": 0,
         "retweet_count": 126,
         "reply_count": 0,
-        "view_count": 79313
+        "view_count": 79366
       },
       "flags": {
         "is_retweet": true,
@@ -2834,7 +3173,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T04:15:56+00:00",
-      "collected_at": "2026-08-29T02:33:33.828336+00:00",
+      "collected_at": "2026-08-29T03:11:57.539093+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2862,7 +3201,7 @@
       "author": "mrgretzky",
       "author_name": "Kuba Gretzky",
       "published_at": "2026-08-28T04:14:01+00:00",
-      "collected_at": "2026-08-29T02:33:33.828893+00:00",
+      "collected_at": "2026-08-29T03:11:57.539429+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2879,7 +3218,7 @@
       },
       "metrics": {
         "like_count": 0,
-        "retweet_count": 240,
+        "retweet_count": 241,
         "reply_count": 0,
         "view_count": 154
       },
@@ -2895,7 +3234,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T04:12:48+00:00",
-      "collected_at": "2026-08-29T02:33:33.829555+00:00",
+      "collected_at": "2026-08-29T03:11:57.539819+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2923,7 +3262,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T04:11:31+00:00",
-      "collected_at": "2026-08-29T02:33:33.830067+00:00",
+      "collected_at": "2026-08-29T03:11:57.540162+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2951,7 +3290,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T04:07:18+00:00",
-      "collected_at": "2026-08-29T02:33:33.830624+00:00",
+      "collected_at": "2026-08-29T03:11:57.540465+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -2982,7 +3321,7 @@
       "author": "cocomelonckz",
       "author_name": "zhassulan zhussupov",
       "published_at": "2026-08-28T04:06:39+00:00",
-      "collected_at": "2026-08-29T02:33:41.731299+00:00",
+      "collected_at": "2026-08-29T03:11:57.540735+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3013,7 +3352,7 @@
         "like_count": 65,
         "retweet_count": 10,
         "reply_count": 0,
-        "view_count": 2615
+        "view_count": 2649
       },
       "flags": {
         "is_retweet": false,
@@ -3027,7 +3366,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T03:52:13+00:00",
-      "collected_at": "2026-08-29T02:33:41.731808+00:00",
+      "collected_at": "2026-08-29T03:11:57.540967+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3061,7 +3400,7 @@
       "author": "_JohnHammond",
       "author_name": "John Hammond",
       "published_at": "2026-08-28T03:50:41+00:00",
-      "collected_at": "2026-08-29T02:33:41.732607+00:00",
+      "collected_at": "2026-08-29T03:11:57.541416+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3077,7 +3416,7 @@
         "like_count": 0,
         "retweet_count": 5,
         "reply_count": 0,
-        "view_count": 1708
+        "view_count": 1711
       },
       "flags": {
         "is_retweet": true,
@@ -3091,7 +3430,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T03:48:02+00:00",
-      "collected_at": "2026-08-29T02:33:41.733165+00:00",
+      "collected_at": "2026-08-29T03:11:57.541790+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3122,7 +3461,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T03:46:33+00:00",
-      "collected_at": "2026-08-29T02:33:41.733814+00:00",
+      "collected_at": "2026-08-29T03:11:57.542119+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3153,7 +3492,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T03:33:41+00:00",
-      "collected_at": "2026-08-29T02:33:41.735267+00:00",
+      "collected_at": "2026-08-29T03:11:57.543104+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3184,7 +3523,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T03:28:27+00:00",
-      "collected_at": "2026-08-29T02:33:41.735797+00:00",
+      "collected_at": "2026-08-29T03:11:57.543417+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3199,7 +3538,7 @@
       },
       "metrics": {
         "like_count": 0,
-        "retweet_count": 3810,
+        "retweet_count": 3828,
         "reply_count": 0,
         "view_count": 23
       },
@@ -3215,7 +3554,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T03:25:02+00:00",
-      "collected_at": "2026-08-29T02:33:41.736340+00:00",
+      "collected_at": "2026-08-29T03:11:57.543832+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3245,7 +3584,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T03:16:37+00:00",
-      "collected_at": "2026-08-29T02:33:41.736828+00:00",
+      "collected_at": "2026-08-29T03:11:57.544214+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3276,7 +3615,7 @@
       "author": "Teach2Breach",
       "author_name": "K̵i̵r̵k̵ ̵T̵r̵y̵c̵h̵e̵l̵",
       "published_at": "2026-08-28T03:11:41+00:00",
-      "collected_at": "2026-08-29T02:33:41.737384+00:00",
+      "collected_at": "2026-08-29T03:11:57.544627+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3304,7 +3643,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T03:07:23+00:00",
-      "collected_at": "2026-08-29T02:33:41.738242+00:00",
+      "collected_at": "2026-08-29T03:11:57.545184+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3334,7 +3673,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T03:02:42+00:00",
-      "collected_at": "2026-08-29T02:33:41.738726+00:00",
+      "collected_at": "2026-08-29T03:12:20.617356+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3362,7 +3701,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T03:00:45+00:00",
-      "collected_at": "2026-08-29T02:33:41.739188+00:00",
+      "collected_at": "2026-08-29T03:12:20.617780+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3392,7 +3731,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T02:51:56+00:00",
-      "collected_at": "2026-08-29T02:33:41.739625+00:00",
+      "collected_at": "2026-08-29T03:12:20.618105+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3423,7 +3762,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T02:49:18+00:00",
-      "collected_at": "2026-08-29T02:33:41.740154+00:00",
+      "collected_at": "2026-08-29T03:12:20.618466+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3451,7 +3790,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T02:48:36+00:00",
-      "collected_at": "2026-08-29T02:33:41.740918+00:00",
+      "collected_at": "2026-08-29T03:12:20.618917+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3481,7 +3820,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T02:40:29+00:00",
-      "collected_at": "2026-08-29T02:33:41.741412+00:00",
+      "collected_at": "2026-08-29T03:12:20.619256+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3516,7 +3855,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T02:23:59+00:00",
-      "collected_at": "2026-08-29T02:33:41.742041+00:00",
+      "collected_at": "2026-08-29T03:12:20.619606+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3544,7 +3883,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T02:18:41+00:00",
-      "collected_at": "2026-08-29T02:34:05.268849+00:00",
+      "collected_at": "2026-08-29T03:12:20.620022+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3574,7 +3913,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T02:18:05+00:00",
-      "collected_at": "2026-08-29T02:34:05.269730+00:00",
+      "collected_at": "2026-08-29T03:12:20.620482+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3607,7 +3946,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T02:11:45+00:00",
-      "collected_at": "2026-08-29T02:34:05.270220+00:00",
+      "collected_at": "2026-08-29T03:12:20.620778+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3635,7 +3974,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T02:04:19+00:00",
-      "collected_at": "2026-08-29T02:34:05.270736+00:00",
+      "collected_at": "2026-08-29T03:12:20.621081+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3666,7 +4005,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T02:01:57+00:00",
-      "collected_at": "2026-08-29T02:34:05.271221+00:00",
+      "collected_at": "2026-08-29T03:12:20.621434+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3697,7 +4036,7 @@
       "author": "moyix",
       "author_name": "Brendan Dolan-Gavitt",
       "published_at": "2026-08-28T01:56:06+00:00",
-      "collected_at": "2026-08-29T02:34:05.272016+00:00",
+      "collected_at": "2026-08-29T03:12:20.621987+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3711,7 +4050,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 462
+        "view_count": 464
       },
       "flags": {
         "is_retweet": false,
@@ -3725,7 +4064,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T01:52:28+00:00",
-      "collected_at": "2026-08-29T02:34:05.272397+00:00",
+      "collected_at": "2026-08-29T03:12:20.622230+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3755,7 +4094,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T01:50:10+00:00",
-      "collected_at": "2026-08-29T02:34:05.272852+00:00",
+      "collected_at": "2026-08-29T03:12:20.622527+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3783,7 +4122,7 @@
       "author": "moyix",
       "author_name": "Brendan Dolan-Gavitt",
       "published_at": "2026-08-28T01:49:36+00:00",
-      "collected_at": "2026-08-29T02:34:05.271741+00:00",
+      "collected_at": "2026-08-29T03:12:20.621775+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3797,7 +4136,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 478
+        "view_count": 480
       },
       "flags": {
         "is_retweet": false,
@@ -3811,7 +4150,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T01:49:27+00:00",
-      "collected_at": "2026-08-29T02:34:05.273403+00:00",
+      "collected_at": "2026-08-29T03:12:20.622920+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3839,7 +4178,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T01:38:56+00:00",
-      "collected_at": "2026-08-29T02:34:05.274172+00:00",
+      "collected_at": "2026-08-29T03:12:20.623432+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3869,7 +4208,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T01:36:16+00:00",
-      "collected_at": "2026-08-29T02:34:05.274684+00:00",
+      "collected_at": "2026-08-29T03:12:20.623847+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3899,7 +4238,7 @@
       "author": "PentesterLab",
       "author_name": "PentesterLab",
       "published_at": "2026-08-28T01:26:50+00:00",
-      "collected_at": "2026-08-29T02:34:05.275219+00:00",
+      "collected_at": "2026-08-29T03:12:20.624194+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3930,7 +4269,7 @@
       "author": "nodotbtree",
       "author_name": "lemonTree",
       "published_at": "2026-08-28T01:18:41+00:00",
-      "collected_at": "2026-08-29T02:34:05.275718+00:00",
+      "collected_at": "2026-08-29T03:12:27.077411+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3961,7 +4300,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T01:10:10+00:00",
-      "collected_at": "2026-08-29T02:34:05.276190+00:00",
+      "collected_at": "2026-08-29T03:12:27.077836+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -3989,7 +4328,7 @@
       "author": "kernullist",
       "author_name": "kernullist",
       "published_at": "2026-08-28T00:57:06+00:00",
-      "collected_at": "2026-08-29T02:34:05.276665+00:00",
+      "collected_at": "2026-08-29T03:12:27.078211+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4019,7 +4358,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T00:41:48+00:00",
-      "collected_at": "2026-08-29T02:34:05.277140+00:00",
+      "collected_at": "2026-08-29T03:12:27.078560+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4047,7 +4386,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T00:37:19+00:00",
-      "collected_at": "2026-08-29T02:34:05.277660+00:00",
+      "collected_at": "2026-08-29T03:12:27.078950+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4075,7 +4414,7 @@
       "author": "moyix",
       "author_name": "Brendan Dolan-Gavitt",
       "published_at": "2026-08-28T00:37:08+00:00",
-      "collected_at": "2026-08-29T02:34:05.278295+00:00",
+      "collected_at": "2026-08-29T03:12:27.079373+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4087,7 +4426,7 @@
       },
       "metrics": {
         "like_count": 0,
-        "retweet_count": 50,
+        "retweet_count": 51,
         "reply_count": 0,
         "view_count": 85
       },
@@ -4103,7 +4442,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T00:36:35+00:00",
-      "collected_at": "2026-08-29T02:34:05.279248+00:00",
+      "collected_at": "2026-08-29T03:12:27.080039+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4133,7 +4472,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-28T00:34:00+00:00",
-      "collected_at": "2026-08-29T02:34:09.642545+00:00",
+      "collected_at": "2026-08-29T03:12:27.080428+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4163,7 +4502,7 @@
       "author": "SquiblydooBlog",
       "author_name": "Squiblydoo",
       "published_at": "2026-08-28T00:08:19+00:00",
-      "collected_at": "2026-08-29T02:34:09.643155+00:00",
+      "collected_at": "2026-08-29T03:12:27.080732+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4182,7 +4521,7 @@
         "like_count": 4,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 353
+        "view_count": 354
       },
       "flags": {
         "is_retweet": false,
@@ -4196,7 +4535,7 @@
       "author": "0xpwnie",
       "author_name": "𝕡𝕨𝕟𝕚𝕖",
       "published_at": "2026-08-28T00:04:57+00:00",
-      "collected_at": "2026-08-29T02:34:09.643616+00:00",
+      "collected_at": "2026-08-29T03:12:27.080969+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4227,7 +4566,7 @@
       "author": "moyix",
       "author_name": "Brendan Dolan-Gavitt",
       "published_at": "2026-08-27T23:41:40+00:00",
-      "collected_at": "2026-08-29T02:33:41.734879+00:00",
+      "collected_at": "2026-08-29T03:11:57.542788+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4241,7 +4580,7 @@
         "like_count": 17,
         "retweet_count": 0,
         "reply_count": 2,
-        "view_count": 2100
+        "view_count": 2106
       },
       "flags": {
         "is_retweet": false,
@@ -4255,7 +4594,7 @@
       "author": "tszzl",
       "author_name": "roon",
       "published_at": "2026-08-27T23:32:49+00:00",
-      "collected_at": "2026-08-29T02:33:41.734347+00:00",
+      "collected_at": "2026-08-29T03:11:57.542463+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4266,14 +4605,44 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 1367,
+        "like_count": 1372,
         "retweet_count": 53,
         "reply_count": 102,
-        "view_count": 202368
+        "view_count": 203323
       },
       "flags": {
         "is_retweet": false,
         "is_quote": true
+      }
+    },
+    {
+      "external_id": "2093116119150145914",
+      "url": "https://x.com/0xpwnie/status/2093116119150145914",
+      "content": "never gets old https://t.co/oIZEpK2tJb",
+      "author": "0xpwnie",
+      "author_name": "𝕡𝕨𝕟𝕚𝕖",
+      "published_at": "2026-08-27T23:19:05+00:00",
+      "collected_at": "2026-08-29T03:12:27.081238+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [
+          "https://pbs.twimg.com/media/HQw-AGwWYAEuch_.jpg"
+        ],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 2166,
+        "retweet_count": 142,
+        "reply_count": 11,
+        "view_count": 126851
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
       }
     },
     {
@@ -4283,7 +4652,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-27T23:16:56+00:00",
-      "collected_at": "2026-08-29T02:34:09.644138+00:00",
+      "collected_at": "2026-08-29T03:12:27.081433+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4313,7 +4682,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-27T22:59:47+00:00",
-      "collected_at": "2026-08-29T02:34:09.644623+00:00",
+      "collected_at": "2026-08-29T03:12:27.081732+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4341,7 +4710,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-27T22:58:21+00:00",
-      "collected_at": "2026-08-29T02:34:09.645074+00:00",
+      "collected_at": "2026-08-29T03:12:27.082063+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4376,7 +4745,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-27T22:39:08+00:00",
-      "collected_at": "2026-08-29T02:34:09.645576+00:00",
+      "collected_at": "2026-08-29T03:12:27.082380+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4392,7 +4761,7 @@
         "like_count": 0,
         "retweet_count": 92,
         "reply_count": 0,
-        "view_count": 83426
+        "view_count": 84151
       },
       "flags": {
         "is_retweet": true,
@@ -4406,7 +4775,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-27T22:21:28+00:00",
-      "collected_at": "2026-08-29T02:34:09.646117+00:00",
+      "collected_at": "2026-08-29T03:12:27.082685+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4422,7 +4791,7 @@
         "like_count": 17,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 2768
+        "view_count": 2787
       },
       "flags": {
         "is_retweet": false,
@@ -4436,7 +4805,7 @@
       "author": "Salsa12__",
       "author_name": "0x12 Dark Development",
       "published_at": "2026-08-27T22:18:11+00:00",
-      "collected_at": "2026-08-29T02:34:09.646723+00:00",
+      "collected_at": "2026-08-29T03:12:27.082963+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4451,10 +4820,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 61,
-        "retweet_count": 16,
+        "like_count": 62,
+        "retweet_count": 17,
         "reply_count": 1,
-        "view_count": 2014
+        "view_count": 2026
       },
       "flags": {
         "is_retweet": false,
@@ -4468,7 +4837,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-27T22:18:03+00:00",
-      "collected_at": "2026-08-29T02:34:09.647143+00:00",
+      "collected_at": "2026-08-29T03:12:27.083183+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4498,7 +4867,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-27T22:00:49+00:00",
-      "collected_at": "2026-08-29T02:34:09.647813+00:00",
+      "collected_at": "2026-08-29T03:12:27.083500+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4510,7 +4879,7 @@
       },
       "metrics": {
         "like_count": 0,
-        "retweet_count": 1364,
+        "retweet_count": 1370,
         "reply_count": 0,
         "view_count": 20
       },
@@ -4526,7 +4895,7 @@
       "author": "_xpn_",
       "author_name": "Adam Chester 🏴‍☠️",
       "published_at": "2026-08-27T21:58:40+00:00",
-      "collected_at": "2026-08-29T02:34:09.648280+00:00",
+      "collected_at": "2026-08-29T03:12:27.083755+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4542,7 +4911,7 @@
         "like_count": 9,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 2235
+        "view_count": 2246
       },
       "flags": {
         "is_retweet": false,
@@ -4556,7 +4925,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-27T21:53:15+00:00",
-      "collected_at": "2026-08-29T02:34:09.648708+00:00",
+      "collected_at": "2026-08-29T03:12:30.218621+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4584,7 +4953,7 @@
       "author": "0xocdsec",
       "author_name": "︎",
       "published_at": "2026-08-27T21:52:23+00:00",
-      "collected_at": "2026-08-29T02:34:09.649214+00:00",
+      "collected_at": "2026-08-29T03:12:30.219227+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4612,7 +4981,7 @@
       "author": "daaximus",
       "author_name": "Daax",
       "published_at": "2026-08-27T21:35:43+00:00",
-      "collected_at": "2026-08-29T02:34:09.649828+00:00",
+      "collected_at": "2026-08-29T03:12:30.219641+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4640,7 +5009,7 @@
       "author": "T3nb3w",
       "author_name": "T3nb3w",
       "published_at": "2026-08-27T21:28:04+00:00",
-      "collected_at": "2026-08-29T02:34:09.650607+00:00",
+      "collected_at": "2026-08-29T03:12:30.220188+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4664,13 +5033,41 @@
       }
     },
     {
+      "external_id": "2093086186847813822",
+      "url": "https://x.com/0xTriboulet/status/2093086186847813822",
+      "content": "Wishing the best to all the homies out there struggling with their demons",
+      "author": "0xTriboulet",
+      "author_name": "Steve S.",
+      "published_at": "2026-08-27T21:20:09+00:00",
+      "collected_at": "2026-08-29T03:12:30.220504+00:00",
+      "tags": [
+        "list:sec_list"
+      ],
+      "hashtags": [],
+      "links": [],
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "like_count": 27,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 746
+      },
+      "flags": {
+        "is_retweet": false,
+        "is_quote": false
+      }
+    },
+    {
       "external_id": "2093085426521342117",
       "url": "https://x.com/cr3ghost/status/2093085426521342117",
       "content": "And if you want to look past the headline and inspect some of the actual vulnerability research / PoCs:\n\nhttps://t.co/KI6kGf91MO\n\nFirefox, QEMU, MariaDB, Dolphin and more.\n\nAll bugs in the repo are stated as responsibly disclosed.",
       "author": "cr3ghost",
       "author_name": "cr3ghost",
       "published_at": "2026-08-27T21:17:07+00:00",
-      "collected_at": "2026-08-29T02:34:09.651351+00:00",
+      "collected_at": "2026-08-29T03:12:30.220883+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4686,7 +5083,7 @@
         "like_count": 19,
         "retweet_count": 3,
         "reply_count": 0,
-        "view_count": 1906
+        "view_count": 1923
       },
       "flags": {
         "is_retweet": false,
@@ -4700,7 +5097,7 @@
       "author": "cr3ghost",
       "author_name": "cr3ghost",
       "published_at": "2026-08-27T21:17:00+00:00",
-      "collected_at": "2026-08-29T02:34:09.651069+00:00",
+      "collected_at": "2026-08-29T03:12:30.220663+00:00",
       "tags": [
         "list:sec_list"
       ],
@@ -4715,10 +5112,10 @@
         "videos": []
       },
       "metrics": {
-        "like_count": 633,
-        "retweet_count": 73,
+        "like_count": 640,
+        "retweet_count": 74,
         "reply_count": 6,
-        "view_count": 29203
+        "view_count": 29480
       },
       "flags": {
         "is_retweet": false,
