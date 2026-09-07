@@ -26,6 +26,9 @@ jobs:
       # twscrape 用 curl_cffi(浏览器 TLS 指纹)而非裸 httpx,否则数据中心 IP 直连
       # 会被 X 风控 403(见 scripts/diag_403.py 定位过程)。
       TWS_HTTP_BACKEND: curl
+      # 出口 IP 被 X 风控是 403 根因,必须走代理(GitHub Actions 数据中心 IP 无解)。
+      # PROXY_URL 走 secret:公网 socks5 代理,由 setup_socks5_server.sh 部署。
+      PROXY_URL: ${{ secrets.PROXY_URL }}
     steps:
       # v5+ run on Node 24. v4/v5/v4 target Node 20, which GitHub is
       # deprecating (forced onto Node 24 until the runtime is removed).
